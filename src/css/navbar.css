@@ -1,0 +1,20 @@
+body {
+    background-image: url(../assets/blue-flame.jpg);
+    background-size: cover;
+}
+.navbar {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 2em;
+    box-shadow: 0 2px 10px #ffffff99;
+    background: inherit;
+    backdrop-filter: blur(40px);
+}
+.text{
+    color: #F0FFFF;
+}
+.links{
+    margin-left: auto;
+    margin-right: 2%;
+}
