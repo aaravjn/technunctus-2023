@@ -1,4 +1,4 @@
-import "../css/navbar.css"
+import "../../css/navbar.css"
 
 
 export default function Navbar() {
@@ -7,7 +7,7 @@ export default function Navbar() {
             <nav className="navbar navbar-expand-lg">
                 <div className="navbar-cont container-fluid">
                     <div className="brand text" href="/">
-                        <img src={require("../assets/logo.png")} height="37" width={42}/>
+                        <img src={require("../../assets/logo.png")} alt='technunctus logo' height="37" width={42} />
                         <span>Technunctus</span>
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

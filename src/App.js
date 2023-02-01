@@ -1,12 +1,21 @@
-import './App.css';
-import Navbar from "./components/navbar"
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Events from "./components/Events/Events";
 
-function App() {
+//Components
+import Navbar from "./components/Navbar/navbar";
+
+const App = () => {
   return (
-    <div className="App">
-      <Navbar/>
+    <div>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/events" element={<Events />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;
