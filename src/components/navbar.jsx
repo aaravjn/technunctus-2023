@@ -6,7 +6,7 @@ export default function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg">
                 <div className="navbar-cont container-fluid">
-                    <div className="brand text" href="/">
+                    <div className="brand text">
                         <img src={require("../assets/logo.png")} height="37" width={42}/>
                         <span>Technunctus</span>
                     </div>
