@@ -1,0 +1,2 @@
+linear-gradient(90deg, rgba(16,60,231,1) 20%, rgba(100,233,255,1) 90%)-butttonColor
+linear-gradient(90deg, rgba(45,255,245,1) 5%, rgba(255,248,120,1) 90%)-registerButton

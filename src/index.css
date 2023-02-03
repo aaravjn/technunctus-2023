@@ -6,10 +6,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(15, 28, 50, 0.905);
+  /* background-color: white; */
   color: antiquewhite;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@font-face {
+  font-family: "Technoboard";
+  src: local("TechnoBoard"),
+    url("fonts/TechnoBoard.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Spaceboards";
+  src: local("Spaceboards"),
+    url("fonts/Spaceboards.otf") format("opentype");
 }
