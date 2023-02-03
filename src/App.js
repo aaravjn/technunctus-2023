@@ -4,6 +4,7 @@ import Events from "./components/Events/Events";
 
 //Components
 import Navbar from "./components/Navbar/navbar";
+import Footer from "./components/Footer/footer";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/events" element={<Events />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 };

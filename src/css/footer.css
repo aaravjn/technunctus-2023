@@ -1,0 +1,52 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+  
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+}
+  
+a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+address {
+    text-align:left;
+}
+
+.footer-link{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer{
+    padding:80px;
+    background-color:black;
+    color: white;
+}
+
+.footer-nav{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+@media (max-width: 992px) {
+    .event-info{
+        background-color: #2e2e2e;
+        border-radius: 5px;
+        line-height: 2;
+    }
+}
