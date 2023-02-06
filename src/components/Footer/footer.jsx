@@ -66,13 +66,13 @@ export default function Footer() {
                                 <h4>Developer&apos;s github profile</h4>
                             </li>
                             <li>
-                                <Link to="https://github.com/Spider8019" >
-                                    <motion.a className="hoverLink m-2 ">spider8019</motion.a>
+                                <Link to="https://github.com/kapiswayprakhar15" >
+                                    <motion.a className="hoverLink m-2 ">Prakhar Kapisway</motion.a>
                                 </Link>
                             </li>{" "}
                             <li>
-                                <Link to="https://github.com/ashutoshc8101" >
-                                    <motion.a className="hoverLink m-2 ">ashutoshc8101</motion.a>
+                                <Link to="https://github.com/aaravjn" >
+                                    <motion.a className="hoverLink m-2 ">Aarav Jain</motion.a>
                                 </Link>
                             </li>
                         </ul>
