@@ -27,9 +27,6 @@ export default function Navbar() {
                             <a className="nav-link link" href="/">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link link" href="/">Link</a>
-                        </li>
-                        <li className="nav-item">
                             <a className="nav-link link" href="/">About</a>
                         </li>
                         <li className="nav-item">
