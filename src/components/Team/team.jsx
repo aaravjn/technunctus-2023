@@ -1,12 +1,10 @@
 import React from 'react'
 import "../../css/footer.css"
 import "../../css/team.css"
-// import "../../utils/team.js"
-// import React from 'react'
 import Tilt from 'react-parallax-tilt'
 
 
-export default function Footer() {
+export default function Team() {
     return (
         <> 
       <div className="container">

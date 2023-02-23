@@ -21,14 +21,15 @@ img{
 ul{
 	list-style: none;
 }
-.footer-col{
+.footer-col {
     width: 25%;
     padding: 0 15px;
     display : flex ;
     margin : 230px 0px 0px 70px ;
-
-
  }
+.footer-links{
+    width: 150px !important;
+}
  .footer-col h4{
      font-size: 18px;
      color: #ffffff;
@@ -79,20 +80,6 @@ ul{
  .footer-col .social-links a:hover{
      color: #24262b;
      background-color: #ffffff;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  }.footer-col-2{
     width: 25%;

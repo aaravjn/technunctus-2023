@@ -3,6 +3,7 @@ import "../../css/footer.css"
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion"
 
+
 export default function Footer() {
     return (
         <>
@@ -11,59 +12,59 @@ export default function Footer() {
                 <div className="footer-container">
                     <div className="footer-col">
                         <ul>
-                            <li>
+                            <li className='footer-links'>
                                 <Link to="/" >
                                     <motion.a className="hoverLink m-2 ">Home</motion.a>
                                 </Link>
                             </li>
-                            <li>
+                            <li className='footer-links'>
                                 <Link to="/a" >
                                     <motion.a className="hoverLink m-2 ">About Us</motion.a>
                                 </Link>
                             </li>
-                            <li>
+                            <li className='footer-links'>
                                 <Link to="/e" >
                                     <motion.a className="hoverLink m-2 ">Events</motion.a>
                                 </Link>
                             </li>
-                            <li>
+                            <li className='footer-links'>
                                 <Link to="/s" >
                                     <motion.a className="hoverLink m-2 ">Sponsors</motion.a>
                                 </Link>
                             </li>
-                            <li>
+                            <li className='footer-links'>
                                 <Link to="/h" >
                                     <motion.a className="hoverLink m-2 ">Highlights</motion.a>
                                 </Link>
                             </li>
-                            <li>
+                            <li className='footer-links'>
                                 <Link to="/t/night" >
                                     <motion.a className="hoverLink m-2 ">TechNights</motion.a>
                                 </Link>
                             </li>
-                            <li>
+                            <li className='footer-links'>
                                 <Link to="/policy" >
-                                    <motion.a className="hoverLink m-2 ">Privacy Policy</motion.a>
+                                    <motion.a className="hoverLink m-2 ">Privacy<br/> Policy</motion.a>
                                 </Link>
                             </li>
-                            <li>
+                            <li className='footer-links'>
                                 <Link to="/terms" >
                                     <motion.a className="hoverLink m-2 ">
-                                        Terms and Conditions
+                                        Terms and<br/>Conditions
                                     </motion.a>
                                 </Link>
                             </li>
-                            <li>
+                            <li className='footer-links'>
                                 <Link to="/cancellation" >
                                     <motion.a className="hoverLink m-2 ">
-                                        Cancellation policy
+                                        Cancellation<br/>policy
                                     </motion.a>
                                 </Link>
                             </li>
                         </ul>
                         <ul>
                             <li className="m-2 italic text-sm">
-                                <h4>Developer&apos;s github profile</h4>
+                                <h4>Developers&apos; github profile</h4>
                             </li>
                             <li>
                                 <Link to="https://github.com/kapiswayprakhar15" >
@@ -76,6 +77,7 @@ export default function Footer() {
                                 </Link>
                             </li>
                         </ul>
+                        
                     </div>
                     <div className="footer-col-2">
                         <img
