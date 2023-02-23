@@ -1,5 +1,5 @@
-import "../../css/navbar.css"
-import logo from "../../assets/logo.png"
+import "../css/navbar.css"
+import logo from "../assets/logo.png"
 import { Box } from '@mui/material'
 
 export default function Navbar() {
