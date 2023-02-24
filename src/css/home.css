@@ -1,7 +1,7 @@
 .title-box {
     background-image: url("../assets/header_bg.jpg");
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background-size: 100%;
 }
 .title-box {
@@ -11,7 +11,13 @@
     padding-top: 4em;
     padding-right: 5em;
 }
-
+.theme {
+    background-size: cover;
+    padding-top: 5em;
+    background-image: url("../assets/theme_bg.jpg");
+    width: 100%;
+    padding-bottom: 10%;
+}
 .technun-logo {
     position:relative;
     left: 20%;
