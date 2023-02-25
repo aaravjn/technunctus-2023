@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
 .paragraph-box {
     text-align: left;
     border-radius: 1em;
     background: inherit;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Tilt Neon', cursive;
 }
 .box {
     backdrop-filter: blur(40px);

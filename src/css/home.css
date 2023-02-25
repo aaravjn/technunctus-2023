@@ -16,6 +16,7 @@
     padding-top: 5em;
     background-image: url("../assets/theme_bg.jpg");
     width: 100%;
+    min-height: 100vh;
     padding-bottom: 10%;
 }
 .technun-logo {
@@ -23,4 +24,11 @@
     left: 20%;
     width: 300px;
     height: 300px;
+}
+
+.team-word {
+    background-image: url("../assets/team-word.jpg");
+    padding-top: 10%;
+    width: 100vw;
+    min-height: 100vh;
 }

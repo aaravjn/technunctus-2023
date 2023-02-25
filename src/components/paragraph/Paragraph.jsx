@@ -1,7 +1,7 @@
 import "../../css/paragraph.css"
 
 const Paragraph = ({title, content, align, image}) => {
-    if(align == "right"){
+    if(align === "right"){
         return (
             <div className="row box">
                 <div className="col paragraph-box">
@@ -18,7 +18,7 @@ const Paragraph = ({title, content, align, image}) => {
         return (
             <div className="row box">
                 <div className="col">
-                    <img src={require("../../assets/theme_img.jpg")} alt="" className="para_img"/>
+                    <img src={image} alt="" className="para_img"/>
                 </div>
 
                 <div className="col paragraph-box">

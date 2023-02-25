@@ -17,9 +17,66 @@
     background: inherit;
     backdrop-filter: blur(40px);
 }
+.nav-but-wrap {
+    margin-right: 26px;
+	position: relative;
+	display: inline-block;
+	float: right;
+	padding-left: 15px;
+	padding-top: 15px;
+	-webkit-transition : all 0.3s ease-out;
+	-moz-transition : all 0.3s ease-out;
+	-o-transition :all 0.3s ease-out;
+	transition : all 0.3s ease-out;
+}
+.menu-icon {
+	height: 30px;
+	width: 30px;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+	display: block;
+}
+.menu-icon__line {
+	height: 2px;
+	width: 30px;
+	display: block;
+	background-color: #fff;
+	margin-bottom: 7px;
+	cursor: pointer;
+	-webkit-transition: background-color .5s ease, -webkit-transform .2s ease;
+	transition: background-color .5s ease, -webkit-transform .2s ease;
+	transition: transform .2s ease, background-color .5s ease;
+	transition: transform .2s ease, background-color .5s ease, -webkit-transform .2s ease;
+}
+.menu-icon__line-left {
+	width: 16.5px;
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+.menu-icon__line-right {
+	width: 16.5px;
+	float: right;
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+.menu-icon:hover .menu-icon__line-left,
+.menu-icon:hover .menu-icon__line-right {
+	width: 30px;
+}
 .link{
     color: #F0FFFF;
     font-family: "Spaceboards";
+}
+.nav_link {
+	text-decoration: none;
+	margin-top: 1.5em;
 }
 .links{
     margin-left: auto;
@@ -31,4 +88,20 @@
     letter-spacing: 2px;
     position: relative;
     top: 7px;
+}
+.btn_close{
+    border-radius: 58px;
+    position:absolute;
+    top:50px;
+    right:50px;
+    z-index:2;
+    cursor:pointer;
+    font-size:18px;
+}
+.menu_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 2em;
 }
