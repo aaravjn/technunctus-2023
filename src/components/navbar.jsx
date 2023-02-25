@@ -4,10 +4,6 @@ import { Box } from '@mui/material'
 import React, {useState} from 'react';
 import {motion, AnimatePresence} from "framer-motion";
 
-const navigation = {
-    about: "/About"
-}
-
 export default function Navbar() {
 
     const [open, setOpen] = useState(false);
@@ -30,17 +26,35 @@ export default function Navbar() {
             }
         }
     }
-
+    function SetButton({val}) {
+      if(!val) {
+        return (
+          <div className="menu" onClick={isOpen}>
+                <div className="nav-but-wrap">
+                    <div className="menu-icon hover-target">
+                        <span class="menu-icon__line menu-icon__line-left"></span>
+                        <span class="menu-icon__line"></span>
+                        <span class="menu-icon__line menu-icon__line-right"></span>
+                    </div>					
+                </div>
+            </div>
+        )
+      }
+      else{
+        return (
+          <div className="menu" onClick={closeMenu}>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>              
+          </div>
+        )
+      }
+    }
 
     return (
         <>
             
-            <nav className="navbar fixed-top navbar-expand-lg" style={
-                {
-                    transition: "all .2s",
-                    opacity: open ? 0 : 1
-                }
-            }>
+            <nav className="navbar fixed-top navbar-expand-lg">
                 <div className="navbar-cont container-fluid">
                     <div className="link">
                         <Box
@@ -53,29 +67,8 @@ export default function Navbar() {
                             Technunctus
                         </span>
                     </div>
-                    {/* <ul className="navbar-nav mb-2 mb-lg-0 links">
-                            <li className="nav-item">
-                                <a className="nav-link link" href="/">Home</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link link" href="/">About</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link link" href="/">Sponsors</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link link" href="/">Events</a>
-                            </li>
-                    </ul> */}
-                    <div className="menu" onClick={isOpen}>
-                        <div className="nav-but-wrap">
-                            <div className="menu-icon hover-target">
-                                <span class="menu-icon__line menu-icon__line-left"></span>
-                                <span class="menu-icon__line"></span>
-                                <span class="menu-icon__line menu-icon__line-right"></span>
-                            </div>					
-                        </div>
-                    </div> 
+                  
+                    <SetButton val={open} />  
                 </div>
             </nav>
         <AnimatePresence>
@@ -88,11 +81,11 @@ export default function Navbar() {
               transition={{duration:.5}}
               exit="exit"
             >
-              <div className="btn_close" onClick={closeMenu}>
+              {/* <div className="btn_close" onClick={closeMenu}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                     <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
                 </svg>              
-              </div>
+              </div> */}
               <motion.a href=""
                  initial={{y:80,opacity:0}}
                  animate={{y:0, opacity:1}}
@@ -152,7 +145,7 @@ export default function Navbar() {
               
             </motion.div>
           )
-        }    
+        }  
         </AnimatePresence>
         </>
     )
