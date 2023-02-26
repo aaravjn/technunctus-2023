@@ -1,8 +1,8 @@
 import React from "react";
 //Components
+
 import Navbar from "../components/navbar";
 import Footer from "../components/Footer/footer";
-import Team from "../components/Team/team";
 import Paragraph from "../components/paragraph/Paragraph"
 
 import "../css/home.css"
@@ -18,8 +18,8 @@ const Home = () => {
         </div>
         <div className="title col text-center me-5">
           <p>IIT Jammu Presents</p>
-          <h1>Technunctus</h1>
-          <p>2023</p>
+          <h1 style={{fontSize:"4.5em"}}>Technunctus</h1>
+          <p>IGNITING THE TECH REVOLUTION || 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</p>
         </div>
       </div>
       <div className="theme">

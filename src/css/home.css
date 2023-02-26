@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Stopmotion";
+    src: local("Stopmotion"),
+      url("../fonts/Stopmotion.ttf") format("truetype");
+}
+
 .title-box {
     background-image: url("../assets/header_bg.jpg");
     height: 100vh;
@@ -8,8 +14,13 @@
     padding-top: 15%;
 }
 .title {
+    font-family: "Stopmotion";
     padding-top: 4em;
     padding-right: 5em;
+}
+.title h1 {
+    text-shadow: 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+
 }
 .theme {
     background-size: cover;
