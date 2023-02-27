@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <>
 
-            <footer className="footer footer-transparent">
+            <footer className="footer">
                 <div className="footer-container">
                     <div className="footer-col">
                         <ul>

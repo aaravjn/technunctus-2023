@@ -9,9 +9,11 @@
       url("../fonts/Spaceboards.otf") format("opentype");
 }
 .navbar {
-    box-shadow: 0 2px 10px #ffffff99;
-    background: inherit;
-    backdrop-filter: blur(40px);
+    background: transparent;
+}
+.navbar .active {
+	backdrop-filter: blur(40px);
+	transition: 200ms;
 }
 .menu {
 	cursor: pointer;
