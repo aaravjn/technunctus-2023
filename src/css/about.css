@@ -6,6 +6,12 @@ body{
     height: 100vh;
     margin-bottom: 10%;
 }
+.about-us-img {
+    position: fixed;
+    background-image: url("../assets/about_us_img.png");
+    margin-top: 20%;
+    padding-left: 10%;
+}
 .about-us-heading {
     margin-top: 20%;
     padding-left: 10%;

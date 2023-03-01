@@ -2,7 +2,7 @@ import { Box, styled, Typography } from '@mui/material'
 import React from 'react'
 
 //Components
-import CompetitionCard from './CompetitionCard'
+import CompetitionCard from '../components/Competitions/CompetitionCard'
 
 const Competitions= () => {
   return (

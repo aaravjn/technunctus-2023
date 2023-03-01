@@ -8,7 +8,6 @@
 }
 .box {
     backdrop-filter: blur(40px);
-    box-shadow: 0 2px 10px #ffffff99;
     margin-right: 10%;
     margin-left: 10%;
     padding: 2em 1em 1em 2em ;
@@ -16,7 +15,7 @@
 }
 .para_img {
     border-radius: .5em;
-    margin-top: 25%;
+    margin-top: 10%;
     width: 90%;
     height: 50%;
 }
