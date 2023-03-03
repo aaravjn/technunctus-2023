@@ -2,9 +2,9 @@ import { Box, styled, Typography } from '@mui/material'
 import React from 'react'
 
 //Components
-import CompetitionCard from '../components/Competitions/CompetitionCard'
+import CompetitionCard from '../components/Events/EventCard'
 
-const Competitions= () => {
+const Event= () => {
   return (
     <Box sx={{display:'flex',justifyContent:'space-evenly',margin:'0 70px',flexWrap:'wrap'}}> 
       <CompetitionCard/>
@@ -19,4 +19,4 @@ const Competitions= () => {
   )
 }
 
-export default Competitions
+export default Event

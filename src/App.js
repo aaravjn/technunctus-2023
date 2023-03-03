@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './pages/Home'
 import About from "./pages/About"
-import Events from "./components/Competitions/Competition/Competition"
+import Team from "./pages/Team"
+import Events from "./pages/Events"
 //Components
 
 
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Events" element={<Events />} />
+          <Route path="/OurTeam" element={<Team />} />
         </Routes>
       </BrowserRouter>
     </div>

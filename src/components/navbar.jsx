@@ -137,6 +137,20 @@ export default function Navbar() {
                  }}
                  className="link nav_link"
               >Events</motion.a>
+              <motion.a href="/OurTeam"
+                 initial={{y:80,opacity:0}}
+                 animate={{y:0, opacity:1}}
+                 transition={{delay:.5}}
+                 exit={{
+                  opacity:0,
+                  y:90,
+                    transition:{
+                      ease:"easeInOut",
+                      delay:.4
+                    }
+                 }}
+                 className="link nav_link"
+              >Our Team</motion.a>
               
             </motion.div>
           )
