@@ -8,11 +8,13 @@ import Footer from "../components/Footer/footer"
 
 const Event= () => {
   return (
-    <Box sx={{display:'flex',justifyContent:'space-evenly',margin:'0 70px',flexWrap:'wrap'}}> 
-      <Navbar />
-      <EventCard/>
+    <>
+      <Box sx={{display:'flex',justifyContent:'space-evenly', margin:'0 70px',flexWrap:'wrap'}}> 
+        <Navbar />
+        <EventCard/>
+      </Box>
       <Footer />
-    </Box>
+    </>
   )
 }
 

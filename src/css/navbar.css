@@ -14,6 +14,7 @@
 .navbar .active {
 	backdrop-filter: blur(40px);
 	transition: 200ms;
+	
 }
 .menu {
 	cursor: pointer;

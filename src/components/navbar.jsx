@@ -63,9 +63,6 @@ export default function Navbar() {
                             alt="logo"
                             src={logo}
                         />
-                        <span className="brand">
-                            Technunctus
-                        </span>
                     </div>
                   
                     <SetButton val={open} />  

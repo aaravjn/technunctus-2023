@@ -7,13 +7,20 @@ const About = () => {
     return (
         <>
             <Navbar />
+            <img src={require("../assets/about_us_bg.jpg")} style={{
+                width:"100%", 
+                height:"100vh",
+                position:"fixed",
+                zIndex:"-1",
+            }} />
+        
             <div className="about-us">
                 <div className="row" style={{
                     width:"100%",
                     height:"100vh"
                 }}>
                     <div className="col about-us-heading">
-                        <h1 style={{fontSize:"5em"}}>About Us</h1>
+                        <h1 style={{fontSize:"5em", fontFamily:"TechnoBoard"}}>About Us</h1>
                     </div>
                 </div>    
             </div>
@@ -28,6 +35,26 @@ const About = () => {
             <div style={{height:"100vh", paddingTop:"15%"}}>
                 <Paragraph align={"right"} title={"About the fest"} content={"Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir."}/>            
             </div>
+            {/* <div className="row" style={{display: "flex"}}>
+                <ul className="col">
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                </ul>
+                <ul className="col">
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                </ul>
+                <ul className="col">
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                </ul>
+            </div> */}
             <Footer />
         </>
     )

@@ -48,7 +48,7 @@ const Image=styled('img')({
 const CompetitionCard = () => {
   const [open, setOpen] = useState(false)
   return (
-    <Box sx={{padding:'20px 10px'}}>
+    <Box className="event-card" sx={{padding:'20px 10px'}}>
       <StyledBox>
         <Box sx={{marginBottom:1}}>
           <Image src={eventsData[0].image} alt='logo'/>

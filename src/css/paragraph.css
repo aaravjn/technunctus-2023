@@ -12,6 +12,7 @@
     margin-left: 10%;
     padding: 2em 1em 1em 2em ;
     border-radius: 0.5em;
+    box-shadow: 2px 3px 6px #2b2d42;
 }
 .para_img {
     border-radius: .5em;

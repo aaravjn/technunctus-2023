@@ -13,20 +13,17 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <img src={require("../assets/header_bg.jpg")} style={{
+      <img src={require("../assets/home_bg.png")} style={{
         width:"100%",
         height:"100vh",
         position:"fixed",
         zIndex:"-1"
       }} />
-      <div className="title-box row">
-        <div className="col ms-5">
-          <img src={logo} alt="logo" className="technun-logo"/>
-        </div>
-        <div className="title col text-center me-5">
-          <p>IIT Jammu Presents</p>
-          <h1 style={{fontSize:"4.5em"}}>Technunctus</h1>
-          <p>IGNITING THE TECH REVOLUTION || 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</p>
+      <div className="title-box">
+        <div className="title text-center">
+          <p style={{color:"#ffde59", fontSize:"1.5em"}}>IIT Jammu Presents</p>
+          <h1 style={{fontSize:"6em"}}><span style={{position:"relative", left:"10px"}}>Technunc</span><span><img src={require("../assets/white_logo.png")} style={{height:"1.5em", width:"1.3em", position:"relative", bottom:"30px"}}/></span><span style={{position:"relative", right:"10px"}}>us</span></h1>
+          <p style={{color:"#ffde59", fontSize:"1.5em"}}>IGNITING THE TECH REVOLUTION || 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</p>
         </div>
       </div>
       <div className="theme">
