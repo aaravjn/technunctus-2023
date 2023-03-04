@@ -1,0 +1,13 @@
+.event-menu {
+    padding-top: 3em;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(40px);
+    z-index: 1;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

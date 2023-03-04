@@ -2,7 +2,7 @@ import { Box, Button, styled } from '@mui/material'
 import {React, useState } from 'react'
 import { eventsData } from '../../data/events_data'
 import EventInfo from "./Event"
-import '../../css/event_info.css'
+import '../../css/event_card.css'
 
 const StyledBox=styled(Box)`
 border: 1px solid rgba(255, 255, 255, .25);
