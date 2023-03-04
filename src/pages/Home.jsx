@@ -7,11 +7,18 @@ import Paragraph from "../components/paragraph/Paragraph"
 
 import "../css/home.css"
 import logo from "../assets/logo.png"
+import zIndex from "@mui/material/styles/zIndex";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
+      <img src={require("../assets/header_bg.jpg")} style={{
+        width:"100%",
+        height:"100vh",
+        position:"fixed",
+        zIndex:"-1"
+      }} />
       <div className="title-box row">
         <div className="col ms-5">
           <img src={logo} alt="logo" className="technun-logo"/>

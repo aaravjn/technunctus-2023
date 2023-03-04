@@ -5,7 +5,6 @@
 }
 
 .title-box {
-    background-image: url("../assets/header_bg.jpg");
     min-height: 100vh;
     width: 100vw;
     background-size: 100%;
@@ -25,7 +24,7 @@
 .theme {
     background-size: cover;
     padding-top: 5em;
-    background-image: url("../assets/theme_bg.jpg");
+    background: transparent;
     width: 100%;
     min-height: 100vh;
     padding-bottom: 10%;
@@ -38,7 +37,7 @@
 }
 
 .team-word {
-    background-image: url("../assets/team-word.jpg");
+    background: transparent;
     padding-top: 10%;
     width: 100vw;
     min-height: 100vh;
