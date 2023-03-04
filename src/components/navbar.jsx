@@ -109,7 +109,7 @@ export default function Navbar() {
                  }}
                  className="link nav_link"
               >About</motion.a>
-              <motion.a href=""
+              <motion.a href="/Sponsors"
                  initial={{y:80,opacity:0}}
                  animate={{y:0, opacity:1}}
                  transition={{delay:.6}}

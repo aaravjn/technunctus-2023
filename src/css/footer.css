@@ -1,5 +1,6 @@
 .footer{
     background-color: black;
+    min-height: 100vh;
 }
 img{
     width: 40px;

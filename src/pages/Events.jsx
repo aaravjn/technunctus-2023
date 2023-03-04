@@ -1,20 +1,17 @@
-import { Box, styled, Typography } from '@mui/material'
+import { Box } from '@mui/material'
 import React from 'react'
 
 //Components
-import CompetitionCard from '../components/Events/EventCard'
+import EventCard from '../components/Events/EventCard'
+import Navbar from "../components/navbar"
+import Footer from "../components/Footer/footer"
 
 const Event= () => {
   return (
     <Box sx={{display:'flex',justifyContent:'space-evenly',margin:'0 70px',flexWrap:'wrap'}}> 
-      <CompetitionCard/>
-      <CompetitionCard/>
-      <CompetitionCard/>
-      <CompetitionCard/>
-      <CompetitionCard/>
-      <CompetitionCard/>
-      <CompetitionCard/>
-      <CompetitionCard/>
+      <Navbar />
+      <EventCard/>
+      <Footer />
     </Box>
   )
 }

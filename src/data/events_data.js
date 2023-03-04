@@ -141,7 +141,7 @@ export const eventsData = [{
     reg_url: "https://dare2compete.com/o/nfISsaF?lb=gqHYNwd",
     drive_link: "https://drive.google.com/file/d/1bi3qQfw5H-5wZVgKyUsuAqVfXnYfDHo0/view"
 
-}, , {
+}, {
     key: 14,
     title: "Fundamentals of Stock Market Workshop",
     broughtToYouBy: "all Finance Club",

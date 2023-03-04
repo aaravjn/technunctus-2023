@@ -7,9 +7,6 @@ const Team = () => {
         <>
             <Navbar />
             <TeamCard />
-            <TeamCard />
-            <TeamCard />
-            <TeamCard />
             <Footer />
         </>
     )
