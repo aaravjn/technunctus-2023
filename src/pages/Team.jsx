@@ -33,6 +33,7 @@ const Team = () => {
             <div style={{
                 display:"flex",
                 justifyContent:"center",
+                textAlign:"center",
                 overflowWrap:"break-word"
             }}>
             {team_data.slice(0,1).map((item, index) => {
