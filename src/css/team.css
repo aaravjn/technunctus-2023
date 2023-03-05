@@ -1,7 +1,10 @@
-.card{
-	padding-top: 5%;
+.card {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
     height: 350px;
     width: 320px;
+    display: inline-block;
     background-color: rgba(255, 255, 255, 0.06);
     -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
@@ -10,22 +13,18 @@
             box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
     font-family: 'Poppins',sans-serif;
 }
-.card-img{
-    height: 150px;
-    width: 150px;
-    background-color: rgba(255, 255, 255, 0.06);
-    -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
-    border-radius: 50%;
-    margin: 0px auto 20px auto;
+.card-img {
+    height: 250px;
+    width: 230px;
+    border-radius: 10px;
+    background: transparent;
+    margin: 0px auto 10px auto;
     left: 0;
     right: 0;
-
 }
 .card-img img{
     height: 86%;
 	width: 86%;
-    border-radius: 50%;
     margin-left: 7%;
     margin-top: 7%;
 }
@@ -66,4 +65,7 @@
 }
 .details>div:first-child{
     border-right: 2px solid rgba(255,255,255,0.08);
+}
+.member-links{
+    margin-bottom: 10px;
 }

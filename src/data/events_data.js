@@ -178,5 +178,45 @@ export const eventsData = [
     Description: "maze solver and checkpoint collector bot making competition which will be working automatically over the track as a specified speed. will share problem statement soon. 2 stages will be there.",
     Release_Date: "27 March",
     Location: "OAT"
-  }
+  },
+  {
+    Key: 21,
+    Event_Name: "Quadcopter/UAV",
+    Domain: "SAE",
+    Mode: "Offline",
+    Description: "IIT JAMMU'S GREAT EVENT. Must attend!!!!!!",
+    Release_Date: "27 March",
+    Location: "OAT"
+  },
+  {
+    Key: 22,
+    Event_Name: "Unmanned Ground Vehicle/UAV",
+    Domain: "Robotics",
+    Mode: "Offline",
+    Description: "IIT JAMMU'S GREAT EVENT. Must attend!!!!!!",
+    Release_Date: "27 March",
+    Location: "OAT"
+  },
+  {
+    Key: 23,
+    Event_Name: "Machine Learning & AI",
+    Domain: "Coding Club",
+    Mode: "Offline",
+    Description: "IIT JAMMU'S GREAT EVENT. Must attend!!!!!!",
+    Release_Date: "27 March",
+    Location: "OAT"
+  },
+  {
+    Key: 24,
+    Event_Name: "Sandeep Jain",
+    Domain: "Talk",
+    Mode: "Offline",
+    Description: "Founder - GFG",
+    Release_Date: "27 March",
+    Location: "OAT"
+  } 
 ]
+
+// 1-20 competitions
+// 21-23 Workshops
+// 24- Talks

@@ -1,6 +1,7 @@
 import TeamCard from "../components/Team/team"
 import Navbar from "../components/navbar";
 import Footer from "../components/Footer/footer";
+import team_data from "../data/team_data"
 
 const Team = () => {
     return (
@@ -31,9 +32,46 @@ const Team = () => {
             >Chairperson</h2>
             <div style={{
                 display:"flex",
-                justifyContent:"center"
+                justifyContent:"center",
+                overflowWrap:"break-word"
             }}>
-                <TeamCard />
+            {team_data.slice(0,1).map((item, index) => {
+                return (
+                    <TeamCard {...item} />
+                )
+            })}
+            </div>
+            <h2 style={{
+                width:"100%",
+                textAlign:"center",
+                marginBottom:"2em"
+            }}
+            >Convenors</h2>
+            <div style={{
+                textAlign:"center",
+                overflowWrap:"break-word"
+            }}>
+            {team_data.slice(1,5).map((item, index) => {
+                return (
+                    <TeamCard {...item} />
+                )
+            })}
+            </div>
+            <h2 style={{
+                width:"100%",
+                textAlign:"center",
+                marginBottom:"2em"
+            }}
+            >Team Heads</h2>
+            <div style={{
+                textAlign:"center",
+                overflowWrap:"break-word"
+            }}>
+            {team_data.slice(5,).map((item, index) => {
+                return (
+                    <TeamCard {...item} />
+                )
+            })}
             </div>
             <Footer />
         </div>

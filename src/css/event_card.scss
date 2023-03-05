@@ -1,7 +1,9 @@
 .nft{
+    height: 570px;
+    display: inline-block;
     user-select:none;
     max-width: 300px;
-    border: 1px solid #ffffff22;
+    border: none;
     background-color: #282c34;
     background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
     box-shadow: 0 7px 20px 5px #00000088;
@@ -12,6 +14,7 @@
     transition: .5s all;
     margin-right: 2em;
     margin-left: 2em;
+    margin-bottom: 1em;
     hr{
       width: 100%;
       border: none;
@@ -31,6 +34,12 @@
       .description{
         margin: .5rem 0;
         color: #a89ec9;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* number of lines to show */
+                line-clamp: 2;
+        -webkit-box-orient: vertical;
       }
       .tokenInfo{
         display: flex;
@@ -56,18 +65,16 @@
     }
     ::before {
       position: fixed;
-      content: "";
       box-shadow: 0 0 100px 40px #ffffff08;
       top: -10%;
       left: -100%;
       transform: rotate(-45deg);
       height: 60rem;
-      transition: .7s all;
+      transition: .5s all;
     }
     &:hover{
-      border: 1px solid #ffffff44;
+
       box-shadow: 0 7px 50px 10px #000000aa;
-      transform: scale(1.015);
       filter: brightness(1.3);
       ::before{
         filter: brightness(.5);

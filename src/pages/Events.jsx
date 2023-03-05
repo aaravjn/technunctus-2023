@@ -1,4 +1,5 @@
 import React from 'react'
+import { eventsData } from '../data/events_data'
 
 //Components
 import Navbar from "../components/navbar"
@@ -12,10 +13,14 @@ const Event= () => {
       <h1 style={{paddingTop:"3em", marginBottom:"2em", marginLeft:"2em", fontFamily:"Spaceboards"}}> Competitions</h1>
       
       <div style={{
-        display:"flex",
+        overflowWrap:"break-word"
       }}>
-        <Card />
-        <Card />
+        {eventsData.slice(0,19).map((item, index) => {
+            return (
+              <Card {...item} />
+            )
+        })}
+        
       </div>
 
       <h1 style={{marginTop:"3em", marginBottom:"2em", marginLeft:"2em", fontFamily:"Spaceboards"}}> WorkShops</h1>
@@ -23,8 +28,11 @@ const Event= () => {
       <div style={{
         display:"flex",
       }}>
-        <Card />
-        <Card />
+        {eventsData.slice(20,23).map((item, index) => {
+            return (
+              <Card {...item} />
+            )
+        })}
       </div>
       
       <h1 style={{
@@ -33,13 +41,16 @@ const Event= () => {
         marginLeft:"2em",
         fontFamily:"Spaceboards"
         }}
-      >Talk</h1>
+      >Talks</h1>
       
       <div style={{
         display:"flex",
       }}>
-        <Card />
-        <Card />
+        {eventsData.slice(23,24).map((item, index) => {
+            return (
+              <Card {...item} />
+            )
+        })}
       </div> 
       <Footer />
     </>

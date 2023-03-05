@@ -1,4 +1,5 @@
-const profile = [{
+const team_data = [
+{
     key: 1,
     name: "Devin Chugh",
     type: "Chairperson",
@@ -43,6 +44,25 @@ const profile = [{
     insta_id: "https://www.instagram.com/deeeeeeps_/",
     linkedin: "https://www.linkedin.com/in/deepanshu-mittal2002/",
     source_url: "/static/teamheads/deepanshu.jpg"
+},{
+    key: 41,
+    name: "Aarav Jain",
+    type: "Web Development Head",
+    contact_no: "+91 7487853240",
+    email: "2021ucs0080@iitjammu.ac.in",
+    insta_id: "#",
+    linkedin: "https://www.linkedin.com/in/aaravjn/",
+    source_url: "/static/teamheads/aarav.jpg"
+},
+{
+    key:5,
+    name: "Prakhar Kapisway",
+    type: "Web Development Head",
+    contact_no: "+91 9508307404",
+    email: "2021ucs0106@iitjammu.ac.in",
+    insta_id: "https://www.instagram.com/_prakhar_kapisway_/",
+    linkedin: "https://www.linkedin.com/in/prakhar-kapisway-1524ba22b/",
+    source_url: "/static/teamheads/prakhar.jpg"
 },
 {
     key: 3001,
@@ -59,7 +79,7 @@ const profile = [{
     type: "Event Management Head",
     contact_no: "+91 07024824825",
     email: "2020uce0056@iitjammu.ac.in",
-    insta_id: "",
+    insta_id: "#",
     linkedin: "https://www.linkedin.com/in/devesh-mani-upadhyay",
     source_url: "/static/teamheads/devesh.jpg"
 }, {
@@ -68,8 +88,8 @@ const profile = [{
     type: "Event management team co-head",
     contact_no: "",
     email: "2021ume0231@iitjammu.ac.in",
-    insta_id: "",
-    linkedin: "",
+    insta_id: "#",
+    linkedin: "#",
     source_url: "/static/teamheads/shruti.jpg"
 }, {
     key: 1,
@@ -78,7 +98,7 @@ const profile = [{
     contact_no: "+91 7836989460",
     email: "2021uce0053@iitjammu.ac.in",
     insta_id: "https://instagram.com/_bhavna.verma_?igshid=OGQ2MjdiOTE=",
-    linkedin: "",
+    linkedin: "#",
     source_url: "/static/teamheads/bhavna.jpg"
 },
 {
@@ -87,6 +107,8 @@ const profile = [{
     type: "Sponsorship Head",
     contact_no: "+91 7814360737",
     email: "2021ume0219@iitjammu.ac.in",
+    insta_id: "#",
+    linkedin: "#",
     source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
 },
 {
@@ -95,8 +117,8 @@ const profile = [{
     type: "Content Head",
     contact_no: "+91 9987785245",
     email: "2020ucs0092@iitjammu.ac.in",
-    insta_id: "",
-    linkedin: "",
+    insta_id: "#",
+    linkedin: "#",
     source_url: "/static/teamheads/sanjana.jpg"
 },
 {
@@ -115,18 +137,10 @@ const profile = [{
     type: "Design Team Head",
     contact_no: "+91 8950490774",
     email: "sahil4nfl@gmail.com",
-    insta_id: "",
+    insta_id: "#",
     linkedin: "https://www.linkedin.com/in/sahil-agrawal-654701235/",
     source_url: "/static/teamheads/sahil.jpg"
 },
-// {
-//     key: 2,
-//     name: "Sharan Kumar",
-//     type: "Content & Design Co-Head",
-//     contact_no: "+91 9818713571",
-//     email: "2019uee0136@iitjammu.ac.in",
-//     source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
-// },
 {
     key: 3,
     name: "Yashwant Choudhary ",
@@ -134,6 +148,7 @@ const profile = [{
     contact_no: "+91 7073639277",
     email: "2020umt0181@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/invites/contact/?i=dzn5cbe0wv5x&utm_content=2pjx0m1",
+    linkedin: "#",
     source_url: "/static/teamheads/yashwant.jpg"
 }, 
 {
@@ -142,34 +157,10 @@ const profile = [{
     type: "Infrastructure Team Head",
     contact_no: "",
     email: "2020ucs0091@iitjammu.ac.in",
-    insta_id: "",
-    linkedin: "",
+    insta_id: "#",
+    linkedin: "#",
     source_url: "/static/teamheads/riyajain.jpg"
-},
-// {
-//     key: 2,
-//     name: "Divya Jaiswal ",
-//     type: "Infrastructure Head ",
-//     contact_no: "+91 8543995249",
-//     email: "2020uee0150@iitjammu.ac.in",
-//     source_url: "/static/teamheads/team14.jpg"
-// }, 
-// {
-//     key: 2,
-//     name: "Aditya Vikram Singh ",
-//     type: "Infrastructure Head ",
-//     contact_no: "+91 9455040521",
-//     email: "2020uce0071@iitjammu.ac.in",
-//     source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
-// }, 
-// {
-//     key: 31,
-//     name: "Yuvraj Chugh",
-//     type: "Infrastructure Head",
-//     contact_no: "+91 9680018707",
-//     email: "2020ume0199@iitjammu.ac.in",
-//     source_url: "https://www.personality-insights.com/wp-content/uploads/2017/12/default-profile-pic-e1513291410505.jpg"
-// }, 
+}, 
 {
     key: 3,
     name: "Satyansh Sharma",
@@ -192,7 +183,7 @@ const profile = [{
 {
     key: 4,
     name: "Sai Shaswat Pradhan",
-    type: "Team Head of Social Media and Content Team",
+    type: "Social Media & Content Team Head",
     contact_no: "+91 9103086388",
     email: "2020uee0143@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/saishaswat.pradhan/",
@@ -257,28 +248,7 @@ const profile = [{
     insta_id: "",
     linkedin: "",
     source_url: "/static/teamheads/anant.jpg"
-},
- {
-    key: 41,
-    name: "Aarav Jain",
-    type: "Web Development Head",
-    contact_no: "+91 7487853240",
-    email: "2021ucs0080@iitjammu.ac.in",
-    insta_id: "",
-    linkedin: "https://www.linkedin.com/in/aaravjn/",
-    source_url: "/static/teamheads/aarav.jpg"
-},
-{
-    key:5,
-    name: "Prakhar Kapisway",
-    type: "Web Development Head",
-    contact_no: "+91 9508307404",
-    email: "2021ucs0106@iitjammu.ac.in",
-    insta_id: "https://www.instagram.com/_prakhar_kapisway_/",
-    linkedin: "https://www.linkedin.com/in/prakhar-kapisway-1524ba22b/",
-    source_url: "/static/teamheads/prakhar.jpg"
-},
-{
+},{
     key: 4,
     name: "Amit Kumar Yadav",
     type: "Security team co-head",
@@ -289,35 +259,6 @@ const profile = [{
     source_url: "/static/teamheads/amit.jpg"
 },
 
-
-
-//  {
-//     key: 4,
-//     name: "Gaurav Kumar ",
-//     type: "Games and Outdoor Activities Head",
-//     contact_no: "+91 9784005726",
-//     email: "2020uch0034@iitjammu.ac.in",
-//     source_url: "/static/teamheads/team7.jpg"
-// }, {
-//     key: 3,
-//     name: "Vishnu Sagar",
-//     type: "Games and Outdoor Activities Head",
-//     contact_no: "+91 9530491131",
-//     email: "2020uce0061@iitjammu.ac.in",
-//     source_url: "/static/teamheads/team10.jpeg"
-// }
 ]
-// Indexes(uncommented ones):
-// Chairperson - 0, 4;
-// Convenors - 1,2,3;
-// Event management team - 5,6,7,8;
-// Content - 9;
-// Design - 10,11;
-// Infrastructure - 12;
-// PR Team - 13,14;
-// Media - 15,16;
-// Hospitality - 17,18;
-// Security - 19,20,21;
-// Web Dev - 22,23;
 
-export default profile
+export default team_data
