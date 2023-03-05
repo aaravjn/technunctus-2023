@@ -1,9 +1,13 @@
-import "../../css/event_info.css"
 import { Button } from "@mui/material"
 
 const EventInfo = () => {
     return (
-        <div className="event-container">
+        <div className="event-container" style={{
+            
+            padding: "2em",
+            maxWidth: "70%",
+            backgroundColor:"#343a40"
+        }}>
             <h1 style={{fontFamily:"SpaceBoards"}}>
                 Event title
             </h1>

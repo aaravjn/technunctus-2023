@@ -6,8 +6,6 @@ import Footer from "../components/Footer/footer";
 import Paragraph from "../components/paragraph/Paragraph"
 
 import "../css/home.css"
-import logo from "../assets/logo.png"
-import zIndex from "@mui/material/styles/zIndex";
 
 const Home = () => {
   return (
@@ -22,7 +20,7 @@ const Home = () => {
       <div className="title-box">
         <div className="title text-center">
           <p style={{color:"#ffde59", fontSize:"1.5em"}}>IIT Jammu Presents</p>
-          <h1 style={{fontSize:"6em"}}><span style={{position:"relative", left:"10px"}}>Technunc</span><span><img src={require("../assets/white_logo.png")} style={{height:"1.5em", width:"1.3em", position:"relative", bottom:"30px"}}/></span><span style={{position:"relative", right:"10px"}}>us</span></h1>
+          <h1 style={{fontSize:"6em"}}><span style={{position:"relative", left:"10px"}}>Technunc</span><span><img src={require("../assets/white_logo.png")} style={{height:"1.5em", width:"1.3em", position:"relative", bottom:"45px"}}/></span><span style={{position:"relative", right:"10px"}}>us</span></h1>
           <p style={{color:"#ffde59", fontSize:"1.5em"}}>IGNITING THE TECH REVOLUTION || 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</p>
         </div>
       </div>
@@ -32,6 +30,14 @@ const Home = () => {
       <div className="team-word">
         <Paragraph title={"Word from team"} align={"right"} image={require("../assets/team_img.jpg")} content={"Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir."}/>
       </div>
+      <h1 style={{
+        fontFamily: "Spaceboards",
+        width:"100%",
+        textAlign:"center",
+        marginBottom:"1em"
+      }}
+      >Our Sponsors</h1>
+
       <Footer/>
     </div>
   );
