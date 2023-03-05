@@ -1,61 +1,42 @@
 import React from 'react'
-import "../../css/footer.css"
 import "../../css/team.css"
-import Tilt from 'react-parallax-tilt'
-
+import { IconButton } from '@mui/material'
+import { Link } from "react-router-dom"
+import CallIcon from '@mui/icons-material/Call';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 
 export default function Team() {
     return (
         <> 
-      <div className="container">
-        <></>
-        <Tilt options={{ speed: 400, max: 25, glare : true , "max-glare": 1 }}>
-        <div className="card">
-          <div className="content">
-            <h2>01</h2>
-            <h3>Card One</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href>Read More</a>
-          </div>
+       <div class="card">
+        <div class="card-img">
+            <img src={require("../../assets/logo.png")} />
         </div>
-        </Tilt>
-        <Tilt options={{ speed: 400, max: 25, glare : true , "max-glare": 1 }}>
-        <div className="card">
-          <div className="content">
-            <h2>02</h2>
-            <h3>Card Two</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href>Read More</a>
-          </div>
+        <div class="desc">
+            <h6 class="primary-text">Aarav Jain</h6>
+            <h6 class="secondary-text">Coder</h6>
         </div>
-        </Tilt>
-        <Tilt options={{ speed: 400, max: 25, glare : true , "max-glare": 1 }}>
-        <div className="card">
-          <div className="content">
-            <h2>03</h2>
-            <h3>Card Three</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href>Read More</a>
-          </div>
+        <div className='member-links'>
+        <Link
+            to={"tel:"}
+        >
+            <a>
+                <IconButton>
+                    <CallIcon className="text-sm text-white"/>
+                </IconButton>
+            </a>
+        </Link>
+        <Link
+            to={"mailto:"}
+        >
+          <a>
+            <IconButton>
+                <AlternateEmailIcon className="text-sm text-white"/>
+            </IconButton>
+          </a>
+        </Link>
         </div>
-        </Tilt>
-        <Tilt options={{ speed: 400, max: 25, glare : true , "max-glare": 1 }}>
-        <div className="card">
-          <div className="content">
-            <h2>03</h2>
-            <h3>Card Three</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href>Read More</a>
-          </div>
-        </div>
-        </Tilt>
       </div>
-
-
-        </>
+    </>
     )
 }
