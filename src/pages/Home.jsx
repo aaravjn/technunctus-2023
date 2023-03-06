@@ -1,13 +1,24 @@
 import React from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 //Components
 
 import Navbar from "../components/navbar";
 import Footer from "../components/Footer/footer";
 import Paragraph from "../components/paragraph/Paragraph"
-
 import "../css/home.css"
+import YoutubeVideo from "../components/youtubeVideo"
 
 const Home = () => {
+  const setting = {
+    centerMode: true,
+    infinite: true,
+    centerMode:true,
+    centerPadding: "20px",
+    slidesToShow: 2,
+    speed: 500
+  };
   return (
     <div>
       <Navbar />
@@ -37,12 +48,22 @@ const Home = () => {
         marginBottom:"1em"
       }}
       >Our Sponsors</h1>
-
+      <h1 style={{
+          textAlign:"center"
+        }}
+        >Socials & FAQs</h1>
+        <div style={{margin:"auto",width:"900px"}}>
+          <Slider {...setting}>
+            <YoutubeVideo embedId={"UBOHA9a5NIQ"}/>          
+            <YoutubeVideo embedId={"ksY3wb4vtlA"}/>          
+            <YoutubeVideo embedId={"zBlklssMFEo"}/>          
+            <YoutubeVideo embedId={"YVkUvmDQ3HY"}/>          
+          </Slider>
+        </div>
       <Footer/>
     </div>
   );
 };
-
 export default Home;
 
 
