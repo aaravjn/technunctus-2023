@@ -15,9 +15,14 @@ const Home = () => {
     centerMode: true,
     infinite: true,
     centerMode:true,
-    centerPadding: "20px",
-    slidesToShow: 2,
-    speed: 500
+    centerPadding: "30px",
+    slidesToShow: 3,
+    speed: 1000,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true
+
   };
   return (
     <div>
@@ -31,7 +36,7 @@ const Home = () => {
       <div className="title-box">
         <div className="title text-center">
           <p style={{color:"#ffde59", fontSize:"1.5em"}}>IIT Jammu Presents</p>
-          <h1 style={{fontSize:"6em"}}><span style={{position:"relative", left:"10px"}}>Technunc</span><span><img src={require("../assets/white_logo.png")} style={{height:"1.5em", width:"1.3em", position:"relative", bottom:"45px"}}/></span><span style={{position:"relative", right:"10px"}}>us</span></h1>
+          <h1 style={{fontSize:"6em", height:"1.3em"}}><span style={{position:"relative", left:"10px"}}>Technunc</span><span><img src={require("../assets/white_logo.png")} style={{height:"1.5em", width:"1.3em", position:"relative", bottom:"45px"}}/></span><span style={{position:"relative", right:"10px"}}>us</span></h1>
           <p style={{color:"#ffde59", fontSize:"1.5em"}}>IGNITING THE TECH REVOLUTION || 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</p>
         </div>
       </div>
@@ -52,14 +57,23 @@ const Home = () => {
           textAlign:"center"
         }}
         >Socials & FAQs</h1>
-        <div style={{margin:"auto",width:"900px"}}>
+        <div style={{
+          marginTop:"2em", 
+          width:"90%",
+          marginBottom:"2em",
+          marginLeft:"auto",
+          marginRight:"auto",
+          boxShadow:"0 7px 20px 5px #00000088"
+        }}>
           <Slider {...setting}>
             <YoutubeVideo embedId={"UBOHA9a5NIQ"}/>          
-            <YoutubeVideo embedId={"ksY3wb4vtlA"}/>          
-            <YoutubeVideo embedId={"zBlklssMFEo"}/>          
-            <YoutubeVideo embedId={"YVkUvmDQ3HY"}/>          
+            <YoutubeVideo embedId={"UBOHA9a5NIQ"}/>          
+            <YoutubeVideo embedId={"UBOHA9a5NIQ"}/>          
+            <YoutubeVideo embedId={"UBOHA9a5NIQ"}/>          
           </Slider>
         </div>
+
+        
       <Footer/>
     </div>
   );

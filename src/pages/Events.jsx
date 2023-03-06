@@ -10,10 +10,11 @@ const Event= () => {
   return (
     <>
       <Navbar />
-      <h1 style={{paddingTop:"3em", marginBottom:"2em", marginLeft:"2em", fontFamily:"Spaceboards"}}> Competitions</h1>
+      <h1 style={{paddingTop:"3em", marginBottom:"2em", marginLeft:"10%", fontFamily:"Spaceboards"}}> Competitions</h1>
       
       <div style={{
-        overflowWrap:"break-word"
+        overflowWrap:"break-word",
+        paddingLeft:"6%",
       }}>
         {eventsData.slice(0,19).map((item, index) => {
             return (
@@ -23,10 +24,11 @@ const Event= () => {
         
       </div>
 
-      <h1 style={{marginTop:"3em", marginBottom:"2em", marginLeft:"2em", fontFamily:"Spaceboards"}}> WorkShops</h1>
+      <h1 style={{marginTop:"3em", marginBottom:"2em", marginLeft:"10%", fontFamily:"Spaceboards"}}> WorkShops</h1>
       
       <div style={{
-        display:"flex",
+        overflowWrap:"break-word",
+        paddingLeft:"6%",
       }}>
         {eventsData.slice(20,23).map((item, index) => {
             return (
@@ -38,13 +40,14 @@ const Event= () => {
       <h1 style={{
         marginTop:"2em", 
         marginBottom:"2em", 
-        marginLeft:"2em",
+        marginLeft:"10%",
         fontFamily:"Spaceboards"
-        }}
+      }}
       >Talks</h1>
       
       <div style={{
-        display:"flex",
+        overflowWrap:"break-word",
+        paddingLeft:"6%",
       }}>
         {eventsData.slice(23,24).map((item, index) => {
             return (

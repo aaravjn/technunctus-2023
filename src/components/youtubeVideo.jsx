@@ -1,6 +1,6 @@
 const YoutubeVideo = ({embedId}) => {
     return (
-    <div style={{width:"auto"}}>
+    <div style={{width:"auto", borderRadius:"10px"}}>
         <iframe
             width="400"
             height="200"

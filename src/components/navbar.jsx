@@ -3,11 +3,12 @@ import logo from "../assets/logo.png"
 import { Box } from '@mui/material'
 import React, {useState} from 'react';
 import {motion, AnimatePresence} from "framer-motion";
+import { useRef } from 'react';
 
 export default function Navbar() {
 
     const [open, setOpen] = useState(false);
-
+    const windowSize = useRef([window.innerWidth, window.innerHeight])
     const isOpen = ()=>{
         setOpen(true);
     }
@@ -27,46 +28,60 @@ export default function Navbar() {
         }
     }
     function SetButton({val}) {
-      if(!val) {
-        return (
-          <div className="menu" onClick={isOpen}>
-                <div className="nav-but-wrap">
-                    <div className="menu-icon hover-target">
-                        <span class="menu-icon__line menu-icon__line-left"></span>
-                        <span class="menu-icon__line"></span>
-                        <span class="menu-icon__line menu-icon__line-right"></span>
-                    </div>					
-                </div>
-            </div>
-        )
-      }
-      else{
-        return (
-          <div className="menu" onClick={closeMenu}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
-                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
-            </svg>              
-          </div>
-        )
-      }
+      if(windowSize.current[0] < 700){
+        if(!val) {
+            return (
+              <div className="menu" onClick={isOpen}>
+                    <div className="nav-but-wrap">
+                        <div className="menu-icon hover-target">
+                            <span class="menu-icon__line menu-icon__line-left"></span>
+                            <span class="menu-icon__line"></span>
+                            <span class="menu-icon__line menu-icon__line-right"></span>
+                        </div>					
+                    </div>
+              </div>
+            )
+          }
+          else{
+            return (
+              <div className="menu" onClick={closeMenu}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                </svg>              
+              </div>
+            )
+          }
+    }
     }
 
     return (
         <>
             
             <nav className="navbar fixed-top navbar-expand-lg">
-                <div className="navbar-cont container-fluid">
-                    <div className="link">
-                        <Box
-                            component='img'
-                            sx={{height: 55, width: 55}}
-                            alt="logo"
-                            src={logo}
-                        />
-                    </div>
-                  
-                    <SetButton val={open} />  
-                </div>
+                  <div className="link">
+                      <Box
+                          component='img'
+                          sx={{height: 55, width: 55}}
+                          alt="logo"
+                          src={logo}
+                      />
+                  </div>
+                  {(windowSize.current[0] > 700) &&(
+                      <>
+                        <a class="nav-link link" href="/" style={{textDecoration:"none", fontSize:"1.2em", marginLeft:"auto", marginRight:"20px"}}>Home</a>
+                        <a class="nav-link link" href="/About" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>About</a>
+                        <a class="nav-link link" href="/Sponsors" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Sponsors</a>
+                        <a class="nav-link link" href="/OurTeam" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Our Team</a>                      
+                        <a class="nav-link link" href="/Events" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Events</a>
+                      </>
+                    
+                    )}
+
+
+                    
+                    <SetButton val={open} />
+                    
+                
             </nav>
         <AnimatePresence>
         {
