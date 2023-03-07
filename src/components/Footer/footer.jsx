@@ -102,9 +102,8 @@ export default function Footer() {
                         <ul className="footer-link">
                             <li>
                                 <Link to="https://www.iitjammu.ac.in/" >
-                                    {/* <motion.a className="hover:gradientText"> */}
-                                    <img src={require("../../assets/icons/iitjammu.png")} alt="iitjammuicon" className='iitjammuicon' />
-                                    {/* </motion.a> */}
+                                    
+                                    <img src={require("../../assets/icons/web-logo.png")} alt="iitjammuicon" className='iitjammuicon' style={{height:"35px", width:"35px"}}/>
                                 </Link>
                             </li>
                             <li>
@@ -113,7 +112,7 @@ export default function Footer() {
 
                                 >
                                     {/* <motion.a className="hover:gradientText"> */}
-                                    <img src={require("../../assets/icons/linkedin.png")} alt="linkedinicon" />
+                                    <img src={require("../../assets/icons/linkedin.png")} alt="linkedinicon"/>
                                     {/* </motion.a> */}
                                 </Link>
                             </li>

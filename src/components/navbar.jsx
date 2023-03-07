@@ -2,13 +2,36 @@ import "../css/navbar.css"
 import logo from "../assets/logo.png"
 import { Box } from '@mui/material'
 import React, {useState} from 'react';
-import {motion, AnimatePresence} from "framer-motion";
-import { useRef } from 'react';
+import {motion, AnimatePresence, useViewportScroll} from "framer-motion";
+import { useRef , useEffect} from 'react';
+
 
 export default function Navbar() {
 
     const [open, setOpen] = useState(false);
     const windowSize = useRef([window.innerWidth, window.innerHeight])
+
+    const { scrollY } = useViewportScroll();
+
+    const [blur, setBlur] = useState(false);
+    
+    function update() {
+      if (scrollY?.current <= 300) {
+        setBlur(false);
+      } else if (scrollY?.current > 300) {
+        setBlur(true);
+      }
+    }
+
+    useEffect(() => {
+      return scrollY.onChange(() => update());
+    });
+
+    const variants = {
+      visible: { background: "transparent" },
+      blur: { backdropFilter: "blur(40px)" }
+    };
+
     const isOpen = ()=>{
         setOpen(true);
     }
@@ -44,7 +67,7 @@ export default function Navbar() {
           }
           else{
             return (
-              <div className="menu" onClick={closeMenu}>
+              <div className="menu" onClick={closeMenu} style={{transform: "scale(1.7)", fontWeight:"bolder"}}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                     <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
                 </svg>              
@@ -57,15 +80,28 @@ export default function Navbar() {
     return (
         <>
             
-            <nav className="navbar fixed-top navbar-expand-lg">
-                  <div className="link">
+            <motion.nav className="navbar fixed-top navbar-expand-lg"
+              variants={variants}
+              animate={blur ? "blur":"visible"}
+              transition={{duration:1}} 
+              style={{paddingLeft:"2em"}}
+            >
+                  <motion.div className="link"
+                    animate={{y:9}}
+                    transition={{
+                      ease: "easeInOut",
+                      repeat: Infinity,
+                      duration: 1.25,
+                      repeatType:"reverse"
+                    }}
+                  >
                       <Box
                           component='img'
-                          sx={{height: 55, width: 55}}
+                          sx={{height: 55, width: 55, transform:"scale(1.25)"}}
                           alt="logo"
                           src={logo}
                       />
-                  </div>
+                  </motion.div>
                   {(windowSize.current[0] > 700) &&(
                       <>
                         <a class="nav-link link" href="/" style={{textDecoration:"none", fontSize:"1.2em", marginLeft:"auto", marginRight:"20px"}}>Home</a>
@@ -82,7 +118,7 @@ export default function Navbar() {
                     <SetButton val={open} />
                     
                 
-            </nav>
+            </motion.nav>
         <AnimatePresence>
         {
           open &&(

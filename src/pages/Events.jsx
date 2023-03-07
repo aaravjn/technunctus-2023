@@ -14,7 +14,7 @@ const Event= () => {
       
       <div style={{
         overflowWrap:"break-word",
-        paddingLeft:"6%",
+        paddingLeft:"7%",
       }}>
         {eventsData.slice(0,19).map((item, index) => {
             return (
@@ -28,7 +28,7 @@ const Event= () => {
       
       <div style={{
         overflowWrap:"break-word",
-        paddingLeft:"6%",
+        paddingLeft:"7%",
       }}>
         {eventsData.slice(20,23).map((item, index) => {
             return (
@@ -47,7 +47,7 @@ const Event= () => {
       
       <div style={{
         overflowWrap:"break-word",
-        paddingLeft:"6%",
+        paddingLeft:"7%",
       }}>
         {eventsData.slice(23,24).map((item, index) => {
             return (

@@ -8,14 +8,7 @@
     src: local("Spaceboards"),
       url("../fonts/Spaceboards.otf") format("opentype");
 }
-.navbar {
-    background: transparent;	
-}
-.navbar .active {
-	backdrop-filter: blur(40px);
-	transition: 200ms;
-	
-}
+
 .menu {
 	cursor: pointer;
 	margin-right: 26px;
