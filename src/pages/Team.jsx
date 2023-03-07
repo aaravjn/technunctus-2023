@@ -2,6 +2,7 @@ import TeamCard from "../components/Team/team"
 import Navbar from "../components/navbar";
 import Footer from "../components/Footer/footer";
 import team_data from "../data/team_data"
+import Tilt from 'react-parallax-tilt'
 
 const Team = () => {
     return (
@@ -38,7 +39,9 @@ const Team = () => {
             }}>
             {team_data.slice(0,1).map((item, index) => {
                 return (
-                    <TeamCard {...item} />
+                    <Tilt style={{display:"inline-block"}}>
+                        <TeamCard {...item} />
+                    </Tilt>
                 )
             })}
             </div>
@@ -54,7 +57,9 @@ const Team = () => {
             }}>
             {team_data.slice(1,5).map((item, index) => {
                 return (
-                    <TeamCard {...item} />
+                    <Tilt style={{display:"inline-block"}}>
+                        <TeamCard {...item} />
+                    </Tilt>
                 )
             })}
             </div>
@@ -70,7 +75,9 @@ const Team = () => {
             }}>
             {team_data.slice(5,).map((item, index) => {
                 return (
-                    <TeamCard {...item} />
+                    <Tilt style={{display:"inline-block"}}>
+                        <TeamCard {...item} />
+                    </Tilt>
                 )
             })}
             </div>

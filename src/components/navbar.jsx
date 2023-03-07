@@ -80,11 +80,12 @@ export default function Navbar() {
     return (
         <>
             
-            <motion.nav className="navbar fixed-top navbar-expand-lg"
+            <motion.nav
+              className="navbar fixed-top"
               variants={variants}
               animate={blur ? "blur":"visible"}
               transition={{duration:1}} 
-              style={{paddingLeft:"2em"}}
+              style={{paddingLeft:"1.5em", width:"100vw !important"}}
             >
                   <motion.div className="link"
                     animate={{y:9}}
@@ -105,17 +106,13 @@ export default function Navbar() {
                   {(windowSize.current[0] > 700) &&(
                       <>
                         <a class="nav-link link" href="/" style={{textDecoration:"none", fontSize:"1.2em", marginLeft:"auto", marginRight:"20px"}}>Home</a>
-                        <a class="nav-link link" href="/About" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>About</a>
                         <a class="nav-link link" href="/Sponsors" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Sponsors</a>
                         <a class="nav-link link" href="/OurTeam" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Our Team</a>                      
                         <a class="nav-link link" href="/Events" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Events</a>
                       </>
                     
-                    )}
-
-
-                    
-                    <SetButton val={open} />
+                  )}                    
+                  <SetButton val={open} />
                     
                 
             </motion.nav>
@@ -143,20 +140,6 @@ export default function Navbar() {
                  }}
                  className="link nav_link"
               >Home</motion.a>
-              <motion.a href="/About"
-                 initial={{y:80,opacity:0}}
-                 animate={{y:0, opacity:1}}
-                 transition={{delay:.7}}
-                 exit={{
-                  opacity:0,
-                  y:90,
-                    transition:{
-                      ease:"easeInOut",
-                      delay:.8
-                    }
-                 }}
-                 className="link nav_link"
-              >About</motion.a>
               <motion.a href="/Sponsors"
                  initial={{y:80,opacity:0}}
                  animate={{y:0, opacity:1}}

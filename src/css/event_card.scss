@@ -1,4 +1,5 @@
 .nft{
+    padding: 1rem;
     height: 570px;
     display: inline-block;
     user-select:none;
@@ -24,7 +25,7 @@
     .main{
       display: flex;
       flex-direction: column;
-      padding: 1rem;
+      
       .tokenImage{
         border-radius: .5rem;
         max-width: 100%;

@@ -32,15 +32,14 @@ const CompetitionCard = ({Key, Event_Name, Domain, Mode, Description, Release_Da
                 </svg>
                 </span>{" "+Location}</p>
         </div>
-        
+
         <Button 
             onClick={() => {
             setOpen(true)
             }}
-            style={{display:"block"}}
+            style={{display:"block", marginTop:"auto"}}
         >More</Button>
         <Button style={{display:"block"}}>Register</Button>
-        
         {open && (
             <div className='event-menu'>
             <Button sx={

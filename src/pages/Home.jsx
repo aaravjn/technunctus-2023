@@ -6,9 +6,10 @@ import Slider from "react-slick";
 
 import Navbar from "../components/navbar";
 import Footer from "../components/Footer/footer";
-import Paragraph from "../components/paragraph/Paragraph"
 import "../css/home.css"
 import YoutubeVideo from "../components/youtubeVideo"
+import { motion } from "framer-motion"
+import youtube from "../data/youtube"
 
 const Home = () => {
   const setting = {
@@ -25,14 +26,8 @@ const Home = () => {
 
   };
   return (
-    <div>
+    <div style={{overflowX:"hidden"}}>
       <Navbar />
-      <img src={require("../assets/home_bg.png")} style={{
-        width:"100%",
-        height:"100vh",
-        position:"fixed",
-        zIndex:"-1"
-      }} />
       <div className="title-box">
         <div className="title text-center">
           <p style={{color:"#ffde59", fontSize:"1.5em"}}>IIT Jammu Presents</p>
@@ -40,19 +35,58 @@ const Home = () => {
           <p style={{color:"#ffde59", fontSize:"1.5em"}}>IGNITING THE TECH REVOLUTION || 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</p>
         </div>
       </div>
+
+
       <div className="theme">
-        <Paragraph title={"Theme"} image={require("../assets/theme_img.jpg")} content={"Traversing through the cosmic millennium, we stumble across a distant planet exuding a glitzy vibe. Its tantalizing aura beckons you to surrender yourself to its enticement. Before you lies a symphony of the celestials; Multitudes of watchful eyes throughout the years behold before themselves alongside, the essence of light and color thronging through the air; The brilliance around tempts you to come closer, to drench yourself in its warm embrace. Being drawn towards its ethos is nigh inevitable. So come ushering into this lavish ambience of flamboyance & synergy and immerse yourself within the realms of the future to experience technology like never before."} />
+      <motion.div className="row box"
+        initial={{opacity:0}}
+        whileInView={{opacity:1}}
+        transition={{duration:0.8}}
+      >
+        <div className="col paragraph-box">
+            <h1>About</h1>
+            <p className="content-box container-fluid">
+              Technunctus 2023 is the 5th Edition of the annual technical festival of IIT Jammu. It is a magnificent stage to foster creativity among students. Various colleges participate in this pan-India event, including all IITs and NITs. It’s not just a platform to compete but also to learn from your competitors. It is a fabulous opportunity to showcase your talent and passion among the thousands. Hold up your seats for three days of mega-events, including a wide range of competitions, talks by experts in their respective fields, and many more fun and thrilling events. Exciting events range from Robotics and Astronomy to Coding to AI and Finance. 
+            </p>
+        </div>
+      </motion.div>
       </div>
-      <div className="team-word">
-        <Paragraph title={"Word from team"} align={"right"} image={require("../assets/team_img.jpg")} content={"Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir."}/>
+
+
+      <div className="theme">
+      <motion.div className="row box"
+        initial={{opacity:0}}
+        whileInView={{opacity:1}}
+        transition={{duration:0.8}}
+      >
+        <div className="col paragraph-box">
+            <h1>Theme</h1>
+            <p className="content-box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime earum pariatur nulla non. Obcaecati eum amet veritatis doloremque sint, consectetur doloribus tempora aliquid aperiam fuga iure nihil molestias harum facilis!</p>
+        </div>
+        <div className="col">
+          <YoutubeVideo embedId={"tCoJ8lzj1-s"} width={"580"} height={"380"}/>
+        </div>
+      </motion.div>
       </div>
+
+
+
+
+
       <h1 style={{
         fontFamily: "Spaceboards",
         width:"100%",
         textAlign:"center",
-        marginBottom:"1em"
+        marginBottom:"1em",
+        marginTop:"5%"
       }}
       >Our Sponsors</h1>
+      <div style={{
+        minWidth:"100%",
+        minHeight:"100vh"
+      }}>
+
+      </div>
       <h1 style={{
           textAlign:"center"
         }}
@@ -66,10 +100,11 @@ const Home = () => {
           boxShadow:"0 7px 20px 5px #00000088"
         }}>
           <Slider {...setting}>
-            <YoutubeVideo embedId={"UBOHA9a5NIQ"}/>          
-            <YoutubeVideo embedId={"UBOHA9a5NIQ"}/>          
-            <YoutubeVideo embedId={"UBOHA9a5NIQ"}/>          
-            <YoutubeVideo embedId={"UBOHA9a5NIQ"}/>          
+          {youtube.slice(0,).map((item, index) => {
+              return (
+                  <YoutubeVideo emberId={item} width={"368"} height={"200"}/>
+              )
+            })}
           </Slider>
         </div>
 

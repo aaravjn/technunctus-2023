@@ -73,7 +73,7 @@ export const eventsData = [
   },
   {
     Key: 9,
-    Event_Name: "Crypto Stimulation Competition",
+    Event_Name: "Crypto Stimulation",
     Domain: "Fintech",
     Mode: "Online",
     Description: "Mock Crypto Trading Competition",

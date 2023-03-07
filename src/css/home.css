@@ -5,6 +5,7 @@
 }
 
 .title-box {
+    background-image: url("../assets/home_bg.png");
     min-height: 100vh;
     width: 100vw;
     background-size: 100%;
@@ -24,12 +25,16 @@
 
 }
 .theme {
+    background-color: grey !important;
+    display: flex;
+    justify-content: center;
     background-size: cover;
     padding-top: 5em;
     background: transparent;
     width: 100%;
     min-height: 100vh;
     padding-bottom: 10%;
+    padding-left: 1em;
 }
 .technun-logo {
     position:relative;
@@ -38,9 +43,8 @@
     height: 300px;
 }
 
-.team-word {
-    background: transparent;
-    padding-top: 10%;
-    width: 100vw;
-    min-height: 100vh;
+.content-box {
+    border-left: solid;
+    padding-left: 1em;
+    font-size: 1.5em;
 }
