@@ -1,5 +1,5 @@
 import "../css/navbar.css"
-import logo from "../assets/logo.png"
+import logo from "../assets/white_logo.png"
 import { Box } from '@mui/material'
 import React, {useState} from 'react';
 import {motion, AnimatePresence, useViewportScroll} from "framer-motion";
@@ -104,12 +104,12 @@ export default function Navbar() {
                       />
                   </motion.div>
                   {(windowSize.current[0] > 700) &&(
-                      <>
+                      <div style={{marginRight:"auto", marginLeft:"auto"}}>
                         <a class="nav-link link" href="/" style={{textDecoration:"none", fontSize:"1.2em", marginLeft:"auto", marginRight:"20px"}}>Home</a>
                         <a class="nav-link link" href="/Sponsors" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Sponsors</a>
                         <a class="nav-link link" href="/OurTeam" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Our Team</a>                      
                         <a class="nav-link link" href="/Events" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Events</a>
-                      </>
+                      </div>
                     
                   )}                    
                   <SetButton val={open} />

@@ -2,8 +2,6 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-//Components
-
 import Navbar from "../components/navbar";
 import Footer from "../components/Footer/footer";
 import "../css/home.css"
@@ -29,10 +27,26 @@ const Home = () => {
     <div style={{overflowX:"hidden"}}>
       <Navbar />
       <div className="title-box">
-        <div className="title text-center">
-          <p style={{color:"#ffde59", fontSize:"1.5em"}}>IIT Jammu Presents</p>
-          <h1 style={{fontSize:"6em", height:"1.3em"}}><span style={{position:"relative", left:"10px"}}>Technunc</span><span><img src={require("../assets/white_logo.png")} style={{height:"1.5em", width:"1.3em", position:"relative", bottom:"45px"}}/></span><span style={{position:"relative", right:"10px"}}>us</span></h1>
-          <p style={{color:"#ffde59", fontSize:"1.5em"}}>IGNITING THE TECH REVOLUTION || 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</p>
+        <div className="title text-left"
+          style={{
+            position:"absolute",
+            left:"10%",
+          }}
+        >
+          <p style={{color:"#fff", fontSize:"1.5em", fontFamily:"Josefin sans"}}>IIT Jammu Presents</p>
+          
+          <h1 style={{fontSize:"4.5em", height:"1.3em"}}><span>Technunc</span>
+          <span><img src={require("../assets/title_logo.png")} 
+          style={{
+            height:"1.5em", 
+            width:"2.5em", 
+            position:"relative", 
+            bottom:"40px",
+            right:"50px",
+            }}/></span>
+          <span style={{position:"relative", right:"95px"}}>us</span></h1>
+          
+          <p style={{color:"#fff", fontSize:"2em", fontFamily:"Benedict"}}>Igniting the tech revolution <span style={{fontFamily:"Josephin Sans", fontSize:"0.7em"}}>|| 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</span></p>
         </div>
       </div>
 

@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "Technoboard";
-    src: local("TechnoBoard"),
-      url("../fonts/TechnoBoard.ttf") format("truetype");
-}
-@font-face {
     font-family: "Spaceboards";
     src: local("Spaceboards"),
       url("../fonts/Spaceboards.otf") format("opentype");
+}
+@font-face {
+    font-family: "MullerBold";
+    src: local("MullerBold"),
+      url("../fonts/MullerBold.ttf") format("truetype");
 }
 
 .menu {
@@ -67,15 +67,13 @@
 }
 .link{
     color: #F0FFFF;
-    font-family: "Spaceboards";
+    font-family: "MullerBold";
+	text-transform: uppercase;
+	display: inline-block;
 }
 .nav_link {
 	text-decoration: none;
 	margin-top: 1.5em;
-}
-.links{
-    margin-left: auto;
-    margin-right: 2%;
 }
 .brand{
     font-family: "Technoboard";

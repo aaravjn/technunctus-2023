@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 @font-face {
     font-family: "Stopmotion";
     src: local("Stopmotion"),
       url("../fonts/Stopmotion.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Benedict";
+    src: local("Benedict"),
+      url("../fonts/Benedict.otf") format("opentype");
+}
+
 .title-box {
-    background-image: url("../assets/home_bg.png");
+    background-image: url("../assets/home_bg.jpg");
     min-height: 100vh;
     width: 100vw;
     background-size: 100%;
@@ -20,8 +28,7 @@
     padding-top: 4em;
 }
 .title h1 {
-    color: white;
-    /* text-shadow: 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6; */
+    text-shadow: 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 
 }
 .theme {
