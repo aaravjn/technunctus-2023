@@ -10,25 +10,26 @@ const Event= () => {
   return (
     <>
       <Navbar />
-      <h1 style={{paddingTop:"3em", marginBottom:"2em", marginLeft:"10%", fontFamily:"Spaceboards"}}> Competitions</h1>
-      
-      <div style={{
-        overflowWrap:"break-word",
-        paddingLeft:"7%",
-      }}>
-        {eventsData.slice(0,19).map((item, index) => {
-            return (
-              <Card {...item} />
-            )
-        })}
+      <div>
+        <h1 style={{paddingTop:"3em", marginBottom:"2em", fontFamily:"Spaceboards", textAlign:"center"}}> Competitions</h1>
         
+        <div style={{
+          overflowWrap:"break-word",
+          textAlign:"center"
+        }}>
+          {eventsData.slice(0,19).map((item, index) => {
+              return (
+                <Card {...item} />
+              )
+          })}
+          
+        </div>
       </div>
-
-      <h1 style={{marginTop:"3em", marginBottom:"2em", marginLeft:"10%", fontFamily:"Spaceboards"}}> WorkShops</h1>
+      <h1 style={{marginTop:"3em", marginBottom:"2em", fontFamily:"Spaceboards", textAlign:"center"}}> WorkShops</h1>
       
       <div style={{
         overflowWrap:"break-word",
-        paddingLeft:"7%",
+        textAlign:"center"
       }}>
         {eventsData.slice(20,23).map((item, index) => {
             return (
@@ -39,15 +40,15 @@ const Event= () => {
       
       <h1 style={{
         marginTop:"2em", 
-        marginBottom:"2em", 
-        marginLeft:"10%",
+        marginBottom:"2em",
+        textAlign:"center",
         fontFamily:"Spaceboards"
       }}
       >Talks</h1>
       
       <div style={{
         overflowWrap:"break-word",
-        paddingLeft:"7%",
+        textAlign:"center"
       }}>
         {eventsData.slice(23,24).map((item, index) => {
             return (

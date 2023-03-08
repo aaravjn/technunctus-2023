@@ -1,7 +1,6 @@
 import "../../css/event_card.scss"
 import "../../css/event_card.css"
 import {React, useState } from 'react'
-import { Navigate } from "react-router-dom"
 
 const CompetitionCard = ({Key, Event_Name, Domain, Mode, Description, Release_Date, Location}) => {
     const [open, setOpen] = useState(false)

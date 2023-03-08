@@ -9,6 +9,8 @@ import YoutubeVideo from "../components/youtubeVideo"
 import { motion } from "framer-motion"
 import youtube from "../data/youtube"
 import instagra_posts from "../data/instagram"
+import EventInfo from "../components/Events/Event";
+import { Button } from "@mui/material";
 
 const Home = () => {
   const setting = {
@@ -25,8 +27,7 @@ const Home = () => {
 
   };
   return (
-    <div>
-      {/* style={{overflowX:"hidden"}} */}
+    <div style={{overflowX:"hidden"}}>
       <Navbar />
       <div className="title-box">
         <div className="title text-left"
@@ -79,9 +80,6 @@ const Home = () => {
       </motion.div>
       </div>
       
-      
-
-
       <div className="theme">
       <motion.div className="row box"
         initial={{opacity:0}}
@@ -97,8 +95,17 @@ const Home = () => {
         </div>
       </motion.div>
       </div>
-
-
+      
+      <div style={{
+        width:"100%",
+        minheight:"100vh",
+      }}>
+        <h1 style={{width:"100%", textAlign:"center", marginBottom:"1em", marginTop:"2em"}}>Some of our Events</h1>
+        <EventInfo />
+        <EventInfo />
+        <EventInfo />
+        <EventInfo />
+      </div>
 
 
 
@@ -114,51 +121,52 @@ const Home = () => {
         minWidth:"100%",
         minHeight:"100vh"
       }}>
-
       </div>
-      <h1 style={{
-          textAlign:"center"
-        }}
-        >OUR SOCIALS</h1>
-        <div style={{
-          marginTop:"2em", 
-          width:"90%",
-          marginBottom:"2em",
-          marginLeft:"auto",
-          marginRight:"auto",
-          boxShadow:"0 7px 20px 5px #00000088"
-        }}>
-          <Slider {...setting}>
-            {youtube.map((item, index) => {
-                return (
-                    <YoutubeVideo embedId={item} width={"368"} height={"200"}/>
-                )
-            })}
-          </Slider>
-        </div>
-      
-      <div style={{
-        paddingRight:"1em",
-        paddingLeft:"1em",
-        overflowWrap:"break-word",
-        textAlign:"center"
-      }}>
 
-        {instagra_posts.map((item, index) => {
-          return (
-            <iframe 
-              width={"320"} 
-              height={"460"} 
-              src={`https://www.instagram.com/p/${item}/embed`} 
-              frameborder="0"
-              style={{borderRadius:"10px", margin:"1em"}}
-            >
-            </iframe>
-          )
-        })}
-      </div>
-      
+      <div style={{minWidth:"100%", minHeight:"100vh"}}>
+          <h1 style={{
+            textAlign:"center"
+          }}
+          >OUR SOCIALS</h1>
+          <div style={{
+            marginTop:"2em", 
+            width:"90%",
+            marginBottom:"2em",
+            marginLeft:"auto",
+            marginRight:"auto",
+            boxShadow:"0 7px 20px 5px #00000088"
+          }}>
+            <Slider {...setting}>
+              {youtube.map((item, index) => {
+                  return (
+                      <YoutubeVideo embedId={item} width={"368"} height={"200"}/>
+                  )
+              })}
+            </Slider>
+          </div>
         
+        <div style={{
+          paddingRight:"1em",
+          paddingLeft:"1em",
+          overflowWrap:"break-word",
+          textAlign:"center"
+        }}>
+
+          {instagra_posts.map((item, index) => {
+            return (
+              <iframe 
+                width={"320"} 
+                height={"460"} 
+                src={`https://www.instagram.com/p/${item}/embed`} 
+                frameborder="0"
+                style={{borderRadius:"10px", margin:"1em"}}
+              >
+              </iframe>
+            )
+          })}
+        </div>
+      </div>
+
       <Footer/>
     </div>
   );
