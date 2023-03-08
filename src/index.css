@@ -15,11 +15,6 @@ code {
     monospace;
 }
 @font-face {
-  font-family: "Technoboard";
-  src: local("TechnoBoard"),
-    url("fonts/TechnoBoard.ttf") format("truetype");
-}
-@font-face {
   font-family: "Spaceboards";
   src: local("Spaceboards"),
     url("fonts/Spaceboards.otf") format("opentype");
