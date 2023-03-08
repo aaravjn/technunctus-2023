@@ -8,6 +8,7 @@ import "../css/home.css"
 import YoutubeVideo from "../components/youtubeVideo"
 import { motion } from "framer-motion"
 import youtube from "../data/youtube"
+import instagra_posts from "../data/instagram"
 
 const Home = () => {
   const setting = {
@@ -24,7 +25,8 @@ const Home = () => {
 
   };
   return (
-    <div style={{overflowX:"hidden"}}>
+    <div>
+      {/* style={{overflowX:"hidden"}} */}
       <Navbar />
       <div className="title-box">
         <div className="title text-left"
@@ -117,7 +119,7 @@ const Home = () => {
       <h1 style={{
           textAlign:"center"
         }}
-        >Socials & FAQs</h1>
+        >OUR SOCIALS</h1>
         <div style={{
           marginTop:"2em", 
           width:"90%",
@@ -127,14 +129,35 @@ const Home = () => {
           boxShadow:"0 7px 20px 5px #00000088"
         }}>
           <Slider {...setting}>
-          {youtube.slice(0,).map((item, index) => {
-              return (
-                  <YoutubeVideo emberId={item} width={"368"} height={"200"}/>
-              )
+            {youtube.map((item, index) => {
+                return (
+                    <YoutubeVideo embedId={item} width={"368"} height={"200"}/>
+                )
             })}
           </Slider>
         </div>
+      
+      <div style={{
+        paddingRight:"1em",
+        paddingLeft:"1em",
+        overflowWrap:"break-word",
+        textAlign:"center"
+      }}>
 
+        {instagra_posts.map((item, index) => {
+          return (
+            <iframe 
+              width={"320"} 
+              height={"460"} 
+              src={`https://www.instagram.com/p/${item}/embed`} 
+              frameborder="0"
+              style={{borderRadius:"10px", margin:"1em"}}
+            >
+            </iframe>
+          )
+        })}
+      </div>
+      
         
       <Footer/>
     </div>
