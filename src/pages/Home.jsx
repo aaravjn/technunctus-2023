@@ -51,20 +51,33 @@ const Home = () => {
       </div>
 
 
-      <div className="theme">
-      <motion.div className="row box"
+      <div>
+      <motion.div className="row"
         initial={{opacity:0}}
         whileInView={{opacity:1}}
         transition={{duration:0.8}}
+        style={{
+          minHeight:"100vh",
+          width:"100%",
+          paddingTop:"7%"
+        }}
       >
-        <div className="col paragraph-box">
-            <h1>About</h1>
-            <p className="content-box container-fluid">
-              Technunctus 2023 is the 5th Edition of the annual technical festival of IIT Jammu. It is a magnificent stage to foster creativity among students. Various colleges participate in this pan-India event, including all IITs and NITs. It’s not just a platform to compete but also to learn from your competitors. It is a fabulous opportunity to showcase your talent and passion among the thousands. Hold up your seats for three days of mega-events, including a wide range of competitions, talks by experts in their respective fields, and many more fun and thrilling events. Exciting events range from Robotics and Astronomy to Coding to AI and Finance. 
+        <div className="col">
+          <img src={require("../assets/logo.png")} style={{
+            height:"60%",
+            width:"50%" 
+          }}/>
+        </div>
+        <div className="col">
+            <h1 style={{width:"100%", textAlign:"right", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em"}}>About</h1>
+            <p className="container-fluid" style={{fontFamily:"ABeeZee", fontSize:"1.2em"}}>
+              Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.              
             </p>
         </div>
       </motion.div>
       </div>
+      
+      
 
 
       <div className="theme">

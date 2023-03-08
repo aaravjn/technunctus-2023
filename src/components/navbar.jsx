@@ -87,7 +87,7 @@ export default function Navbar() {
               transition={{duration:1}} 
               style={{paddingLeft:"1.5em", width:"100vw !important"}}
             >
-                  <motion.div className="link"
+                  <motion.div
                     animate={{y:9}}
                     transition={{
                       ease: "easeInOut",
@@ -105,10 +105,10 @@ export default function Navbar() {
                   </motion.div>
                   {(windowSize.current[0] > 700) &&(
                       <div style={{marginRight:"auto", marginLeft:"auto"}}>
-                        <a class="nav-link link" href="/" style={{textDecoration:"none", fontSize:"1.2em", marginLeft:"auto", marginRight:"20px"}}>Home</a>
-                        <a class="nav-link link" href="/Sponsors" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Sponsors</a>
-                        <a class="nav-link link" href="/OurTeam" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Our Team</a>                      
-                        <a class="nav-link link" href="/Events" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Events</a>
+                        <a className="link" href="/" style={{textDecoration:"none", fontSize:"1.2em", marginLeft:"auto", marginRight:"20px"}}>Home</a>
+                        <a className="link" href="/Sponsors" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Sponsors</a>
+                        <a className="link" href="/OurTeam" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Our Team</a>                      
+                        <a className="link" href="/Events" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Events</a>
                       </div>
                     
                   )}                    

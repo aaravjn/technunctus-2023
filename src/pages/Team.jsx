@@ -39,7 +39,7 @@ const Team = () => {
             }}>
             {team_data.slice(0,1).map((item, index) => {
                 return (
-                    <Tilt style={{display:"inline-block"}}>
+                    <Tilt style={{display:"inline-block"}} tiltMaxAngleX={"7"} tiltMaxAngleY={"7"}>
                         <TeamCard {...item} />
                     </Tilt>
                 )
@@ -57,7 +57,7 @@ const Team = () => {
             }}>
             {team_data.slice(1,5).map((item, index) => {
                 return (
-                    <Tilt style={{display:"inline-block"}}>
+                    <Tilt style={{display:"inline-block"}} tiltMaxAngleX={"7"} tiltMaxAngleY={"7"}>
                         <TeamCard {...item} />
                     </Tilt>
                 )
@@ -75,7 +75,7 @@ const Team = () => {
             }}>
             {team_data.slice(5,).map((item, index) => {
                 return (
-                    <Tilt style={{display:"inline-block"}}>
+                    <Tilt style={{display:"inline-block"}} tiltMaxAngleX={"7"} tiltMaxAngleY={"7"}>
                         <TeamCard {...item} />
                     </Tilt>
                 )
