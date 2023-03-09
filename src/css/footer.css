@@ -1,155 +1,35 @@
-.footer{
+.footer {
+    padding-top: 5%;
+    padding-bottom: 3%;
     background-color: black;
-    min-height: 100vh;
-}
-img{
-    width: 40px;
-    height: 40px;
-}
-.iitjammuicon{
-    width: 150px;
-    height: 65px;
-}
-.technunctuslogo {
-    width: 150px;
-    height: 150px;
-}
-.footer-container
-{
-    display: flex;
-    justify-content: space-between;
 }
 ul{
-	list-style: none;
+    list-style-type: none;
 }
-.footer-col {
-    width: 25%;
-    padding: 0 15px;
-    display : flex ;
-    margin : 230px 0px 0px 70px ;
- }
-.footer-links{
-    width: 150px !important;
-    margin-right: 20px;
+a {
+    text-decoration: none;
 }
- .footer-col h4{
-     font-size: 18px;
-     color: #ffffff;
-     text-transform: capitalize;
-     margin-bottom: 35px;
-     font-weight: 500;
-     position: relative;
- }
- .footer-col h4::before{
-     content: '';
-     position: absolute;
-     left:0;
-     bottom: -10px;
-     background-color: #e91e63;
-     height: 2px;
-     box-sizing: border-box;
-     width: 50px;
- }
- .footer-col ul li:not(:last-child){
-     margin-bottom: 10px;
- }
- .footer-col ul li a{
-     font-size: 16px;
-     text-transform: capitalize;
-     color: #ffffff;
-     text-decoration: none;
-     font-weight: 300;
-     color: #bbbbbb;
-     display: block;
-     transition: all 0.3s ease;
- }
- .footer-col ul li a:hover{
-     color: #ffffff;
-     padding-left: 8px;
- }
- .footer-col .social-links a{
-     display: inline-block;
-     height: 40px;
-     width: 40px;
-     background-color: #495057;
-     margin:0 10px 10px 0;
-     text-align: center;
-     line-height: 40px;
-     border-radius: 50%;
-     color: #ffffff;
-     transition: all 0.5s ease;
- }
- .footer-col .social-links a:hover{
-     color: #212529;
-     background-color: #ffffff;
-
- }.footer-col-2{
-    width: 25%;
-    padding: 0 15px;
-    display : flex ;
-    margin : 14rem 3rem 0px 0px ;
-    flex-direction: column;
- }
- .footer-col-2 h4{
-     font-size: 18px;
-     color: #ffffff;
-     
-     text-transform: capitalize;
-     margin-bottom: 35px;
-     font-weight: 500;
-     position: relative;
- }
- .footer-col-2 h4::before{
-     content: '';
-     position: absolute;
-     left:0;
-     bottom: -10px;
-     background-color: #e91e63;
-     height: 2px;
-     box-sizing: border-box;
-     width: 50px;
- }
- .footer-col-2 ul li:not(:last-child){
-     margin-bottom: 10px;
- }
- .footer-col-2 ul li a{
-     font-size: 16px;
-     text-transform: capitalize;
-     color: #ffffff;
-     text-decoration: none;
-     font-weight: 300;
-     color: #bbbbbb;
-     display: block;
-     transition: all 0.3s ease;
- }
- .footer-col-2 ul li a:hover{
-     color: #ffffff;
-     padding-left: 8px;
- }
- .footer-col-2 .social-links a{
-     display: inline-block;
-     height: 40px;
-     width: 40px;
-     /* background-color: rgba(255,255,255,0.2); */
-     margin:0 10px 10px 0;
-     text-align: center;
-     line-height: 40px;
-     border-radius: 50%;
-     color: #ffffff;
-     transition: all 0.5s ease;
- }
- .footer-col-2 .social-links a:hover{
-     background-color: grey;
-     background-color: #ffffff;
- }
- .footer-link
- {
-    display: flex;
-    justify-content: center;
-    margin: 1rem 6rem 1rem 1rem;
- }
+.f-link {
+    color: white;
+}
+.footer-col-1 li{
+    margin-bottom: 10px;
+}
+.footer-col-2 li{
+    margin-bottom: 10px;
+}
+/* .f-link:hover {
+    padding-left: 14px;
+} */
+.social-links li{
+    display: inline-block;
+}
+.social-links{
+    margin-bottom: 0;
+}
 .aarav:hover {
     background: -webkit-linear-gradient(216deg, rgba(176,11,210,1) 0%, rgba(194,24,66,1) 35%, rgba(14,30,219,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
