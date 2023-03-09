@@ -36,7 +36,14 @@ const CompetitionCard = ({Key, Event_Name, Domain, Mode, Description, Release_Da
             {" "+Location}
             </p>
         </div>
-        <div style={{width:"100%", textAlign:"center", marginTop:"auto", marginBottom:"0px"}}>
+        <div 
+        style={{
+            width:"100%", 
+            textAlign:"center", 
+            position:"absolute",
+            bottom:"5px",
+            right:"0px"
+        }}>
             <a href="https://www.google.com" className="card-buttons" style={{width:"100%", textDecoration:"none"}}>
                 <button className="btn d-block" style={{width:"100%", color:"#0a6ba8"}}>MORE</button>
             </a>

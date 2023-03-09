@@ -29,7 +29,7 @@ export default function Navbar() {
 
     const variants = {
       visible: { background: "transparent" },
-      blur: { backdropFilter: "blur(40px)" }
+      blur: { backgroundColor: "black" }
     };
 
     const isOpen = ()=>{
