@@ -168,13 +168,13 @@ export default function Navbar() {
               <motion.a href="/OurTeam"
                  initial={{y:80,opacity:0}}
                  animate={{y:0, opacity:1}}
-                 transition={{delay:.5}}
+                 transition={{delay:.3}}
                  exit={{
                   opacity:0,
                   y:90,
                     transition:{
                       ease:"easeInOut",
-                      delay:.4
+                      delay:.2
                     }
                  }}
                  className="link nav_link"

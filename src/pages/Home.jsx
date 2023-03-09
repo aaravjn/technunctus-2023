@@ -28,14 +28,14 @@ const Home = () => {
 
   };
   return (
-    <div style={{overflowX:"hidden"}}>
+    <div style={{overflowX: "hidden"}}>
       <Navbar />
       <div className="title-box">
+        <img src={require("../assets/home_bg.jpg")} alt="bg"
+          className="title-box-bg"
+          style={{objectFit:"cover", position:"absolute", top:"0px", right:"0px", height:"100vh", width:"100vw", zIndex:"-1"}}
+        />
         <div className="title text-left"
-          style={{
-            position:"absolute",
-            left:"10%",
-          }}
         >
           <p style={{color:"#fff", fontSize:"1.5em", fontFamily:"Josefin sans"}}>IIT Jammu Presents</p>
           
@@ -45,12 +45,18 @@ const Home = () => {
             height:"1.5em", 
             width:"2.5em", 
             position:"relative", 
-            bottom:"40px",
-            right:"50px",
+            bottom:"0.5em",
+            right:"0.8em",
+            objectFit:"cover"
             }}/></span>
-          <span style={{position:"relative", right:"95px"}}>us</span></h1>
+          <span style={{position:"relative", right:"1.5em"}}>us</span></h1>
           
-          <p style={{color:"#fff", fontSize:"2em", fontFamily:"Benedict"}}>Igniting the tech revolution <span style={{fontFamily:"Josephin Sans", fontSize:"0.7em"}}>|| 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</span></p>
+          <div 
+            style={{color:"#fff", fontSize:"2em", fontFamily:"Benedict"}}
+            className="theme-title"
+            >
+              Igniting the tech revolution 
+              <span className="ignite" style={{fontFamily:"Josephin Sans", fontSize:"0.7em"}}>|| 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</span></div>
         </div>
       </div>
 
@@ -66,7 +72,7 @@ const Home = () => {
             paddingTop:"7%"
           }}
         >
-          <div className="col" style={{paddingLeft:"10%", paddingTop:"5%"}}>
+          <div className="col d-sm-none" style={{paddingLeft:"10%", paddingTop:"5%"}}>
             <img src={require("../assets/logo.png")} style={{
               height:"70%",
               width:"60%"
@@ -92,7 +98,7 @@ const Home = () => {
             <p className="content-box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime earum pariatur nulla non. Obcaecati eum amet veritatis doloremque sint, consectetur doloribus tempora aliquid aperiam fuga iure nihil molestias harum facilis!</p>
         </div>
         <div className="col">
-          <YoutubeVideo embedId={"tCoJ8lzj1-s"} width={"580"} height={"380"}/>
+          {/* <YoutubeVideo embedId={"tCoJ8lzj1-s"} width={"580"} height={"380"}/> */}
         </div>
       </motion.div>
     </div>
@@ -162,13 +168,13 @@ const Home = () => {
             marginRight:"auto",
             boxShadow:"0 7px 20px 5px #00000088"
           }}>
-            <Slider {...setting}>
+            {/* <Slider {...setting}>
               {youtube.map((item, index) => {
                   return (
                       <YoutubeVideo embedId={item} width={"368"} height={"200"}/>
                   )
               })}
-            </Slider>
+            </Slider> */}
           </div>
         
         <div style={{
@@ -178,7 +184,7 @@ const Home = () => {
           textAlign:"center"
         }}>
 
-          {instagra_posts.map((item, index) => {
+          {/* {instagra_posts.map((item, index) => {
             return (
               <iframe 
                 width={"320"} 
@@ -189,7 +195,7 @@ const Home = () => {
               >
               </iframe>
             )
-          })}
+          })} */}
         </div>
       </div>
 

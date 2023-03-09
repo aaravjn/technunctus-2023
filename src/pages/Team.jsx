@@ -1,4 +1,4 @@
-import TeamCard from "../components/Team/team"
+import TeamCard from "../components/Team/TeamCard"
 import Navbar from "../components/navbar";
 import Footer from "../components/Footer/footer";
 import team_data from "../data/team_data"
@@ -6,16 +6,30 @@ import Tilt from 'react-parallax-tilt'
 
 const Team = () => {
     return (
-        <div style={{overflowX:"hidden"}}>
-              
+        <div 
+        style={{
+            overflowX:"hidden",
+        }}>
             <img style={{
                 width:"100%",
                 height:"100vh",
                 position:"fixed",
                 zIndex:"-1"
             }}
-            
-            src="https://dl.dropbox.com/s/mpmu0gjtxv2x3fs/Webp.net-resizeimage%20%281%29.jpg?raw=1" alt="" />
+            src={require("../assets/team_bg.png")}/>
+
+            <div style={{
+                width:"100%", 
+                height:"100vh",
+                display:"flex",
+                justifyContent:"center",
+                alignItems:"center"
+            }}>
+                <h1>
+                    Our Team
+                </h1>
+            </div>
+
             <Navbar />
             <h2 style={{
                 paddingTop:"4em",

@@ -9,7 +9,19 @@ export default function Footer() {
         <>
 
                 <footer className="footer row">
-                    <ul className='col-3 footer-col-1' style={{marginLeft:"4%"}}>
+                    <ul className='col-md-3 col-sm-6 footer-col-1' style={{marginLeft:"4%"}}>
+                        <li>
+                            <h4>
+                                Quick Links
+                                <hr style={{
+                                    border:"none",
+                                    height:"3px",
+                                    width:"30%",
+                                    backgroundColor:"#4cbb17",
+                                    opacity:"1"
+                                }}/>
+                            </h4>
+                        </li>
                         <li>
                             <Link to="/" >
                                 <motion.a className='f-link'
@@ -77,7 +89,7 @@ export default function Footer() {
                                         paddingLeft:"12px",
                                         transition:{duration:0.2}
                                     }}
-                                >Privacy Policy</motion.a>
+                                >Privacy <br/>Policy</motion.a>
                             </Link>
                         </li>
                         <li>
@@ -105,7 +117,7 @@ export default function Footer() {
                             </Link>
                         </li>
                     </ul>
-                    <ul className='col footer-col-2'>
+                    <ul className='col-md-4 col-sm-5 footer-col-2'>
                         <li>
                             <h4 className='profiles-heading'>Developers' github profile</h4>
                             <hr style={{
@@ -147,13 +159,13 @@ export default function Footer() {
                             </Link>
                         </li>
                     </ul>
-                    <div className="col" style={{
+                    <div className="col-md-4" style={{
                         paddingLeft:"10%",
                     }}>
                         <img
                             src={require("../../assets/logo.png")}
                             alt="Footer Head Logo"
-                            style={{height:"50%", width:"45%"}}
+                            style={{height:"200px", width:"200px"}}
                         />
                         <p style={{fontWeight:"bold"}}>Technunctus</p>
                         <p>Indian Institute of Technology, Jammu</p>

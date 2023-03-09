@@ -14,19 +14,17 @@
 }
 
 .title-box {
-    background-image: url("../assets/home_bg.jpg");
     min-height: 100vh;
     width: 100vw;
-    background-size: 100%;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    padding-top: 10%;
+    align-items: center;
+    margin-left: 10%;
 }
 
 .title {
     font-family: "Stopmotion";
-    padding-top: 4em;
+    white-space: nowrap;
+    width: 39em;
 }
 .title h1 {
     text-shadow: 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
@@ -50,4 +48,27 @@
 
 .about-us {
     background-image: url("../assets/about_us.jpg");
+}
+
+@media (max-width: 850px) {
+    .title-box{
+        font-size: 0.9em;
+        margin-left: 0px;
+        justify-content: center;
+    }
+}
+@media (max-width: 700px) {
+    .title-box{
+        text-align: center;
+        font-size: 0.7em;
+        margin-left: 0px;
+        justify-content: center;
+    }
+}
+@media (max-width: 450px) {
+    .title-box{
+        font-size: 0.6em;
+        margin-left: 0px;
+        justify-content: center;
+    }
 }

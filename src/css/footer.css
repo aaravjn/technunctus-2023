@@ -1,8 +1,7 @@
 .footer {
-    padding-top: 5%;
-    padding-bottom: 3%;
+    padding: 4%;
     background-color: black;
-    padding-right: 1%;
+    padding-left: 6%;
 }
 ul{
     list-style-type: none;
@@ -12,6 +11,9 @@ a {
 }
 .f-link {
     color: white;
+}
+.footer-col-1 {
+    margin-left: 0 !important;
 }
 .footer-col-1 li{
     margin-bottom: 10px;
@@ -33,4 +35,3 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
