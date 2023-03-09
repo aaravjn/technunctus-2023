@@ -10,7 +10,6 @@ import { motion } from "framer-motion"
 import youtube from "../data/youtube"
 import instagra_posts from "../data/instagram"
 import EventCard from "../components/Events/Event_Card"
-import { borderRight } from "@mui/system";
 import {eventsData} from "../data/events_data"
 
 const Home = () => {
@@ -33,7 +32,7 @@ const Home = () => {
       <div className="title-box">
         <img src={require("../assets/home_bg.jpg")} alt="bg"
           className="title-box-bg"
-          style={{objectFit:"cover", position:"absolute", top:"0px", right:"0px", height:"100vh", width:"100vw", zIndex:"-1"}}
+          style={{position:"absolute", top:"0px", right:"0px", height:"100vh", width:"100vw", zIndex:"-1"}}
         />
         <div className="title text-left"
         >
@@ -117,7 +116,7 @@ const Home = () => {
         <EventCard {...eventsData[2]}/>
         
         <a href="/Events" style={{textDecoration:"none"}}>
-          <motion.button 
+          <motion.button
           className="btn"
           whileHover={{scale:1.1}}
           style={{
@@ -131,6 +130,7 @@ const Home = () => {
             fontSize:"1.5em",
             borderImage:"linear-gradient(#f6b73c, #4d9f0c) 30"
           }}
+          transition={{duration:0.3}}
           
           >
           Load More...

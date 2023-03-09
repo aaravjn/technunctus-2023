@@ -29,7 +29,7 @@ export default function Navbar() {
 
     const variants = {
       visible: { background: "transparent"},
-      blur: { backgroundColor: "black" }
+      blur: { backdropFilter: "blur(40px)" }
     };
 
     const isOpen = ()=>{
@@ -82,7 +82,10 @@ export default function Navbar() {
             
             <motion.nav
               className="navbar fixed-top"
-              style={{paddingLeft:"1.5em", width:"100vw !important", backgroundColor:"black"}}
+              variants={variants}
+              animate={blur ? "blur": "visible"}
+              transition={{duration:1}}
+              style={{paddingLeft:"1.5em", width:"100vw !important"}}
             >
                   <motion.div
                     animate={{y:9}}

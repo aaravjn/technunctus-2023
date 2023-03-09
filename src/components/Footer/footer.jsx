@@ -86,10 +86,10 @@ export default function Footer() {
                             <Link to="/policy" >
                                 <motion.a className='f-link'
                                     whileHover={{
-                                        paddingLeft:"12px",
+                                        paddingLeft:"20px",
                                         transition:{duration:0.2}
                                     }}
-                                >Privacy <br/>Policy</motion.a>
+                                >Privacy Policy</motion.a>
                             </Link>
                         </li>
                         <li>

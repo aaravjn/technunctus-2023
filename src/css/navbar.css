@@ -100,7 +100,6 @@
     top: 7px;
 }
 .menu_container {
-	background-color: #000;
 	position: fixed;
 	display: flex;
 	justify-content: center;
