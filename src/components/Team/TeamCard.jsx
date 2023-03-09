@@ -11,7 +11,7 @@ import { motion } from 'framer-motion'
 export default function Team({key, name, type, contact_no, email, insta_id, linkedin, source_url}) {
     
     return (
-        <> 
+    <div> 
        <motion.div class="card" 
         initial={{opacity:0}}
         whileInView={{opacity:1}}
@@ -71,6 +71,6 @@ export default function Team({key, name, type, contact_no, email, insta_id, link
         </motion.a>
         </div>
       </motion.div>
-    </>
+    </div>
     )
 }

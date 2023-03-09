@@ -14,8 +14,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-@font-face {
-  font-family: "Spaceboards";
-  src: local("Spaceboards"),
-    url("fonts/Spaceboards.otf") format("opentype");
+body{
+  background-color: black !important;
 }

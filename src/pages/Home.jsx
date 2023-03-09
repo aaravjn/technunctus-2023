@@ -154,7 +154,7 @@ const Home = () => {
         minHeight:"100vh"
       }}>
       </div>
-
+      
       <div style={{minWidth:"100%", minHeight:"100vh"}}>
           <h1 style={{
             textAlign:"center"
@@ -168,13 +168,13 @@ const Home = () => {
             marginRight:"auto",
             boxShadow:"0 7px 20px 5px #00000088"
           }}>
-            {/* <Slider {...setting}>
+            <Slider {...setting}>
               {youtube.map((item, index) => {
                   return (
                       <YoutubeVideo embedId={item} width={"368"} height={"200"}/>
                   )
               })}
-            </Slider> */}
+            </Slider>
           </div>
         
         <div style={{
@@ -184,7 +184,7 @@ const Home = () => {
           textAlign:"center"
         }}>
 
-          {/* {instagra_posts.map((item, index) => {
+          {instagra_posts.map((item, index) => {
             return (
               <iframe 
                 width={"320"} 
@@ -195,7 +195,7 @@ const Home = () => {
               >
               </iframe>
             )
-          })} */}
+          })}
         </div>
       </div>
 
