@@ -18,15 +18,14 @@
     width: 230px;
     border-radius: 10px;
     background: transparent;
-    margin: 0px auto 10px auto;
-    left: 0;
-    right: 0;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
 .card-img img{
     height: 86%;
 	width: 86%;
-    margin-left: 7%;
-    margin-top: 7%;
 }
 .desc{
     width: 100%;

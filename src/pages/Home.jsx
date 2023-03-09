@@ -9,8 +9,9 @@ import YoutubeVideo from "../components/youtubeVideo"
 import { motion } from "framer-motion"
 import youtube from "../data/youtube"
 import instagra_posts from "../data/instagram"
-import EventInfo from "../components/Events/Event";
-import { Button } from "@mui/material";
+import EventCard from "../components/Events/Event_Card"
+import { borderRight } from "@mui/system";
+import {eventsData} from "../data/events_data"
 
 const Home = () => {
   const setting = {
@@ -54,34 +55,34 @@ const Home = () => {
       </div>
 
 
-      <div>
-      <motion.div className="row"
-        initial={{opacity:0}}
-        whileInView={{opacity:1}}
-        transition={{duration:0.8}}
-        style={{
-          minHeight:"100vh",
-          width:"100%",
-          paddingTop:"7%"
-        }}
-      >
-        <div className="col">
-          <img src={require("../assets/logo.png")} style={{
-            height:"60%",
-            width:"50%" 
-          }}/>
-        </div>
-        <div className="col">
-            <h1 style={{width:"100%", textAlign:"right", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em"}}>About</h1>
-            <p className="container-fluid" style={{fontFamily:"ABeeZee", fontSize:"1.2em"}}>
-              Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.              
-            </p>
-        </div>
-      </motion.div>
+      <div className="about-us">
+        <motion.div className="row"
+          initial={{opacity:0}}
+          whileInView={{opacity:1}}
+          transition={{duration:0.8}}
+          style={{
+            minHeight:"100vh",
+            width:"100%",
+            paddingTop:"7%"
+          }}
+        >
+          <div className="col" style={{paddingLeft:"10%", paddingTop:"5%"}}>
+            <img src={require("../assets/logo.png")} style={{
+              height:"70%",
+              width:"60%"
+            }}/>
+          </div>
+          <div className="col">
+              <h1 style={{width:"100%", textAlign:"right", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em"}}>About</h1>
+              <p className="container-fluid" style={{fontFamily:"ABeeZee", fontSize:"1.2em"}}>
+                Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.              
+              </p>
+          </div>
+        </motion.div>
       </div>
       
-      <div className="theme">
-      <motion.div className="row box"
+    <div className="theme">
+      <motion.div className="row"
         initial={{opacity:0}}
         whileInView={{opacity:1}}
         transition={{duration:0.8}}
@@ -94,17 +95,42 @@ const Home = () => {
           <YoutubeVideo embedId={"tCoJ8lzj1-s"} width={"580"} height={"380"}/>
         </div>
       </motion.div>
-      </div>
+    </div>
       
       <div style={{
         width:"100%",
         minheight:"100vh",
-      }}>
-        <h1 style={{width:"100%", textAlign:"center", marginBottom:"1em", marginTop:"2em"}}>Some of our Events</h1>
-        <EventInfo />
-        <EventInfo />
-        <EventInfo />
-        <EventInfo />
+        textAlign:"center",
+        paddingBottom:"2em"
+      }}
+      className="events"
+      >
+        <h1 style={{width:"100%", paddingTop:"2em"}}>Some of our Events</h1>
+        <EventCard {...eventsData[0]}/>
+        <EventCard {...eventsData[1]}/>
+        <EventCard {...eventsData[2]}/>
+        
+        <a href="/Events" style={{textDecoration:"none"}}>
+          <motion.button 
+          className="btn"
+          whileHover={{scale:1.1}}
+          style={{
+            width:"200px",
+            height:"75px",
+            display:"block",
+            margin:"auto",
+            marginTop:"2em",
+            border:"2px solid",
+            color:"#39FF14",
+            fontSize:"1.5em",
+            borderImage:"linear-gradient(#f6b73c, #4d9f0c) 30"
+          }}
+          
+          >
+          Load More...
+          </motion.button>
+        </a>
+
       </div>
 
 
@@ -171,6 +197,6 @@ const Home = () => {
     </div>
   );
 };
+
+
 export default Home;
-
-

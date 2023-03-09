@@ -1,19 +1,25 @@
 import "../../css/event_card.scss"
 import "../../css/event_card.css"
-import {React, useState } from 'react'
+import {React } from 'react'
+import { motion } from "framer-motion"
 
 const CompetitionCard = ({Key, Event_Name, Domain, Mode, Description, Release_Date, Location}) => {
-    const [open, setOpen] = useState(false)
     return (
     <>
     <div class="nft">
         <div className='main'>
-        <img className='tokenImage' style={{
-            height:"250px",
-            width:"100%"
-        }}
-            src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
-        />
+            <div style={{height:"250px", width:"100%", overflow:"hidden", borderRadius:".5rem"}}>
+            <motion.img className='tokenImage' style={{
+                height:"250px",
+                width:"100%",
+            }}
+            whileHover={{
+                scale: 1.2,
+                transition:{ duration : 1}
+            }}
+                src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+            />
+            </div>
         <h2>{Event_Name}</h2>
         <hr />
         <p class='description'>{Description}</p>

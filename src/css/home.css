@@ -33,10 +33,10 @@
 
 }
 .theme {
-    background-color: grey !important;
+    background-image: url("../assets/theme_bg.jpg") !important;
     display: flex;
     justify-content: center;
-    background-size: cover;
+    background-size: 100%;
     padding-top: 5em;
     background: transparent;
     width: 100%;
@@ -44,9 +44,10 @@
     padding-bottom: 10%;
     padding-left: 1em;
 }
-.technun-logo {
-    position:relative;
-    left: 20%;
-    width: 300px;
-    height: 300px;
+.events{
+    background-image: url("../assets//events_bg.jpg");
+}
+
+.about-us {
+    background-image: url("../assets/about_us.jpg");
 }
