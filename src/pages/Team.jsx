@@ -6,7 +6,7 @@ import Tilt from 'react-parallax-tilt'
 
 const Team = () => {
     return (
-        <div>
+        <div style={{overflowX:"hidden"}}>
               
             <img style={{
                 width:"100%",
@@ -17,15 +17,8 @@ const Team = () => {
             
             src="https://dl.dropbox.com/s/mpmu0gjtxv2x3fs/Webp.net-resizeimage%20%281%29.jpg?raw=1" alt="" />
             <Navbar />
-            <h1 style={{
-                paddingTop: "3em",
-                marginBottom:"1em",
-                fontFamily: "Spaceboards",
-                width:"100%",
-                textAlign:"center",
-            }}
-            > Our Team </h1>
             <h2 style={{
+                paddingTop:"4em",
                 width:"100%",
                 textAlign:"center",
                 marginBottom:"2em"

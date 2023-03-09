@@ -3,10 +3,10 @@ import Footer from "../components/Footer/footer";
 
 const Sponsors = () => {
     return (
-        <>
+        <div style={{overflowX:"hidden"}}>
             <Navbar />
             <Footer />
-        </>
+        </div>
     )
 }
 

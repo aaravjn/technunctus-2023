@@ -8,10 +8,10 @@ import Card from "../components/Events/Event_Card"
 
 const Event= () => {
   return (
-    <>
+    <div style={{overflowX:"hidden"}}>
       <Navbar />
       <div>
-        <h1 style={{paddingTop:"3em", marginBottom:"2em", fontFamily:"Spaceboards", textAlign:"center"}}> Competitions</h1>
+        <h1 style={{paddingTop:"3em", marginBottom:"2em", fontFamily:"MullerBold", textAlign:"center"}}> Competitions</h1>
         
         <div style={{
           overflowWrap:"break-word",
@@ -25,7 +25,7 @@ const Event= () => {
           
         </div>
       </div>
-      <h1 style={{marginTop:"3em", marginBottom:"2em", fontFamily:"Spaceboards", textAlign:"center"}}> WorkShops</h1>
+      <h1 style={{marginTop:"3em", marginBottom:"2em", fontFamily:"MullerBold", textAlign:"center"}}> WorkShops</h1>
       
       <div style={{
         overflowWrap:"break-word",
@@ -42,7 +42,7 @@ const Event= () => {
         marginTop:"2em", 
         marginBottom:"2em",
         textAlign:"center",
-        fontFamily:"Spaceboards"
+        fontFamily:"MullerBold"
       }}
       >Talks</h1>
       
@@ -57,7 +57,7 @@ const Event= () => {
         })}
       </div> 
       <Footer />
-    </>
+    </div>
   )
 }
 
