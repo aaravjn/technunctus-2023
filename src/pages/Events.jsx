@@ -9,13 +9,28 @@ import Card from "../components/Events/Event_Card"
 const Event= () => {
   return (
     <div style={{overflowX:"hidden"}}>
+      <div style={{
+          position:"absolute", 
+          top:"0px", 
+          zIndex:"2", 
+          width:"100%", 
+          height:"100vh",
+          display:"flex",
+          justifyContent:"center",
+          alignItems:"center",
+          backgroundColor:"rgba(0, 0, 0, 0.3)",
+        }}>
+          <h1 style={{fontFamily:"MullerBold", fontSize:"5em"}}>EVENTS</h1>
+      </div>
       
       <img style={{
           width:"100%",
           height:"100vh",
-          zIndex:"2"
+          zIndex:"1",
+          objectFit:"cover"
       }}
-      src={require("../assets/events_header.png")}/>
+      src={require("../assets/events_header.jpg")}/>
+      
       <img style={{
           width:"100%",
           height:"100vh",
@@ -23,7 +38,7 @@ const Event= () => {
           position:"fixed",
           top:"0px",
           left:"0px",
-          opacity:"0.3"  
+          opacity:"0.6"  
       }}
       src={require("../assets/events_bg.jpg")} />
       <Navbar />

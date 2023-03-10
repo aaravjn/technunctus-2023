@@ -30,7 +30,7 @@ export default function Team({key, name, type, contact_no, email, insta_id, link
             initial={false}
             animate={{z:30}}
         >
-            <span>
+            <span style={{display:(contact_no === "#") ? "none" : "inline-block"}}>
                 <IconButton>
                     <CallIcon className="text-sm text-white"/>
                 </IconButton>
@@ -41,7 +41,7 @@ export default function Team({key, name, type, contact_no, email, insta_id, link
             initial={false}
             animate={{z:30}}
         >
-          <span>
+          <span style={{display:(email === "#") ? "none" : "inline-block"}}>
             <IconButton>
                 <AlternateEmailIcon className="text-sm text-white"/>
             </IconButton>
@@ -52,7 +52,7 @@ export default function Team({key, name, type, contact_no, email, insta_id, link
             initial={false}
             animate={{z:30}}
         >
-            <span>
+            <span style={{display:(insta_id === "#") ? "none" : "inline-block"}}>
                 <IconButton>
                     <InstagramIcon className="text-sm text-white"/>
                 </IconButton>
@@ -63,7 +63,7 @@ export default function Team({key, name, type, contact_no, email, insta_id, link
             initial={false}
             animate={{z:30}}
         >
-            <span>
+            <span style={{display:(linkedin === "#") ? "none" : "inline-block"}}>
                 <IconButton>
                     <LinkedInIcon className="text-sm text-white"/>
                 </IconButton>

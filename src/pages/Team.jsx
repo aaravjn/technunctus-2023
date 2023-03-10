@@ -11,12 +11,26 @@ const Team = () => {
             overflowX:"hidden",
         }}
         >
+            <div style={{
+                position:"absolute", 
+                top:"0px", 
+                zIndex:"2", 
+                width:"100%", 
+                height:"100vh",
+                display:"flex",
+                justifyContent:"center",
+                alignItems:"center",
+                backgroundColor:"rgba(0, 0, 0, .2)",
+            }}>
+                <h1 style={{fontFamily:"MullerBold", fontSize:"5em"}}>OUR TEAM</h1>
+            </div>    
             <img style={{
                 width:"100%",
                 height:"100vh",
-                zIndex:"2"
+                zIndex:"1"
             }}
             src={require("../assets/team_bg.png")} />
+            
             <img style={{
                 width:"100%",
                 height:"100vh",
@@ -24,7 +38,7 @@ const Team = () => {
                 position:"fixed",
                 top:"0px",
                 left:"0px",
-                opacity:"0.3"  
+                opacity:"0.4"  
             }}
             src={require("../assets/team_rest_bg.jpg")} />
             <Navbar />

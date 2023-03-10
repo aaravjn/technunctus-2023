@@ -39,7 +39,7 @@ const Home = () => {
           <p style={{color:"#fff", fontSize:"1.5em", fontFamily:"Josefin sans"}}>IIT Jammu Presents</p>
           
           <h1 style={{fontSize:"4.5em", height:"1.3em"}}><span>Technunc</span>
-          <span><img src={require("../assets/title_logo.png")} 
+          <span><img src={require("../assets/title_logo.png")}
           style={{
             height:"1.5em", 
             width:"2.5em", 
@@ -60,25 +60,21 @@ const Home = () => {
       </div>
 
 
-      <div className="about-us">
+      <div className="about-us"
+        style={{
+          minHeight:"100vh",
+          width:"100%",
+          paddingTop:"7%",
+          paddingRight:"7%"
+        }}>
         <motion.div className="row"
           initial={{opacity:0}}
           whileInView={{opacity:1}}
           transition={{duration:0.8}}
-          style={{
-            minHeight:"100vh",
-            width:"100%",
-            paddingTop:"7%"
-          }}
         >
-          <div className="col d-sm-none" style={{paddingLeft:"10%", paddingTop:"5%"}}>
-            <img src={require("../assets/logo.png")} style={{
-              height:"70%",
-              width:"60%"
-            }}/>
-          </div>
-          <div className="col">
-              <h1 style={{width:"100%", textAlign:"right", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em"}}>About</h1>
+          <div className="col-md-6"></div>
+          <div className="col-6">
+              <h1 style={{width:"100%", textAlign:"right", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em", color:"#ffde59"}}>About</h1>
               <p className="container-fluid" style={{fontFamily:"ABeeZee", fontSize:"1.2em"}}>
                 Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.              
               </p>
@@ -92,17 +88,25 @@ const Home = () => {
         whileInView={{opacity:1}}
         transition={{duration:0.8}}
       >
-        <div className="col paragraph-box">
-            <h1>Theme</h1>
-            <p className="content-box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime earum pariatur nulla non. Obcaecati eum amet veritatis doloremque sint, consectetur doloribus tempora aliquid aperiam fuga iure nihil molestias harum facilis!</p>
-        </div>
         <div className="col">
-          {/* <YoutubeVideo embedId={"tCoJ8lzj1-s"} width={"580"} height={"380"}/> */}
+          <YoutubeVideo embedId={"tCoJ8lzj1-s"} width={"580"} height={"380"}/>
+        </div>
+
+        <div className="col paragraph-box">
+            <h1 style={{fontFamily:"Stopmotion", fontSize:"4em", color:"#ffde59"}}>Theme Reveal</h1>
+            <p style={{fontFamily:"ABeeZee", fontSize:"1.2em"}}>Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.</p>
         </div>
       </motion.div>
     </div>
-      
-      <div style={{
+    
+    <div className="row glimpse" style={{height:"100vh", width:"100%", paddingTop:"7%", paddingLeft:"7%"}}>
+      <div className="col">
+        <h1 style={{fontFamily:"Stopmotion", color:"#ffde59"}}><span style={{fontFamily:"ABeeZee", fontWeight:"bold", color:"white"}}>GLIMPSE OF</span> <br/> TECHNUNCTUS'22</h1>
+        
+      </div>
+    </div>
+    
+    <div style={{
         width:"100%",
         minheight:"100vh",
         textAlign:"center",
@@ -110,7 +114,7 @@ const Home = () => {
       }}
       className="events"
       >
-        <h1 style={{width:"100%", paddingTop:"2em"}}>Some of our Events</h1>
+        <h1 style={{width:"100%", paddingTop:"2em", color:"#ffde59", fontFamily:"Stopmotion"}}>Some of our Events</h1>
         <EventCard {...eventsData[0]}/>
         <EventCard {...eventsData[1]}/>
         <EventCard {...eventsData[2]}/>
@@ -137,8 +141,8 @@ const Home = () => {
           </motion.button>
         </a>
 
-      </div>
-
+    </div>
+      
 
 
       <h1 style={{
@@ -151,11 +155,12 @@ const Home = () => {
       >Our Sponsors</h1>
       <div style={{
         minWidth:"100%",
-        minHeight:"100vh"
+        minHeight:"100vh",
+
       }}>
       </div>
       
-      <div style={{minWidth:"100%", minHeight:"100vh"}}>
+      {/* <div style={{minWidth:"100%", minHeight:"100vh"}}>
           <h1 style={{
             textAlign:"center"
           }}
@@ -197,7 +202,7 @@ const Home = () => {
             )
           })}
         </div>
-      </div>
+      </div> */}
 
       <Footer/>
     </div>

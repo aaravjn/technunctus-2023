@@ -155,7 +155,7 @@ const team_data = [
     key: 2,
     name: "Riya Jain",
     type: "Infrastructure Team Head",
-    contact_no: "",
+    contact_no: "#",
     email: "2020ucs0091@iitjammu.ac.in",
     insta_id: "#",
     linkedin: "#",
@@ -168,7 +168,7 @@ const team_data = [
     contact_no: "+91 7991594025",
     email: "2021uee0153@iitjammu.ac.in",
     insta_id: "https://instagram.com/satyanshsharma3?igshid=NTA5ZTk1NTc=",
-    linkedin: "",
+    linkedin: "#",
     source_url: "/teamheads/satyansh.jpg"
 }, {
     key: 3,
@@ -226,7 +226,7 @@ const team_data = [
     contact_no: "+91 8077899543",
     email: "2020uee0136@iitjammu.ac.in",
     insta_id: "https://instagram.com/its_me_prabhakar_048?igshid=OGQ2MjdiOTE=",
-    linkedin: "",
+    linkedin: "#",
     source_url: "/teamheads/prabhakar.jpg"
 },
  {
@@ -236,7 +236,7 @@ const team_data = [
     contact_no: "+91 7073747490",
     email: "2021uce0065@iitjammu.ac.in",
     insta_id: "https://instagram.com/its_mohit_yadav_?igshid=NTA5ZTk1NTc=",
-    linkedin: "",
+    linkedin: "#",
     source_url: "/teamheads/mohit.jpg"
 },
  {
@@ -245,8 +245,8 @@ const team_data = [
     type: "Security Co head",
     contact_no: "+91 9821946173",
     email: "2021uee0130@iitjammu.ac.in",
-    insta_id: "",
-    linkedin: "",
+    insta_id: "#",
+    linkedin: "#",
     source_url: "/teamheads/anant.jpg"
 },{
     key: 4,
@@ -254,8 +254,8 @@ const team_data = [
     type: "Security team co-head",
     contact_no: "+91 96537 42509",
     email: "2021uee0129@iitjammu.ac.in",
-    insta_id: "",
-    linkedin: "",
+    insta_id: "#",
+    linkedin: "#",
     source_url: "/teamheads/amit.jpg"
 },
 
