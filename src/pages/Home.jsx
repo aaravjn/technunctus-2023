@@ -13,6 +13,10 @@ import EventCard from "../components/Events/Event_Card"
 import {eventsData} from "../data/events_data"
 import DataCard from "../components/DataCard"
 
+import logo from "../assets/white_logo.png"
+import logo2 from "../assets/shadow_technunctus_logo.png"
+import { Box } from '@mui/material'
+
 
 const Home = () => {
   const setting = {
@@ -29,35 +33,57 @@ const Home = () => {
 
   };
   return (
-    <div style={{overflowX: "hidden"}}>
+    <div style={{ overflowX: "hidden" }}>
       <Navbar />
       <div className="title-box">
-        {/* <img src={require("../assets/home_bg.jpg")} alt="bg"
+        <img src={require("../assets/home_bg.jpg")} alt="bg"
           className="title-box-bg"
-          style={{position:"absolute", top:"0px", right:"0px", height:"100vh", width:"100vw", zIndex:"-1"}}
-        /> */}
+          style={{ objectFit: "cover", position: "absolute", top: "0px", right: "0px", height: "100vh", width: "100vw", zIndex: "-1" }}
+        />
         <div className="title text-left"
         >
-          <p style={{color:"#fff", fontSize:"1.5em", fontFamily:"Josefin sans"}}>IIT Jammu Presents</p>
-          
-          <h1 style={{fontSize:"4.5em", height:"1.3em"}}><span>Technunc</span>
-          <span><img src={require("../assets/title_logo.png")}
-          style={{
-            height:"1.5em", 
-            width:"2.5em", 
-            position:"relative", 
-            bottom:"0.5em",
-            right:"0.8em",
-            objectFit:"cover"
-            }}/></span>
-          <span style={{position:"relative", right:"1.5em"}}>us</span></h1>
-          
-          <div 
-            style={{color:"#fff", fontSize:"2em", fontFamily:"Benedict"}}
+          <div style={{ color: "#fff", fontSize: "1.5em", fontFamily: "Josefin sans" }}>IIT Jammu Presents</div>
+          <div className="namecontainer">
+            <h1 style={{ fontSize: "4.5em", height: "1.3em" }}>Technunc</h1>
+            <div className="logoDiv">
+                               
+                <motion.div
+                animate={{ y: 9  }}
+
+                
+                transition={{
+                  ease: "easeInOut",
+                  repeat: Infinity,
+                  duration: 1.25,
+                  repeatType: "reverse",
+                }}
+              >
+                
+                <Box
+                  component='img'
+                  sx={{ height: 150, width: 150,  transform: "translate(-38px , -80px)"}}
+                  alt="logo"
+                  src={logo}
+                />
+               
+              </motion.div>  
+              <Box
+                  component='img'
+                  sx={{ height: 250, width: 250, transform: "translate(-88px , -300px)" }}
+                  alt="logo2"
+                  src={logo2}
+                />
+              
+              </div> 
+              <h1 style={{ fontSize: "4.5em", height: "1.3em"  , width : "1em" }}>us</h1>
+          </div>
+
+          <div
+            style={{ color: "#fff", fontSize: "2em", fontFamily: "Benedict" }}
             className="theme-title"
-            >
-              Igniting the tech revolution 
-              <span className="ignite" style={{fontFamily:"Josephin Sans", fontSize:"0.7em"}}>|| 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</span></div>
+          >
+            Igniting the tech revolution
+            <span className="ignite" style={{ fontFamily: "Josephin Sans", fontSize: "0.7em" }}>|| 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</span></div>
         </div>
       </div>
 
