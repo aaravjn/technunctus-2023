@@ -36,3 +36,8 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.quick:hover {
+    background: -webkit-linear-gradient(216deg, rgb(21, 11, 210) 0%, rgba(194,24,66,1) 35%, rgb(14, 219, 93) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
