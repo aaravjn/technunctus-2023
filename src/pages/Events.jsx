@@ -1,5 +1,6 @@
 import React from 'react'
 import { eventsData } from '../data/events_data'
+import "../css/event.css"
 
 //Components
 import Navbar from "../components/navbar"
@@ -21,7 +22,7 @@ const Event= () => {
           alignItems:"center",
           backgroundColor:"rgba(0, 0, 0, 0.3)",
         }}>
-          <h1 style={{fontFamily:"MullerBold", fontSize:"5em"}}>EVENTS</h1>
+          <h1 className="event-heading" style={{fontFamily:"MullerBold", fontSize:"5em"}}>EVENTS</h1>
       </div>
       
       <img style={{

@@ -1,0 +1,5 @@
+@media (max-width: 500px) {
+    .event-heading {
+        font-size: 3em !important;
+    }
+}
