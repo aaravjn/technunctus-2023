@@ -28,35 +28,42 @@ export default function Footer() {
                         </li>
                         <li>
                             <Link to="/Home" >
-                                <motion.a className='f-link'
+                                <motion.a className='quick f-link'
                                     whileHover={while_hover}
                                 >Home</motion.a>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/Events" >
-                                <motion.a className='f-link'
+                            <Link to="/a" >
+                                <motion.a className='quick f-link'
+                                    whileHover={while_hover}
+                                >About Us</motion.a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/e" >
+                                <motion.a className='quick f-link'
                                     whileHover={while_hover}
                                 >Events</motion.a>
                             </Link>
                         </li>
                         <li>
                             <Link to="/Sponsors">
-                                <motion.a className='f-link'
+                                <motion.a className='quick f-link'
                                     whileHover={while_hover}
                                 >Sponsors</motion.a>
                             </Link>
                         </li>
                         <li>
                             <Link to="/t/night">
-                                <motion.a className='f-link'
+                                <motion.a className='quick f-link'
                                     whileHover={while_hover}
                                 >TechNights</motion.a>
                             </Link>
                         </li>
                         <li>
                             <Link to="/OurTeam">
-                                <motion.a className='f-link'
+                                <motion.a className='quick f-link'
                                     whileHover={while_hover}
                                 >Our Team</motion.a>
                             </Link>
@@ -83,14 +90,14 @@ export default function Footer() {
                         </li>
                         <li>
                             <Link to="https://github.com/kapiswayprakhar15" >
-                                <motion.a className='f-link'
+                                <motion.a className='aarav f-link'
                                     whileHover={while_hover}
                                 >Prakhar Kapisway</motion.a>
                             </Link>
                         </li>{" "}
                         <li>
                             <Link to="https://github.com/yshubham8419" >
-                                <motion.a className='f-link'
+                                <motion.a className='aarav f-link'
                                     whileHover={while_hover}
                                 >Shubham Yadav</motion.a>
                             </Link>
