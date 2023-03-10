@@ -103,11 +103,10 @@
         font-size: 0.7em;
     }
     .theme-content {
-        height: 20%;
+        height: 30%;
     }
     .youtube-video {
         width: 70% !important;
-        margin-top: 0 !important;
         height: 80% !important;
     }
 }
