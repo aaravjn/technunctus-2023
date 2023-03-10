@@ -19,13 +19,13 @@ const team_data = [
     source_url: "/teamheads/premveer.jpg"
 }, {
     key: 1002,
-    name: "Krishnendu Maity",
+    name: "Shoran Dabas",
     type: "Convener",
-    contact_no: "+91 7602209745",
-    email: "2020uch0010@iitjammu.ac.in",
-    insta_id: "https://www.instagram.com/invites/contact/?i=12vtwbuzawlev&utm_content=3xvyrsc",
-    linkedin: "https://www.linkedin.com/in/krishnendu-maity-08729820a",
-    source_url: "/teamheads/krishnendu.jpg"
+    contact_no: "+91 7838464715",
+    email: "2020uce0062@iitjammu.ac.in",
+    insta_id: "https://instagram.com/shoran__7?igshid=ZDdkNTZiNTM=",
+    linkedin: "#",
+    source_url: "/teamheads/shoran.jpg"
 }, {
     key: 1003,
     name: "Gaurav Jagarbad",
