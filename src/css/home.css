@@ -19,6 +19,8 @@
     display: flex;
     align-items: center;
     margin-left: 10%;
+    background-image: url("../assets/home_bg.jpg");
+    background-size: cover;
 }
 
 .title {
@@ -32,7 +34,7 @@
 
 .glimpse {
     background-image: url("../assets/glimpse.jpg");
-    background-size: 100%;
+    background-size: cover;
 }
 .theme {
     background-image: url("../assets/theme_bg.jpg") !important;
@@ -42,16 +44,32 @@
     padding-top: 5em;
     width: 100%;
     min-height: 100vh;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     padding-left: 1em;
+    padding-top: 3%;
 }
 .events{
     background-image: url("../assets/events_bg.jpg");
 }
 
 .about-us {
-    background-image: url("../assets/about_us.jpg") !important;
-    background-size: 100%;
+    background-image: url("../assets/about_us.jpg");
+    background-size: cover;
+}
+@media (max-width: 1000px) {
+    .theme{
+        font-size: 0.9em;
+    }
+    .glimpse{
+        background-image: url("../assets/glimpse_m.jpg");
+    }
+    .prev-data {
+        text-align: center !important;
+        font-size: 0.8em;
+    }
+    .prev-data h1 {
+        margin-left: 0px !important;
+    }
 }
 
 @media (max-width: 850px) {
@@ -60,6 +78,27 @@
         margin-left: 0px;
         justify-content: center;
     }
+    .about-us{
+        font-size: 0.9em;
+    }
+    .theme {
+        font-size: 0.8em;
+    }
+    .theme-video {
+        padding-top: 10% !important;
+        padding-bottom: 10% !important;
+    }
+}
+@media (max-width: 767px) {
+    .theme-video {
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+        padding-top: 0% !important;
+        padding-bottom: 0% !important;
+    }
+    .theme {
+        font-size: 0.7em;
+    }
 }
 @media (max-width: 700px) {
     .title-box{
@@ -67,11 +106,31 @@
         font-size: 0.7em;
         margin-left: 0px;
         justify-content: center;
+        background-image: url("../assets/home_bg_m.jpg");
+    }
+    .about-us {
+        font-size: 0.7em;
+        padding-right: 1% !important;
+    }
+}
+@media (max-width : 576px) {
+    .about-us {
+        background-image: url("../assets/about_us_m.jpg") !important;
+        background-position-x: center;
+        background-position-y: 60%;
+        font-size: 0.55em;
+    }
+    .theme{
+        font-size: 0.6em;
+    }
+    .glimpse {
+        font-size: 0.7em;
+        background-position: 50% 65%;
     }
 }
 @media (max-width: 450px) {
     .title-box{
-        font-size: 0.6em;
+        font-size: 0.45em;
         margin-left: 0px;
         justify-content: center;
     }

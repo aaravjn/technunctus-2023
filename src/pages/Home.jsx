@@ -1,16 +1,18 @@
 import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import Navbar from "../components/navbar";
 import Footer from "../components/Footer/footer";
 import "../css/home.css"
 import YoutubeVideo from "../components/youtubeVideo"
 import { motion } from "framer-motion"
-import youtube from "../data/youtube"
-import instagra_posts from "../data/instagram"
+// import youtube from "../data/youtube"
+// import instagra_posts from "../data/instagram"
 import EventCard from "../components/Events/Event_Card"
 import {eventsData} from "../data/events_data"
+import DataCard from "../components/DataCard"
+
 
 const Home = () => {
   const setting = {
@@ -30,10 +32,10 @@ const Home = () => {
     <div style={{overflowX: "hidden"}}>
       <Navbar />
       <div className="title-box">
-        <img src={require("../assets/home_bg.jpg")} alt="bg"
+        {/* <img src={require("../assets/home_bg.jpg")} alt="bg"
           className="title-box-bg"
           style={{position:"absolute", top:"0px", right:"0px", height:"100vh", width:"100vw", zIndex:"-1"}}
-        />
+        /> */}
         <div className="title text-left"
         >
           <p style={{color:"#fff", fontSize:"1.5em", fontFamily:"Josefin sans"}}>IIT Jammu Presents</p>
@@ -65,16 +67,17 @@ const Home = () => {
           minHeight:"100vh",
           width:"100%",
           paddingTop:"7%",
-          paddingRight:"7%"
+          paddingRight:"5%",
+          zIndex:"1"
         }}>
         <motion.div className="row"
           initial={{opacity:0}}
           whileInView={{opacity:1}}
           transition={{duration:0.8}}
         >
-          <div className="col-md-6"></div>
-          <div className="col-6">
-              <h1 style={{width:"100%", textAlign:"right", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em", color:"#ffde59"}}>About</h1>
+          <div className="col-md-5 col-sm-6"></div>
+          <div className="col-md-7 col-sm-6">
+              <h1 style={{width:"100%", textAlign:"right", fontFamily:"Stopmotion", fontSize:"4em", color:"#ffde59"}}>About</h1>
               <p className="container-fluid" style={{fontFamily:"ABeeZee", fontSize:"1.2em"}}>
                 Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.              
               </p>
@@ -88,23 +91,37 @@ const Home = () => {
         whileInView={{opacity:1}}
         transition={{duration:0.8}}
       >
-        <div className="col">
-          <YoutubeVideo embedId={"tCoJ8lzj1-s"} width={"580"} height={"380"}/>
-        </div>
-
-        <div className="col paragraph-box">
-            <h1 style={{fontFamily:"Stopmotion", fontSize:"4em", color:"#ffde59"}}>Theme Reveal</h1>
+        <div className="col-md-6 col-sm-12">
+            <h1 style={{fontFamily:"Stopmotion", fontSize:"4em", color:"#ffde59", marginTop:"10%"}}>Theme Reveal</h1>
             <p style={{fontFamily:"ABeeZee", fontSize:"1.2em"}}>Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.</p>
         </div>
+
+        <div className="col-md-6 theme-video" style={{display:"flex", justifyContent:"center", padding:"5% 3%"}}>
+          <YoutubeVideo embedId={"tCoJ8lzj1-s"}/>
+        </div>
+      
       </motion.div>
     </div>
     
-    <div className="row glimpse" style={{height:"100vh", width:"100%", paddingTop:"7%", paddingLeft:"7%"}}>
-      <div className="col">
-        <h1 style={{fontFamily:"Stopmotion", color:"#ffde59"}}><span style={{fontFamily:"ABeeZee", fontWeight:"bold", color:"white"}}>GLIMPSE OF</span> <br/> TECHNUNCTUS'22</h1>
-        
+    
+    
+    <div className="row glimpse" style={{minHeight:"100vh", width:"100vw", paddingTop:"3%", margin:"0"}}>
+      <div className="prev-data col-lg-6 col-md-12" style={{paddingRight:"0"}}>
+        <h1 style={{fontFamily:"Stopmotion", color:"#ffde59", marginBottom:"1em", marginLeft:"1.5em"}}><span style={{fontFamily:"ABeeZee", fontWeight:"bold", color:"white"}}>GLIMPSE OF</span> <br/> TECHNUNCTUS'22</h1>
+        <div style={{display:"flex", justifyContent:"space-evenly"}}>
+          <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
+          <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
+          <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
+        </div>
+        <div style={{display:"flex", justifyContent:"space-evenly"}}>
+          <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
+          <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
+          <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
+        </div>
       </div>
     </div>
+    
+    
     
     <div style={{
         width:"100%",
