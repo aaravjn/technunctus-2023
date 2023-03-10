@@ -92,7 +92,7 @@ export default function Navbar() {
                     transition={{
                       ease: "easeInOut",
                       repeat: Infinity,
-                      duration: 1.25,
+                      duration: 0,
                       repeatType:"reverse"
                     }}
                   >
