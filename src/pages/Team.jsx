@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import Footer from "../components/Footer/footer";
 import team_data from "../data/team_data"
 import Tilt from 'react-parallax-tilt'
+import "../css/team.css"
 
 const Team = () => {
     return (
@@ -11,6 +12,7 @@ const Team = () => {
             overflowX:"hidden",
         }}
         >
+            <Navbar />
             <div style={{
                 position:"absolute", 
                 top:"0px", 
@@ -22,14 +24,15 @@ const Team = () => {
                 alignItems:"center",
                 backgroundColor:"rgba(0, 0, 0, .2)",
             }}>
-                <h1 style={{fontFamily:"MullerBold", fontSize:"5em"}}>OUR TEAM</h1>
-            </div>    
-            <img style={{
+                <h1 className="our-team-heading" style={{fontFamily:"MullerBold", fontSize:"5em", textAlign:"center"}}>OUR TEAM</h1>
+            </div>
+            
+            <div className="team-header" style={{
                 width:"100%",
                 height:"100vh",
-                zIndex:"1"
-            }}
-            src={require("../assets/team_bg.png")} />
+                zIndex:"1",
+            }}> 
+            </div>
             
             <img style={{
                 width:"100%",
@@ -41,13 +44,14 @@ const Team = () => {
                 opacity:"0.4"  
             }}
             src={require("../assets/team_rest_bg.jpg")} />
-            <Navbar />
+            
             <h2 style={{
                 paddingTop:"4em",
                 width:"100%",
                 textAlign:"center",
                 marginBottom:"2em"
             }}
+            
             >Chairperson</h2>
             <div style={{
                 display:"flex",

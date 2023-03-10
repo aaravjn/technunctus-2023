@@ -91,13 +91,15 @@ const Home = () => {
         whileInView={{opacity:1}}
         transition={{duration:0.8}}
       >
-        <div className="col-md-6 col-sm-12">
+        <div className="col-md-6 col-sm-12 theme-content" style={{paddingLeft:"0", marginLeft:"2em"}}>
             <h1 style={{fontFamily:"Stopmotion", fontSize:"4em", color:"#ffde59", marginTop:"10%"}}>Theme Reveal</h1>
-            <p style={{fontFamily:"ABeeZee", fontSize:"1.2em"}}>Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.</p>
+            <p style={{fontFamily:"ABeeZee", fontSize:"1.2em", marginBottom:"0px", paddingRight:"2em"}}>Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.</p>
         </div>
 
-        <div className="col-md-6 theme-video" style={{display:"flex", justifyContent:"center", padding:"5% 3%"}}>
-          <YoutubeVideo embedId={"tCoJ8lzj1-s"}/>
+        <div className="col-md-5" style={{display:"flex", justifyContent:"center"}}>
+          <div className="youtube-video" style={{width:"90%", height:"60%", marginTop:"6em"}}>
+            <YoutubeVideo embedId={"tCoJ8lzj1-s"}/>
+          </div>
         </div>
       
       </motion.div>
@@ -107,7 +109,7 @@ const Home = () => {
     
     <div className="row glimpse" style={{minHeight:"100vh", width:"100vw", paddingTop:"3%", margin:"0"}}>
       <div className="prev-data col-lg-6 col-md-12" style={{paddingRight:"0"}}>
-        <h1 style={{fontFamily:"Stopmotion", color:"#ffde59", marginBottom:"1em", marginLeft:"1.5em"}}><span style={{fontFamily:"ABeeZee", fontWeight:"bold", color:"white"}}>GLIMPSE OF</span> <br/> TECHNUNCTUS'22</h1>
+        <h1 style={{fontFamily:"Stopmotion", color:"#ffde59", marginBottom:"1em", marginLeft:"0.8em", fontSize:"4em"}}><span style={{fontFamily:"ABeeZee", fontWeight:"bold", color:"white", fontSize:"0.5em"}}>GLIMPSE OF</span> <br/> TECHNUNCTUS'22</h1>
         <div style={{display:"flex", justifyContent:"space-evenly"}}>
           <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
           <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>

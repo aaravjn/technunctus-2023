@@ -16,4 +16,5 @@ code {
 }
 body{
   background-color: black !important;
+  -webkit-overflow-scrolling:touch;
 }

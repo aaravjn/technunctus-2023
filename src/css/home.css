@@ -55,6 +55,7 @@
 .about-us {
     background-image: url("../assets/about_us.jpg");
     background-size: cover;
+    background-position: 50% 80%;
 }
 @media (max-width: 1000px) {
     .theme{
@@ -80,24 +81,23 @@
     }
     .about-us{
         font-size: 0.9em;
+        background-position: 15% 80% !important;
     }
     .theme {
         font-size: 0.8em;
     }
-    .theme-video {
-        padding-top: 10% !important;
-        padding-bottom: 10% !important;
-    }
 }
 @media (max-width: 767px) {
-    .theme-video {
-        padding-left: 15% !important;
-        padding-right: 15% !important;
-        padding-top: 0% !important;
-        padding-bottom: 0% !important;
-    }
     .theme {
         font-size: 0.7em;
+    }
+    .theme-content {
+        height: 20%;
+    }
+    .youtube-video {
+        width: 70% !important;
+        margin-top: 0 !important;
+        height: 80% !important;
     }
 }
 @media (max-width: 700px) {
@@ -133,5 +133,7 @@
         font-size: 0.45em;
         margin-left: 0px;
         justify-content: center;
+        align-items: baseline;
+        padding-top: 30%;
     }
 }

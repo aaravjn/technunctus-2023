@@ -9,6 +9,7 @@ import Card from "../components/Events/Event_Card"
 const Event= () => {
   return (
     <div style={{overflowX:"hidden"}}>
+      <Navbar />
       <div style={{
           position:"absolute", 
           top:"0px", 
@@ -41,7 +42,7 @@ const Event= () => {
           opacity:"0.6"  
       }}
       src={require("../assets/events_bg.jpg")} />
-      <Navbar />
+      
       <div>
         <h1 style={{paddingTop:"3em", marginBottom:"2em", fontFamily:"MullerBold", textAlign:"center"}}> Competitions</h1>
         

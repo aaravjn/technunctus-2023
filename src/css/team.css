@@ -1,0 +1,15 @@
+.team-header {
+    background-image: url("../assets/team_header.png");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@media (max-width: 500px) {
+    .team-header {
+        background-image: url("../assets/team_header_m.jpg");
+        background-position: 50% 95%;
+    }
+    .our-team-heading {
+        font-size: 3em !important;
+    }
+}
