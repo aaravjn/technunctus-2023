@@ -162,7 +162,7 @@ const Home = () => {
       }}
       className="events"
       >
-        <h1 style={{width:"100%", paddingTop:"2em", color:"#ffde59", fontFamily:"Stopmotion"}}>Some of our Events</h1>
+        <h1 style={{width:"100%", paddingTop:"1em", color:"#ffde59", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em"}}>Events</h1>
         <EventCard {...eventsData[0]}/>
         <EventCard {...eventsData[1]}/>
         <EventCard {...eventsData[2]}/>
