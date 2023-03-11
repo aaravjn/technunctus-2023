@@ -15,7 +15,7 @@ const Team = () => {
             <Navbar />
             <div style={{
                 position:"absolute", 
-                top:"0px", 
+                top:"0px",  
                 zIndex:"2", 
                 width:"100%", 
                 height:"100vh",
