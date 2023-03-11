@@ -12,4 +12,8 @@
     .our-team-heading {
         font-size: 3em !important;
     }
+} 
+.our-team-heading {
+    /* font-size: 3em !important; */
+    margin: 1px 1px 320px 20px;
 }
