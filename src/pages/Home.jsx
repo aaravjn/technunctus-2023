@@ -137,8 +137,8 @@ const Home = () => {
     
     
     <div className="row glimpse" style={{minHeight:"100vh", width:"100vw", paddingTop:"3%", margin:"0"}}>
-      <div className="prev-data col-lg-6 col-md-12" style={{paddingRight:"0"}}>
-        <h1 style={{fontFamily:"Stopmotion", color:"#ffde59", marginBottom:"1em", marginLeft:"0.8em", fontSize:"4em"}}><span style={{fontFamily:"ABeeZee", fontWeight:"bold", color:"white", fontSize:"0.5em"}}>GLIMPSE OF</span> <br/> TECHNUNCTUS'22</h1>
+      <div className="prev-data col-lg-6 col-md-12" style={{paddingRight:"0", paddingLeft:"0"}}>
+        <h1 className="glimpse-heading" style={{fontFamily:"Stopmotion", color:"#ffde59", marginBottom:"1em", marginLeft:"0.7em", fontSize:"4em"}}><span style={{fontFamily:"ABeeZee", fontWeight:"bold", color:"white", fontSize:"0.5em"}}>GLIMPSE OF</span> <br/> TECHNUNCTUS'22</h1>
         <div style={{display:"flex", justifyContent:"space-evenly"}}>
           <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
           <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
@@ -162,7 +162,7 @@ const Home = () => {
       }}
       className="events"
       >
-        <h1 style={{width:"100%", paddingTop:"1em", color:"#ffde59", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em"}}>Events</h1>
+        <h1 className="events-heading" style={{width:"100%", paddingTop:"1em", color:"#ffde59", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em"}}>Events</h1>
         <EventCard {...eventsData[0]}/>
         <EventCard {...eventsData[1]}/>
         <EventCard {...eventsData[2]}/>

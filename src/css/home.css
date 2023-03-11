@@ -83,6 +83,9 @@
     .prev-data h1 {
         margin-left: 0px !important;
     }
+    .events-heading {
+        font-size: 3.5em !important;
+    }
 }
 
 @media (max-width: 850px) {
@@ -100,6 +103,9 @@
     }
     .youtube-video {
         margin-top: 60% !important;
+    }
+    .glimpse-heading {
+        margin-left: 0px;
     }
 }
 @media (max-width: 767px) {
@@ -168,5 +174,8 @@
     .youtube-video {
         width: 75% !important;
         margin-top: 10em !important;
+    }
+    .events-heading {
+        font-size: 2.8em !important;
     }
 }

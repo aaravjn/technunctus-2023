@@ -91,7 +91,7 @@ const team_data = [
     email: "2021ume0219@iitjammu.ac.in",
     insta_id: "#",
     linkedin: "#",
-    source_url: "https://unsplash.com/photos/6TXtIhu1k4A"
+    source_url: "/teamheads/no-image.jpg"
 },
 {
     key: 4,
