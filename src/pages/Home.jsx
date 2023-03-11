@@ -45,7 +45,7 @@ const Home = () => {
           <div style={{ color: "#fff", fontSize: "1.5em", fontFamily: "Josefin sans" }}>IIT Jammu Presents</div>
           <div className="namecontainer">
             <h1 style={{ fontSize: "4.5em", height: "1.3em" }}>Technunc</h1>
-            <div className="logoDiv">
+            <a href="/Events"><div className="logoDiv">
                                
                 <motion.div
                 animate={{ y: 9  }}
@@ -79,11 +79,14 @@ const Home = () => {
                     height: 200, width: 200, transform: "translate(-62px , -253px)"
                   },
               }}
+              href="/Events"
+
                   alt="logo2"
                   src={logo2}
                 />
               
               </div> 
+              </a>
               <h1 style={{ fontSize: "4.5em", height: "1.3em"  , width : "1em" }}>us</h1>
           </div>
 

@@ -87,7 +87,7 @@ export default function Navbar() {
               transition={{duration:1}}
               style={{paddingLeft:"1.5em", width:"100vw !important"}}
             >
-                  <motion.div
+                  <a   href="/"><motion.div
                     animate={{y:9}}
                     transition={{
                       ease: "easeInOut",
@@ -102,7 +102,7 @@ export default function Navbar() {
                           alt="logo"
                           src={logo}
                       />
-                  </motion.div>
+                  </motion.div></a>
                   {(windowSize.current[0] > 700) &&(
                       <div style={{marginRight:"auto", marginLeft:"auto"}}>
                         <a className="link" href="/" style={{textDecoration:"none", fontSize:"1.2em", marginLeft:"auto", marginRight:"20px"}}>Home</a>
