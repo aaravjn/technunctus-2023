@@ -59,9 +59,15 @@ const Home = () => {
                 }}
               >
                 
-                <Box
+                <Box 
                   component='img'
-                  sx={{ height: 150, width: 150,  transform: "translate(-38px , -80px)"}}
+                  sx={{ height: 150, width: 150,  transform: "translate(-38px , -80px)",'@media screen and (max-width: 700px)': {
+                    // width: 64,
+                    // padding: 8,
+                    height: 120, width: 120,
+                    transform: "translate(-23px , -80px)",
+                  },
+              }}
                   alt="logo"
                   src={logo}
                 />
@@ -69,7 +75,10 @@ const Home = () => {
               </motion.div>  
               <Box
                   component='img'
-                  sx={{ height: 250, width: 250, transform: "translate(-88px , -300px)" }}
+                  sx={{ height: 250, width: 250, transform: "translate(-88px , -300px)" , '@media screen and (max-width: 700px)': {
+                    height: 200, width: 200, transform: "translate(-62px , -253px)"
+                  },
+              }}
                   alt="logo2"
                   src={logo2}
                 />
@@ -82,10 +91,10 @@ const Home = () => {
             style={{ color: "#fff", fontSize: "2em", fontFamily: "Benedict" }}
             className="theme-title"
           >
-            Igniting the tech revolution
-            <span className="ignite" style={{ fontFamily: "Josephin Sans", fontSize: "0.7em" }}>|| 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</span></div>
+            Igniting the Tech Revolution 
+            <span className="ignite" style={{ fontFamily: "Josephin Sans", fontSize: "0.7em" }}>         || 7<sup>th</sup> - 9<sup>th</sup> APRIL 2023</span></div>
         </div>
-      </div>
+      </div> 
 
 
     <div className="about-us"
