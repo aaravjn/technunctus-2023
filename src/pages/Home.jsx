@@ -20,7 +20,6 @@ import { Box } from '@mui/material'
 
 const Home = () => {
   const setting = {
-    centerMode: true,
     infinite: true,
     centerMode:true,
     centerPadding: "30px",
@@ -32,6 +31,15 @@ const Home = () => {
     pauseOnHover: true
 
   };
+  const buttonGradients = {
+    hover : {
+      borderColor:"#0bc8d2",
+      background:"-webkit-linear-gradient(96deg, rgba(14,31,145,1) 0%, rgba(22,212,198,1) 100%)",
+      WebkitBackgroundClip:"text",
+      WebkitTextFillColor:"transparent",
+      scale:1.1
+    }
+  }
   return (
     <div style={{ overflowX: "hidden" }}>
       <Navbar />
@@ -140,14 +148,14 @@ const Home = () => {
       <div className="prev-data col-lg-6 col-md-12" style={{paddingRight:"0", paddingLeft:"0"}}>
         <h1 className="glimpse-heading" style={{fontFamily:"Stopmotion", color:"#ffde59", marginBottom:"1em", marginLeft:"0.7em", fontSize:"4em"}}><span style={{fontFamily:"ABeeZee", fontWeight:"bold", color:"white", fontSize:"0.5em"}}>GLIMPSE OF</span> <br/> TECHNUNCTUS'22</h1>
         <div style={{display:"flex", justifyContent:"space-evenly"}}>
-          <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
-          <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
-          <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
+          <DataCard image={"/DataIcons/participants.png"} numbers={"3000"} heading={"Participants"}/>
+          <DataCard image={"/DataIcons/university.png"} numbers={"100"} heading={"Colleges"}/>
+          <DataCard image={"/DataIcons/prize pool.png"} numbers={"2.5 L"} heading={"Worth Prizes"}/>
         </div>
         <div style={{display:"flex", justifyContent:"space-evenly"}}>
-          <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
-          <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
-          <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
+          <DataCard image={"/DataIcons/sponsors.png"} numbers={"10"} heading={"Sponsors"}/>
+          <DataCard image={"/DataIcons/speakers.png"} numbers={"30"} heading={"Speakers"}/>
+          <DataCard image={"/DataIcons/events.png"} numbers={"20"} heading={"Events"}/>
         </div>
       </div>
     </div>
@@ -166,21 +174,24 @@ const Home = () => {
         <EventCard {...eventsData[0]}/>
         <EventCard {...eventsData[1]}/>
         <EventCard {...eventsData[2]}/>
-        
+        <div>
         <a href="/Events" style={{textDecoration:"none"}}>
           <motion.button
-          className="btn"
-          whileHover={{scale:1.1}}
+          className="btn gradient-button"
+          variants={buttonGradients}
+          whileHover="hover"
           style={{
             width:"200px",
             height:"75px",
-            display:"block",
             margin:"auto",
             marginTop:"2em",
-            border:"2px solid",
-            color:"#39FF14",
             fontSize:"1.5em",
-            borderImage:"linear-gradient(#f6b73c, #4d9f0c) 30"
+            borderRadius:"10px",
+            border:"2px solid",
+            borderColor:"#c21842",
+            background:"-webkit-linear-gradient(216deg, rgba(176,11,210,1) 0%, rgba(194,24,66,1) 35%, rgba(14,30,219,1) 100%)",
+            WebkitBackgroundClip:"text",
+            WebkitTextFillColor:"transparent",
           }}
           transition={{duration:0.3}}
           
@@ -188,7 +199,7 @@ const Home = () => {
           Load More...
           </motion.button>
         </a>
-
+        </div>
     </div>
       
 

@@ -69,24 +69,8 @@
     background-size: cover;
     background-position: 50% 80%;
 }
-@media (max-width: 1000px) {
-    .theme{
-        font-size: 0.9em;
-    }
-    .glimpse{
-        background-image: url("../assets/glimpse_m.jpg");
-    }
-    .prev-data {
-        text-align: center !important;
-        font-size: 0.8em;
-    }
-    .prev-data h1 {
-        margin-left: 0px !important;
-    }
-    .events-heading {
-        font-size: 3.5em !important;
-    }
-}
+
+
 
 @media (max-width: 850px) {
     .title-box{
