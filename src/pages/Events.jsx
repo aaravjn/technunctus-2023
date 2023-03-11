@@ -19,7 +19,7 @@ const Event= () => {
           height:"100vh",
           display:"flex",
           justifyContent:"center",
-          alignItems:"center",
+          paddingTop:"8em",
           backgroundColor:"rgba(0, 0, 0, 0.3)",
         }}>
           <h1 className="event-heading" style={{fontFamily:"MullerBold", fontSize:"5em"}}>EVENTS</h1>
