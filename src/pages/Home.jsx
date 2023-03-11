@@ -179,14 +179,14 @@ const Home = () => {
       <div className="prev-data col-lg-6 col-md-12" style={{paddingRight:"0", paddingLeft:"0"}}>
         <h1 className="glimpse-heading" style={{fontFamily:"Stopmotion", color:"#ffde59", marginBottom:"1em", marginLeft:"0.7em", fontSize:"4em"}}><span style={{fontFamily:"ABeeZee", fontWeight:"bold", color:"white", fontSize:"0.5em"}}>GLIMPSE OF</span> <br/> TECHNUNCTUS'22</h1>
         <div style={{display:"flex", justifyContent:"space-evenly"}}>
-          <DataCard image={"/DataIcons/participants.png"} numbers={"3000"} heading={"Participants"}/>
-          <DataCard image={"/DataIcons/university.png"} numbers={"100"} heading={"Colleges"}/>
-          <DataCard image={"/DataIcons/prize pool.png"} numbers={"2.5 L"} heading={"Worth Prizes"}/>
+          <DataCard image={"/DataIcons/participants.png"} numbers={"3000"} heading={"Participants"} extras={""}/>
+          <DataCard image={"/DataIcons/university.png"} numbers={"100"} heading={"Colleges"} extras={""}/>
+          <DataCard image={"/DataIcons/prize pool.png"} numbers={"3"} heading={"Worth Prizes"} extras={"L"}/>
         </div>
         <div style={{display:"flex", justifyContent:"space-evenly"}}>
-          <DataCard image={"/DataIcons/sponsors.png"} numbers={"10"} heading={"Sponsors"}/>
-          <DataCard image={"/DataIcons/speakers.png"} numbers={"30"} heading={"Speakers"}/>
-          <DataCard image={"/DataIcons/events.png"} numbers={"20"} heading={"Events"}/>
+          <DataCard image={"/DataIcons/sponsors.png"} numbers={"10"} heading={"Sponsors"} extras={""}/>
+          <DataCard image={"/DataIcons/speakers.png"} numbers={"30"} heading={"Speakers"} extras={""}/>
+          <DataCard image={"/DataIcons/events.png"} numbers={"20"} heading={"Events"} extras={""}/>
         </div>
       </div>
     </div>
