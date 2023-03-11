@@ -16,7 +16,7 @@ import DataCard from "../components/DataCard"
 import logo from "../assets/white_logo.png"
 import logo2 from "../assets/shadow_technunctus_logo.png"
 import { Box } from '@mui/material'
-
+ 
 
 const Home = () => {
   const setting = {
@@ -44,7 +44,7 @@ const Home = () => {
         >
           <div style={{ color: "#fff", fontSize: "1.5em", fontFamily: "Josefin sans" }}>IIT Jammu Presents</div>
           <div className="namecontainer">
-            <h1 style={{ fontSize: "4.5em", height: "1.3em" }}>Technunc</h1>
+            <h1 style={{ fontSize: "4.5em", height: "1.3em" ,transform: "translate(0px , 0px)"}}>Technunc</h1>
             <a href="/Events"><div className="logoDiv">
                                
                 <motion.div
@@ -61,12 +61,20 @@ const Home = () => {
                 
                 <Box 
                   component='img'
-                  sx={{ height: 150, width: 150,  transform: "translate(-38px , -80px)",'@media screen and (max-width: 700px)': {
-                    // width: 64,
-                    // padding: 8,
-                    height: 120, width: 120,
-                    transform: "translate(-23px , -80px)",
+                  sx={{ height: 150,
+                        width: 150,  
+                        transform: "translate(-38px , -80px)",
+                        '@media screen and (max-width: 700px)': {
+                                                                      height: 120,
+                                                                      width: 120,
+                                                                      transform: "translate(-23px , -80px)",
                   },
+                  '@media screen and (max-width: 450px)': {
+                                                                      height: 100,
+                                                                      width: 100,
+                                                                      transform: "translate(-27px , -75px)",
+                  },
+
               }}
                   alt="logo"
                   src={logo}
@@ -75,8 +83,18 @@ const Home = () => {
               </motion.div>  
               <Box
                   component='img'
-                  sx={{ height: 250, width: 250, transform: "translate(-88px , -300px)" , '@media screen and (max-width: 700px)': {
-                    height: 200, width: 200, transform: "translate(-62px , -253px)"
+                  sx={{ height: 250, 
+                        width: 250, 
+                        transform: "translate(-88px , -300px)" , 
+                        '@media screen and (max-width: 700px)': {
+                                                                        height: 200,
+                                                                        width: 200, 
+                                                                        transform: "translate(-62px , -253px)"
+                  },
+                  '@media screen and (max-width: 450px)': {
+                                                                        height: 150,
+                                                                        width: 150, 
+                                                                        transform: "translate(-52px , -203px)"
                   },
               }}
               href="/Events"
@@ -87,7 +105,8 @@ const Home = () => {
               
               </div> 
               </a>
-              <h1 style={{ fontSize: "4.5em", height: "1.3em"  , width : "1em" }}>us</h1>
+              <h1 className = "us" style={{ fontSize: "4.5em", height: "1.3em"  , width : "1em"
+      ,}}>us</h1>
           </div>
 
           <div
