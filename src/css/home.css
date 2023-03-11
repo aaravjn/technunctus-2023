@@ -70,7 +70,24 @@
     background-position: 50% 80%;
 }
 
-
+@media (max-width: 1000px) {
+    .theme{
+        font-size: 0.9em;
+    }
+    .glimpse{
+        background-image: url("../assets/glimpse_m.jpg");
+    }
+    .prev-data {
+        text-align: center !important;
+        font-size: 0.8em;
+    }
+    .prev-data h1 {
+        margin-left: 0px !important;
+    }
+    .events-heading {
+        font-size: 3.5em !important;
+    }
+}
 
 @media (max-width: 850px) {
     .title-box{
@@ -103,7 +120,7 @@
         width: 60% !important;
         height: 65% !important;
         padding-right: 0px;
-        margin-top: 7em !important;
+        margin-top: 10em !important;
     }
     .theme {
         padding-right: auto !important;
@@ -179,4 +196,14 @@
     .events-heading {
         font-size: 2.8em !important;
     }
+}
+@media (max-width: 370px) {
+    .glimpse-heading {
+        font-size: 3em !important;
+    }
+    .youtube-video {
+        height: 50% !important;
+        margin-top: 14em !important;
+    }
+
 }
