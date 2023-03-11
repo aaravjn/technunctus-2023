@@ -123,6 +123,23 @@
         font-size: 0.7em;
         padding-right: 1% !important;
     }
+    
+.namecontainer
+{
+    display: flex;
+
+}
+.logoDiv
+{
+    height: 1px;
+    width: 75px;
+}
+.change 
+{
+    height : 100px ;
+    width : 100px ;
+}
+
 }
 @media (max-width : 576px) {
     .about-us {
