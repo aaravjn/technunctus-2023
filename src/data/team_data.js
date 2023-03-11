@@ -9,15 +9,6 @@ const team_data = [
     linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
     source_url: "/teamheads/devin.jpg"
 }, {
-    key: 1001,
-    name: "Premveer Singh",
-    type: "Convener",
-    contact_no: "+91 9811122419",
-    email: "2020uch0012@iitjammu.ac.in",
-    insta_id: "https://instagram.com/follow.premveer",
-    linkedin: "https://www.linkedin.com/in/premveersingh",
-    source_url: "/teamheads/premveer.jpg"
-}, {
     key: 1002,
     name: "Shoran Dabas",
     type: "Convener",
@@ -84,15 +75,6 @@ const team_data = [
     source_url: "/teamheads/devesh.jpg"
 }, {
     key: 1,
-    name: "Shruti Meena",
-    type: "Event management team co-head",
-    contact_no: "",
-    email: "2021ume0231@iitjammu.ac.in",
-    insta_id: "#",
-    linkedin: "#",
-    source_url: "/teamheads/shruti.jpg"
-}, {
-    key: 1,
     name: "Bhavna Verma",
     type: "Event management team co-head",
     contact_no: "+91 7836989460",
@@ -109,7 +91,7 @@ const team_data = [
     email: "2021ume0219@iitjammu.ac.in",
     insta_id: "#",
     linkedin: "#",
-    source_url: "https://unsplash.com/photos/6TXtIhu1k4A"
+    source_url: "/teamheads/no-image.jpg"
 },
 {
     key: 4,

@@ -27,38 +27,24 @@ export default function Footer() {
                             </h4>
                         </li>
                         <li>
-                            <Link to="/" >
+                            <Link to="/">
                                 <motion.a className='quick f-link'
                                     whileHover={while_hover}
                                 >Home</motion.a>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/a" >
-                                <motion.a className='quick f-link'
-                                    whileHover={while_hover}
-                                >About Us</motion.a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/e" >
+                            <Link to="/Events" >
                                 <motion.a className='quick f-link'
                                     whileHover={while_hover}
                                 >Events</motion.a>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/s">
+                            <Link to="/Sponsors">
                                 <motion.a className='quick f-link'
                                     whileHover={while_hover}
                                 >Sponsors</motion.a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/h">
-                                <motion.a className='quick f-link'
-                                    whileHover={while_hover}
-                                >Highlights</motion.a>
                             </Link>
                         </li>
                         <li>
@@ -69,29 +55,29 @@ export default function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/policy" >
+                            <Link to="/OurTeam">
                                 <motion.a className='quick f-link'
                                     whileHover={while_hover}
-                                >Privacy Policy</motion.a>
+                                >Our Team</motion.a>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/terms" >
+                            <button onClick={() => {
+                                window.scrollTo({
+                                    top:0,
+                                    behavior:"smooth"
+                                })
+                            }}
+                            style={{
+                                background:"transparent",
+                                border:"none",
+                                padding:"none"
+                            }}
+                            >
                                 <motion.a className='quick f-link'
                                     whileHover={while_hover}
-                                >
-                                    Terms and Conditions
-                                </motion.a>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/cancellation" >
-                                <motion.a className='quick f-link'
-                                    whileHover={while_hover}
-                                >
-                                    Cancellation policy
-                                </motion.a>
-                            </Link>
+                                >Scroll To Top</motion.a>
+                            </button>
                         </li>
                     </ul>
                     <ul className='col-md-4 col-sm-5 footer-col-2'>
@@ -107,21 +93,21 @@ export default function Footer() {
                         </li>
                         <li>
                             <Link to="https://github.com/aaravjn">
-                                <motion.a className="aarav f-link"
+                                <motion.a className="decor f-link"
                                     whileHover={while_hover}
                                 >Aarav Jain</motion.a>
                             </Link>
                         </li>
                         <li>
                             <Link to="https://github.com/kapiswayprakhar15" >
-                                <motion.a className='aarav f-link'
+                                <motion.a className='decor f-link'
                                     whileHover={while_hover}
                                 >Prakhar Kapisway</motion.a>
                             </Link>
                         </li>{" "}
                         <li>
                             <Link to="https://github.com/yshubham8419" >
-                                <motion.a className='aarav f-link'
+                                <motion.a className='decor f-link'
                                     whileHover={while_hover}
                                 >Shubham Yadav</motion.a>
                             </Link>

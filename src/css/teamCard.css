@@ -72,3 +72,11 @@
 .member-links{
     margin-bottom: 10px;
 }
+@media (max-width : 450px) {
+    .card {
+        width: 280px;
+        height: 330px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

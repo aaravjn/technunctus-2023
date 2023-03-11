@@ -97,7 +97,7 @@ const Home = () => {
       </div> 
 
 
-      <div className="about-us"
+    <div className="about-us"
         style={{
           minHeight:"100vh",
           width:"100%",
@@ -113,12 +113,12 @@ const Home = () => {
           <div className="col-md-5 col-sm-6"></div>
           <div className="col-md-7 col-sm-6">
               <h1 style={{width:"100%", textAlign:"right", fontFamily:"Stopmotion", fontSize:"4em", color:"#ffde59"}}>About</h1>
-              <p className="container-fluid" style={{fontFamily:"ABeeZee", fontSize:"1.2em"}}>
-                Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.              
+              <p className="container-fluid" style={{fontFamily:"ABeeZee", fontSize:"1.2em", textAlign:"justify"}}>
+                Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.
               </p>
           </div>
         </motion.div>
-      </div>
+    </div>
       
     <div className="theme">
       <motion.div className="row"
@@ -126,13 +126,16 @@ const Home = () => {
         whileInView={{opacity:1}}
         transition={{duration:0.8}}
       >
-        <div className="col-md-6 col-sm-12 theme-content" style={{paddingLeft:"0", marginLeft:"2em"}}>
+        <div className="col-md-6 col-sm-12 theme-content" style={{paddingLeft:"0", marginLeft:"1em"}}>
             <h1 style={{fontFamily:"Stopmotion", fontSize:"4em", color:"#ffde59", marginTop:"10%"}}>Theme Reveal</h1>
-            <p style={{fontFamily:"ABeeZee", fontSize:"1.2em", marginBottom:"0px", paddingRight:"2em"}}>Technunctus'23 is a platform for students to manifest their talents by working on challenging problems and to learn and grow from the various talks given by industry experts on contemporary topics and issues. It boasts having more than two dozen events from a multitude of fields like robotics, astronomy, finance, programming and so forth spread across 3 days of engagement, excitement and illumination. It is a pan-India event with participants from all IITs and NITs as well as reputed colleges from Jammu and Kashmir.</p>
+            <p style={{fontFamily:"ABeeZee", fontSize:"1.2em", marginBottom:"0px", textAlign:"justify"}}>
+              Technology is constantly improving and evolving, with new advancements being made constantly. Right from the launch of the internet to the significant developments in the fields of Cloud Computing, IoT, Artificial Intelligence, Blockchain, etc., technology has come a long way, and it will continue to improve and evolve as new advancements are made.
+              To pioneer this revolution and boost everyone’s passion for technology, the theme for Technunctus this year is - Igniting the Tech Revolution. It calls all young minds to create, innovate and take risks. Technunctus’23 is the perfect platform to showcase new ideas and push the boundaries of what is possible at events and competitions on emerging technologies.
+            </p>
         </div>
 
-        <div className="col-md-5" style={{display:"flex", justifyContent:"center"}}>
-          <div className="youtube-video" style={{width:"90%", height:"60%", marginTop:"6em"}}>
+        <div className="col-md-5 yt-video-col" style={{display:"flex", justifyContent:"center", marginLeft:"3em"}}>
+          <div className="youtube-video" style={{width:"100%", height:"60%", marginTop:"10em"}}>
             <YoutubeVideo embedId={"tCoJ8lzj1-s"}/>
           </div>
         </div>
@@ -143,8 +146,8 @@ const Home = () => {
     
     
     <div className="row glimpse" style={{minHeight:"100vh", width:"100vw", paddingTop:"3%", margin:"0"}}>
-      <div className="prev-data col-lg-6 col-md-12" style={{paddingRight:"0"}}>
-        <h1 style={{fontFamily:"Stopmotion", color:"#ffde59", marginBottom:"1em", marginLeft:"0.8em", fontSize:"4em"}}><span style={{fontFamily:"ABeeZee", fontWeight:"bold", color:"white", fontSize:"0.5em"}}>GLIMPSE OF</span> <br/> TECHNUNCTUS'22</h1>
+      <div className="prev-data col-lg-6 col-md-12" style={{paddingRight:"0", paddingLeft:"0"}}>
+        <h1 className="glimpse-heading" style={{fontFamily:"Stopmotion", color:"#ffde59", marginBottom:"1em", marginLeft:"0.7em", fontSize:"4em"}}><span style={{fontFamily:"ABeeZee", fontWeight:"bold", color:"white", fontSize:"0.5em"}}>GLIMPSE OF</span> <br/> TECHNUNCTUS'22</h1>
         <div style={{display:"flex", justifyContent:"space-evenly"}}>
           <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
           <DataCard image={"/DataIcons/university.png"} numbers={"5000"} heading={"Colleges"}/>
@@ -168,7 +171,7 @@ const Home = () => {
       }}
       className="events"
       >
-        <h1 style={{width:"100%", paddingTop:"2em", color:"#ffde59", fontFamily:"Stopmotion"}}>Some of our Events</h1>
+        <h1 className="events-heading" style={{width:"100%", paddingTop:"1em", color:"#ffde59", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em"}}>Events</h1>
         <EventCard {...eventsData[0]}/>
         <EventCard {...eventsData[1]}/>
         <EventCard {...eventsData[2]}/>
@@ -265,3 +268,4 @@ const Home = () => {
 
 
 export default Home;
+
