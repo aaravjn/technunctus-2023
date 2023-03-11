@@ -117,16 +117,16 @@ const Home = () => {
         whileInView={{opacity:1}}
         transition={{duration:0.8}}
       >
-        <div className="col-md-6 col-sm-12 theme-content" style={{paddingLeft:"0", marginLeft:"2em"}}>
+        <div className="col-md-6 col-sm-12 theme-content" style={{paddingLeft:"0", marginLeft:"1em"}}>
             <h1 style={{fontFamily:"Stopmotion", fontSize:"4em", color:"#ffde59", marginTop:"10%"}}>Theme Reveal</h1>
-            <p style={{fontFamily:"ABeeZee", fontSize:"1.2em", marginBottom:"0px", paddingRight:"3em", textAlign:"justify"}}>
+            <p style={{fontFamily:"ABeeZee", fontSize:"1.2em", marginBottom:"0px", textAlign:"justify"}}>
               Technology is constantly improving and evolving, with new advancements being made constantly. Right from the launch of the internet to the significant developments in the fields of Cloud Computing, IoT, Artificial Intelligence, Blockchain, etc., technology has come a long way, and it will continue to improve and evolve as new advancements are made.
               To pioneer this revolution and boost everyone’s passion for technology, the theme for Technunctus this year is - Igniting the Tech Revolution. It calls all young minds to create, innovate and take risks. Technunctus’23 is the perfect platform to showcase new ideas and push the boundaries of what is possible at events and competitions on emerging technologies.
             </p>
         </div>
 
-        <div className="col-md-5" style={{display:"flex", justifyContent:"center"}}>
-          <div className="youtube-video" style={{width:"100%", height:"60%", marginTop:"7em"}}>
+        <div className="col-md-5 yt-video-col" style={{display:"flex", justifyContent:"center", marginLeft:"3em"}}>
+          <div className="youtube-video" style={{width:"100%", height:"60%", marginTop:"10em"}}>
             <YoutubeVideo embedId={"tCoJ8lzj1-s"}/>
           </div>
         </div>

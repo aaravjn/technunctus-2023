@@ -56,7 +56,8 @@
     width: 100%;
     min-height: 100vh;
     padding-bottom: 5%;
-    padding-left: 3em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
     padding-top: 3%;
 }
 .events{
@@ -97,6 +98,9 @@
     .theme {
         font-size: 0.8em;
     }
+    .youtube-video {
+        margin-top: 60% !important;
+    }
 }
 @media (max-width: 767px) {
     .theme {
@@ -106,8 +110,17 @@
         height: 30%;
     }
     .youtube-video {
-        width: 70% !important;
-        height: 80% !important;
+        width: 60% !important;
+        height: 65% !important;
+        padding-right: 0px;
+        margin-top: 7em !important;
+    }
+    .theme {
+        padding-right: auto !important;
+        padding-left: auto !important;
+    }
+    .yt-video-col {
+        margin-left: 0px !important;
     }
 }
 @media (max-width: 700px) {
@@ -137,6 +150,9 @@
         font-size: 0.7em;
         background-position: 50% 65%;
     }
+    .youtube-video {
+        width: 75% !important;
+    }
 }
 @media (max-width: 450px) {
     .title-box{
@@ -145,5 +161,12 @@
         justify-content: center;
         align-items: baseline;
         padding-top: 30%;
+    }
+    .theme {
+        padding-bottom: 0px;
+    }
+    .youtube-video {
+        width: 75% !important;
+        margin-top: 10em !important;
     }
 }
