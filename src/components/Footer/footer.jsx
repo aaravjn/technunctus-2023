@@ -104,13 +104,6 @@ export default function Footer() {
                                     whileHover={while_hover}
                                 >Prakhar Kapisway</motion.a>
                             </Link>
-                        </li>{" "}
-                        <li>
-                            <Link to="https://github.com/yshubham8419" >
-                                <motion.a className='decor f-link'
-                                    whileHover={while_hover}
-                                >Shubham Yadav</motion.a>
-                            </Link>
                         </li>
                     </ul>
                     <div className="col-md-4" style={{

@@ -236,7 +236,7 @@ const Home = () => {
 
 
       <h1 style={{
-        fontFamily: "Spaceboards",
+        fontFamily: "Stopmotion",
         width:"100%",
         textAlign:"center",
         marginBottom:"1em",
