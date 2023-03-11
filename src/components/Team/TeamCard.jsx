@@ -12,11 +12,7 @@ export default function Team({key, name, type, contact_no, email, insta_id, link
     
     return (
     <div> 
-       <motion.div class="card" 
-        initial={{opacity:0}}
-        whileInView={{opacity:1}}
-        transition={{duration:0.8}}
-       >
+       <motion.div class="card">
         <div class="card-img">
             <img src={source_url} style={{borderRadius:"10px"}} alt="profile"/>
         </div>
