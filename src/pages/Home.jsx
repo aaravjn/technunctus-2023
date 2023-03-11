@@ -160,7 +160,7 @@ const Home = () => {
             <h1 style={{fontFamily:"Stopmotion", fontSize:"4em", color:"#ffde59", marginTop:"10%"}}>Theme Reveal</h1>
             <p style={{fontFamily:"ABeeZee", fontSize:"1.2em", marginBottom:"0px", textAlign:"justify"}}>
               Technology is constantly improving and evolving, with new advancements being made constantly. Right from the launch of the internet to the significant developments in the fields of Cloud Computing, IoT, Artificial Intelligence, Blockchain, etc., technology has come a long way, and it will continue to improve and evolve as new advancements are made.
-              To pioneer this revolution and boost everyone’s passion for technology, the theme for Technunctus this year is - Igniting the Tech Revolution. It calls all young minds to create, innovate and take risks. Technunctus’23 is the perfect platform to showcase new ideas and push the boundaries of what is possible at events and competitions on emerging technologies.
+              To pioneer this revolution and boost everyone’s passion for technology, the theme for Technunctus this year is - <span style={{fontWeight:"900"}}>IGNITING THE TECH REVOLUTION</span>. It calls all young minds to create, innovate and take risks. Technunctus’23 is the perfect platform to showcase new ideas and push the boundaries of what is possible at events and competitions on emerging technologies.
             </p>
         </div>
 

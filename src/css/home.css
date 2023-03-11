@@ -48,7 +48,7 @@
     background-size: cover;
 }
 .theme {
-    background-image: url("../assets/theme_bg.jpg") !important;
+    background-image: url("../assets/theme_bg.jpg");
     display: flex;
     justify-content: center;
     background-size: cover;
@@ -60,6 +60,7 @@
     padding-right: 2.5em;
     padding-top: 3%;
 }
+
 .events{
     background-image: url("../assets/events_bg.jpg");
 }
