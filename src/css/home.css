@@ -165,8 +165,8 @@
     .about-us {
         background-image: url("../assets/about_us_m.jpg") !important;
         background-position-x: center;
-        background-position-y: 60%;
-        font-size: 0.55em;
+        background-position-y: 50% !important;
+        font-size: 0.6em;
     }
     .theme{
         font-size: 0.6em;
