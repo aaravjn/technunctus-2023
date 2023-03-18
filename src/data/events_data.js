@@ -1,231 +1,256 @@
 export const eventsData = [
   {
-    Key: 1,
-    Event_Name: "ThinkTank",
-    Domain: "Entrepreneurship",
-    Mode: "Online",
-    Description: "Participants will be given a product and they need to make modification to it. Then present a business model and go to market strategy for startup",
-    Release_Date: "15-Mar",
-    Location: "Online"
+    Key:1,
+    Event_Name:"ThinkTank",
+    Domain:"Entrepreneurship",
+    Mode:"Online",
+    Release_Date:"15 March",
+    Description:"Join the ThinkTank revolution and unleash your innovative potential! Our pitch deck competition celebrates the power of creativity and the spirit of entrepreneurship. Get ready to pitch your ideas and make your mark in the world of innovation",
+    
   },
   {
-    Key: 2,
-    Event_Name: "Chromatica",
-    Domain: "Art",
-    Mode: "Online",
-    Description: "A fun event for all the amazing artists out there to let their imagination run wild on a digital canvas. In this event, you will have to paint a picture based on the theme you will be given on the spot.",
-    Release_Date: "15-Mar",
-    Location: "Online"
+    Key:2,
+    Event_Name:"Chromatica",
+    Domain:"Art",
+    Mode:"Online",
+    Release_Date:"15 March",
+    Description:"Chromatica is a fantastic opportunity for all of the talented creatives to express themselves on a\u00a0digital\u00a0canvas",
+    
   },
   {
-    Key: 3,
-    Event_Name: "Bridge-A-Thon",
-    Domain: "Civil",
-    Mode: "Offline",
-    Description: "Participants will be given Ice Cream Sticks, glue etc. and they have to make a bridge from it",
-    Release_Date: "20-Mar",
-    Location: "Classroom"
+    Key:3,
+    Event_Name:"Bridge-A-Thon",
+    Domain:"Civil",
+    Mode:"Offline",
+    Release_Date:"20 March",
+    Description:"Participants will design and build a bridge using sticks and glue. The goal is to create a strong and stable bridge that can hold the maximum weight without collapsing.",
+    
   },
   {
-    Key: 4,
-    Event_Name: "Rubik's Rumble",
-    Domain: "Mental Ability",
-    Mode: "Offline",
-    Description: "Participants will be given Rubik's Cubes to solve",
-    Release_Date: "21-Mar",
-    Location: "Classroom"
+    Key:4,
+    Event_Name:"Rubik's Rumble",
+    Domain:"Mental Ability",
+    Mode:"Offline",
+    Release_Date:"21 March",
+    Description:"The Rubik's Cube event is a competitive speedcubing challenge where participants need to solve the Rubik's Rumble puzzle as quickly as possible. ",
+    
   },
   {
-    Key: 5,
-    Event_Name: "Cogniquest",
-    Domain: "Mental Ability",
-    Mode: "Online",
-    Description: "Logical and Mental Ability Quiz conducted online",
-    Release_Date: "20-Mar",
-    Location: "Online"
+    Key:5,
+    Event_Name:"Cogniquest",
+    Domain:"Mental Ability",
+    Mode:"Online",
+    Release_Date:"20 March",
+    Description:"The event will be conducted in online mode. This event will consist of some mind boggling logical and numeric questions to invoke the mathematician\u00a0inside\u00a0you.",
+    
   },
   {
-    Key: 6,
-    Event_Name: "Block Sorting",
-    Domain: "Robotics",
-    Mode: "Offline",
-    Description: "participants will participate in pairs. We will provide them a robocar and some cubic blocks. One of them will be blindfolded, and he will put these blocks at a certain place the other participant will instruct him.",
-    Release_Date: "22-Mar",
-    Location: "OAT"
+    Key:6,
+    Event_Name:"TurboTwist",
+    Domain:"Robotics",
+    Mode:"Offline",
+    Release_Date:"22 March",
+    Description:"Join us for an adrenaline-pumping robotic car race! Teams of two will navigate through a surprise track with speed breakers, ramps, and jumps for a thrilling experience\u00a0like\u00a0no\u00a0other.",
+    
   },
   {
-    Key: 7,
-    Event_Name: "Prelude to Chaos",
-    Domain: "E-Sports",
-    Mode: "Offline",
-    Description: "Participants will compete in E-Gaming",
-    Release_Date: "",
-    Location: "Classroom"
+    Key:7,
+    Event_Name:"Prelude to Chaos",
+    Domain:"E-Sports",
+    Mode:"Offline",
+    Release_Date:null,
+    Description:"Get ready for an adrenaline-fueled Gaming tournament featuring the top players battling it out in the latest and most popular games. With high stakes, intense competition, and cutting-edge technology, this tournament promises to deliver non-stop action\u00a0and\u00a0excitement.",
+    
   },
   {
-    Key: 8,
-    Event_Name: "Memeology",
-    Domain: "Art",
-    Mode: "Online",
-    Description: "participants to make good memes related to technology",
-    Release_Date: "21-Mar",
-    Location: "Online"
+    Key:8,
+    Event_Name:"Memeology",
+    Domain:"Art",
+    Mode:"Online",
+    Release_Date:"21 March",
+    Description:" \"  A good meme awaits all .\" The best memes from the bunch shall be crowned.",
+    
   },
   {
-    Key: 9,
-    Event_Name: "Crypto Stimulation Competition",
-    Domain: "Fintech",
-    Mode: "Online",
-    Description: "Mock Crypto Trading Competition",
-    Release_Date: "23-Mar",
-    Location: "Online"
+    Key:9,
+    Event_Name:"Crypto Stimulation Competition",
+    Domain:"Fintech",
+    Mode:"Online",
+    Release_Date:"23 March",
+    Description:"Experience the thrill of crypto trading without the risk! Come and participate in Mock Crypto Trading Competition of Technunctus",
+    
   },
   {
-    Key: 10,
-    Event_Name: "Stock Simulation Competition",
-    Domain: "Fintech",
-    Mode: "Online",
-    Description: "Mock Stocks Trading competition",
-    Release_Date: "",
-    Location: ""
+    Key:10,
+    Event_Name:"Stock Simulation Competition",
+    Domain:"Fintech",
+    Mode:"Online",
+    Release_Date:null,
+    Description:"Trade like a pro, without the risk. Join the mock stock trading competition and hone your investing skills!\"",
+    
   },
   {
-    Key: 11,
-    Event_Name: "Technunctus Programming Contest",
-    Domain: "Coding",
-    Mode: "Online",
-    Description: "Competive Coding in team of 1-3",
-    Release_Date: "24-Mar",
-    Location: "Online"
+    Key:11,
+    Event_Name:"AlgoBash",
+    Domain:"Coding",
+    Mode:"Online",
+    Release_Date:"24 March",
+    Description:"Tired of boring straightforward cp questions? AlgoBash brings you the ultimate Triathlon of programming challenges! Compete in three rounds of mind-bending tasks and showcase your talent\u00a0among\u00a0the\u00a0best.",
+    
   },
   {
-    Key: 12,
-    Event_Name: "Hack the Build",
-    Domain: "Coding",
-    Mode: "Online",
-    Description: "A problem statement which solves our campus problem will be given",
-    Release_Date: "24-Mar",
-    Location: "Online"
+    Key:12,
+    Event_Name:"Hack the Build",
+    Domain:"Coding",
+    Mode:"Online",
+    Release_Date:"24 March",
+    Description:"Hack the Build is an online hackathon hosted by Technuntus, IIT Jammu, aimed at creating a digital solution for efficient and accurate tracking of personnel movements for an IT company, ultimately improving the company's security measures.",
+    
   },
   {
-    Key: 13,
-    Event_Name: "CAD-STAR 3.O",
-    Domain: "SAE",
-    Mode: "Online",
-    Description: "CAD design event where teams will design a product that serves a purpose , teams can use any CAD software of there intrest and work. Maximum team size of 3 .",
-    Release_Date: "24-Mar",
-    Location: "Online"
+    Key:13,
+    Event_Name:"CAD-STAR 3.O",
+    Domain:"SAE",
+    Mode:"Online",
+    Release_Date:"24 March",
+    Description:"Cadstar 3.0 is a cad modelling competition in which you are given a problem statement and according to that you have to make a model on any Cad Modelling software (Solidworks\/Onshape\/Inventor)",
+    
   },
   {
-    Key: 14,
-    Event_Name: "LeaderCon",
-    Domain: "Leadership",
-    Mode: "Offline",
-    Description: "Teams from IIT, AIIMS, IIM and other nearby college to discuss agenda that affects masses",
-    Release_Date: "25-Mar",
-    Location: "Classroom"
+    Key:14,
+    Event_Name:"LeaderCon",
+    Domain:"Leadership",
+    Mode:"Offline",
+    Release_Date:"25 March",
+    Description:"Empowering tomorrow's leaders today: Join the LeaderCon for insights, inspiration, and innovation.",
+    
   },
   {
-    Key: 15,
-    Event_Name: "AptiQuest",
-    Domain: "GK and Logical Ability",
-    Mode: "Offline",
-    Description: "Participants will be grouped in pair and they will be tested on various mental skills",
-    Release_Date: "26-Mar",
-    Location: "Classroom/ OAT"
+    Key:15,
+    Event_Name:"AptiQuest",
+    Domain:"GK and Logical Ability",
+    Mode:"Offline",
+    Release_Date:"26 March",
+    Description:"ApiQuest.......\"Join us for a fun-filled delightful event where you can unleash your artistic side and guess your way\u00a0to\u00a0victory!\"",
+    
   },
   {
-    Key: 16,
-    Event_Name: "The Bookhive",
-    Domain: "CSR Event",
-    Mode: "Offline",
-    Description: "",
-    Release_Date: "25-Mar",
-    Location: "OAT"
+    Key:16,
+    Event_Name:"The Bookhive",
+    Domain:"CSR Event",
+    Mode:"Offline",
+    Release_Date:"25 March",
+    Description:"Let's get back to the nostalgia of flipping through old pages and inhaling the scent of the books. Intoxicating right!\nLet's forget about the virtual world and Live in the world of words.\nBring out your books and let's take part in the book donation event or better yet 'Piranha\u00a0of\u00a0Logic'!",
+    
   },
   {
-    Key: 17,
-    Event_Name: "No Smoking Campaign",
-    Domain: "CSR Event",
-    Mode: "Offline",
-    Description: "",
-    Release_Date: "26-Mar",
-    Location: "OAT"
+    Key:17,
+    Event_Name:"QuitCig",
+    Domain:"CSR Event",
+    Mode:"Offline",
+    Release_Date:"26 March",
+    Description:"Do you know how smoking kills you? Come and join us in 'QUITCIG' -No Smoking Campaign organized by IIT JAMMU.\nKill your bad habits\u00a0not\u00a0yourself!",
+    
   },
   {
-    Key: 18,
-    Event_Name: "Counselling Awareness",
-    Domain: "CSR Event",
-    Mode: "Offline",
-    Description: "",
-    Release_Date: "27-Mar",
-    Location: "OAT"
+    Key:18,
+    Event_Name:"Counselling Awareness",
+    Domain:"CSR Event",
+    Mode:"Offline",
+    Release_Date:"27 March",
+    Description:"\"It is the set of the sails, not the direction of the wind that determines which way we will go.\"\nLet's reinforce the importance of counselling and discover the new you! Join us\u00a0at\u00a0Counselling Awareness!",
+    
   },
   {
-    Key: 19,
-    Event_Name: "Clencher Bot",
-    Domain: "Robotics",
-    Mode: "Offline",
-    Description: "It will be Clencer bot making competition which will be controlled manually to pick up boxes and place at different places and carry them over a track. will share problem statement soon. 2 stages will be there",
-    Release_Date: "27-Mar",
-    Location: "OAT"
+    Key:19,
+    Event_Name:"Gripzilla",
+    Domain:"Robotics",
+    Mode:"Offline",
+    Release_Date:"27 March",
+    Description:"Get ready to witness the ultimate showdown of gripping robots in our upcoming competition! Watch as these machines compete to pick up and move various objects, testing their precision and agility. Don't miss out on this exciting event \" Gripzilla\"!",
+    
   },
   {
-    Key: 20,
-    Event_Name: "Maze Race",
-    Domain: "Robotics",
-    Mode: "Hybrid",
-    Description: "maze solver and checkpoint collector bot making competition which will be working automatically over the track as a specified speed. will share problem statement soon. 2 stages will be there.",
-    Release_Date: "27-Mar",
-    Location: "OAT"
+    Key:20,
+    Event_Name:"Maze Race",
+    Domain:"Robotics",
+    Mode:"Hybrid",
+    Release_Date:"27 March",
+    Description:"Gear up for an electrifying robotics competition like no other! The Maze Race will challenge your coding and engineering skills as you navigate your robot through a maze to the finish line. Get ready to race against the clock and fellow competitors in this thrilling event.",
+    
   },
   {
-    Key: 21,
-    Event_Name: "Quadcopter/UAV",
-    Domain: "SAE",
-    Mode: "Offline",
-    Description: "",
-    Release_Date: "27 March",
-    Location: "OAT"
+    Key:21,
+    Event_Name:"BeatClash",
+    Domain:"EDM Dance",
+    Mode:"Offline",
+    Release_Date:"27 March",
+    Description:"Get ready to move to the beats and feel the energy! Our EDM dance competition brings together the most talented dancers and electronic music enthusiasts for a night of intense rhythm, captivating lights, and unforgettable performances.",
+    
   },
   {
-    Key: 22,
-    Event_Name: "Unmanned Ground Vehicle/UAV",
-    Domain: "Robotics",
-    Mode: "Offline",
-    Description: "",
-    Release_Date: "27 March",
-    Location: "OAT"
+    Key:22,
+    Event_Name:"Drone/Quadcopter",
+    Domain:"SAE",
+    Mode:"Offline",
+    Release_Date:"27 March",
+    Description:"",
+    
   },
   {
-    Key: 23,
-    Event_Name: "Machine Learning & AI",
-    Domain: "Coding Club",
-    Mode: "Offline",
-    Description: "",
-    Release_Date: "27 March",
-    Location: "OAT"
+    Key:23,
+    Event_Name:"Unmanned Ground Vehicle",
+    Domain:"Robotics",
+    Mode:"Offline",
+    Release_Date:"27 March",
+    Description:"",
+    
+  },{
+    Key:24,
+    Event_Name:"Machine Learning & AI",
+    Domain:"Coding",
+    Mode:"Offline",
+    Release_Date:"27 March",
+    Description:"",
+    
+  },{
+    Key:25,
+    Event_Name:"Star Gazing",
+    Domain:"Astronomy",
+    Mode:"Offline",
+    Release_Date:"27 March",
+    Description:"",
   },
   {
-    Key: 24,
-    Event_Name: "Star Grazing",
-    Domain: "Astronomy",
-    Mode: "Offline",
-    Description: "Hands on experience with telescope for watching celestial bodies",
-    Release_Date: "",
-    Location: ""
+    Key:26,
+    Event_Name:"Sandeep Jain",
+    Domain:"Talk",
+    Mode:"Offline",
+    Release_Date:"8th April",
+    Description:"Founder - GFG",
   },
   {
-    Key: 25,
-    Event_Name: "Sandeep Jain",
-    Domain: "Talk",
-    Mode: "Offline",
-    Description: "Founder - GFG",
-    Release_Date: "27 March",
-    Location: "OAT"
-  } 
+    Key:27,
+    Event_Name:"Shivangi Narula",
+    Domain:"Talk",
+    Mode:"Offline",
+    Release_Date:"7th April",
+    Description:"10 Unconventional Career Options",
+  },
+  {
+    Key:28,
+    Event_Name:"Drishti Kharbanda",
+    Domain:"Talk",
+    Mode:"Offline",
+    Release_Date:"7th April",
+    Description:"",
+  },
+  {
+    Key:29,
+    Event_Name:"Saheli Chatterjee",
+    Domain:"Talk",
+    Mode:"Offline",
+    Release_Date:"7th April",
+    Description:"",
+  }
 ]
-
-// 1-20 competitions
-// 21-23 Workshops
-// 24- Talks

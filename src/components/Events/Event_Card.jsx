@@ -3,7 +3,7 @@ import "../../css/event_card.css"
 import {React } from 'react'
 import { motion } from "framer-motion"
 
-const CompetitionCard = ({Key, Event_Name, Domain, Mode, Description, Release_Date, Location}) => {
+const CompetitionCard = ({Key, Event_Name, Domain, Mode, Release_Date, Description}) => {
     return (
     <>
     <div class="nft">
@@ -33,7 +33,7 @@ const CompetitionCard = ({Key, Event_Name, Domain, Mode, Description, Release_Da
                     <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                     </svg>
                     </span>
-                {" "+Location}
+                {" "+Mode}
                 </p>
             </div>
             <div 
