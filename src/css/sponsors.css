@@ -1,0 +1,12 @@
+@media screen and (max-width: 700px) {
+    .sponsors-cont {
+        font-size: 0.7em;
+        padding-top: 6em !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .sponsors-cont {
+        font-size: 0.6em;
+        /* padding-top: 6em !important; */
+    }
+}

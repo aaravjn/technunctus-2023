@@ -200,7 +200,7 @@ const Home = () => {
         paddingBottom:"2em"
       }}
       className="events"
-      >
+    >
         <h1 className="events-heading" style={{width:"100%", paddingTop:"1em", color:"#ffde59", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em"}}>Events</h1>
         <EventCard {...eventsData[10]}/>
         <EventCard {...eventsData[11]}/>
@@ -235,19 +235,55 @@ const Home = () => {
       
 
 
-      <h1 style={{
-        fontFamily: "Stopmotion",
-        width:"100%",
-        textAlign:"center",
-        marginBottom:"1em",
-        marginTop:"5%"
-      }}
-      >Our Sponsors</h1>
       <div style={{
         minWidth:"100%",
         minHeight:"100vh",
-
+        textAlign:"center",
       }}>
+          <h1 style={{
+          fontSize:"4em",
+          fontFamily: "Stopmotion",
+          width:"100%",
+          textAlign:"center",
+          marginTop:"5%",
+          color:"#ffde59"
+        }}
+        >Our Sponsors</h1>
+        <div style={{marginTop:"3em", marginBottom:"3em"}}>
+          <h3 style={{fontFamily:"MullerBold", fontSize:"2.5em", marginBottom:"1em"}}> TITLE SPONSOR </h3>
+          <img src={require("../assets/sponsor_logo/arista.png")} alt="" />
+        </div>
+
+        <div style={{marginTop:"3em", marginBottom:"3em"}}>
+          <h3 style={{fontFamily:"MullerBold", fontSize:"2.5em", marginBottom:"1em"}}> DIAMOND SPONSOR </h3>
+          <img src={require("../assets/sponsor_logo/arista.png")} alt="" />
+        </div>
+        <div>
+          <a href="/Sponsors" style={{textDecoration:"none"}}>
+            <motion.button
+            className="btn gradient-button"
+            variants={buttonGradients}
+            whileHover="hover"
+            style={{
+              width:"200px",
+              height:"75px",
+              margin:"auto",
+              marginTop:"2em",
+              fontSize:"1.5em",
+              borderRadius:"10px",
+              border:"2px solid",
+              borderColor:"#c21842",
+              background:"-webkit-linear-gradient(216deg, rgba(176,11,210,1) 0%, rgba(194,24,66,1) 35%, rgba(14,30,219,1) 100%)",
+              WebkitBackgroundClip:"text",
+              WebkitTextFillColor:"transparent",
+            }}
+            transition={{duration:0.3}}
+            
+            >
+            See More...
+            </motion.button>
+          </a>
+        </div>
       </div>
       
       {/* <div style={{minWidth:"100%", minHeight:"100vh"}}>
