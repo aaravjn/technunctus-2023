@@ -1,3 +1,9 @@
+.sponsors-cont {
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+
 @media screen and (max-width: 700px) {
     .sponsors-cont {
         font-size: 0.7em;
@@ -6,7 +12,7 @@
 }
 @media screen and (max-width: 450px) {
     .sponsors-cont {
-        font-size: 0.6em;
+        font-size: 0.58em;
         /* padding-top: 6em !important; */
     }
 }

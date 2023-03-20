@@ -235,7 +235,9 @@ const Home = () => {
       
 
 
-      <div style={{
+      <div 
+      className="sponsors-cont"
+      style={{
         minWidth:"100%",
         minHeight:"100vh",
         textAlign:"center",
@@ -251,12 +253,12 @@ const Home = () => {
         >Our Sponsors</h1>
         <div style={{marginTop:"3em", marginBottom:"3em"}}>
           <h3 style={{fontFamily:"MullerBold", fontSize:"2.5em", marginBottom:"1em"}}> TITLE SPONSOR </h3>
-          <img src={require("../assets/sponsor_logo/arista.png")} alt="" />
+          <img src={require("../assets/sponsor_logo/arista.png")} style={{width:"20em", height:"15em"}} alt="" />
         </div>
 
         <div style={{marginTop:"3em", marginBottom:"3em"}}>
           <h3 style={{fontFamily:"MullerBold", fontSize:"2.5em", marginBottom:"1em"}}> DIAMOND SPONSOR </h3>
-          <img src={require("../assets/sponsor_logo/arista.png")} alt="" />
+          <img src={require("../assets/sponsor_logo/arista.png")} style={{width:"20em", height:"15em"}} alt="" />
         </div>
         <div>
           <a href="/Sponsors" style={{textDecoration:"none"}}>
@@ -269,7 +271,7 @@ const Home = () => {
               height:"75px",
               margin:"auto",
               marginTop:"2em",
-              fontSize:"1.5em",
+              fontSize:"1.5rem",
               borderRadius:"10px",
               border:"2px solid",
               borderColor:"#c21842",
