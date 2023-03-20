@@ -29,10 +29,10 @@ const Sponsors = () => {
         </div>
 
 
-        <div style={{marginTop:"3em", marginBottom:"3em"}}>
+        {/* <div style={{marginTop:"3em", marginBottom:"3em"}}>
           <h3 style={{fontFamily:"MullerBold", fontSize:"2.5em", marginBottom:"1em"}}> DIAMOND SPONSOR </h3>
           <img src={require("../assets/sponsor_logo/arista.png")} style={{width:"20em", height:"15em"}} alt="" />
-        </div>
+        </div> */}
 
 
         <div style={{marginTop:"3em", marginBottom:"3em"}}>
