@@ -42,7 +42,16 @@ const Home = () => {
   }
   return (
     <div style={{ overflowX: "hidden" }}>
+      {/* Navbar */}
       <Navbar />
+
+
+
+
+
+
+
+      {/* Home */}
       <div className="title-box">
         <img src={require("../assets/home_bg.jpg")} alt="bg"
           className="title-box-bg"
@@ -127,6 +136,17 @@ const Home = () => {
       </div> 
 
 
+
+
+
+
+
+
+
+
+
+
+{/* About Us  */}
     <div className="about-us"
         style={{
           minHeight:"100vh",
@@ -150,6 +170,14 @@ const Home = () => {
         </motion.div>
     </div>
       
+
+
+
+
+
+
+
+  {/* Theme */}
     <div className="theme">
       <motion.div className="row"
         initial={{opacity:0}}
@@ -172,9 +200,19 @@ const Home = () => {
       
       </motion.div>
     </div>
+
+
+
+
+
+
+
+
+
+
     
     
-    
+    {/* GLIMPSE OF TECHNUNCTUS'22 */}
     <div className="row glimpse" style={{minHeight:"100vh", width:"100vw", paddingTop:"3%", margin:"0"}}>
       <div className="prev-data col-lg-6 col-md-12" style={{paddingRight:"0", paddingLeft:"0"}}>
         <h1 className="glimpse-heading" style={{fontFamily:"Stopmotion", color:"#ffde59", marginBottom:"1em", marginLeft:"0.7em", fontSize:"4em"}}><span style={{fontFamily:"ABeeZee", fontWeight:"bold", color:"white", fontSize:"0.5em"}}>GLIMPSE OF</span> <br/> TECHNUNCTUS'22</h1>
@@ -193,6 +231,14 @@ const Home = () => {
     
     
     
+
+
+
+
+
+
+
+    {/* Events */}
     <div style={{
         width:"100%",
         minheight:"100vh",
@@ -235,9 +281,16 @@ const Home = () => {
       
 
 
-    
+
+
+
+
+
+
+
+ {/* <h3>Merchandise</h3> */}
     <div style={{textAlign:"center"}} id="merchandise">
-      {/* <h3>Merchandise</h3> */}
+     
       <img src={require("../assets/merchandise.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em"}} className="merch-big"/>
       <img src={require("../assets/merchandise_1_M.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em", display:"none"}} className="merch-m"/>
       <img src={require("../assets/merchandise_2_M.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em", display:"none"}} className="merch-m"/>
@@ -273,6 +326,12 @@ const Home = () => {
 
 
 
+
+
+
+
+
+{/* Sponsors */}
     <div 
       className="sponsors-cont"
       style={{
@@ -371,6 +430,12 @@ const Home = () => {
         </div>
       </div> */}
 
+
+
+
+
+
+{/* Footer */}
       <Footer/>
     </div>
   );
