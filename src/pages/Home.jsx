@@ -236,7 +236,7 @@ const Home = () => {
 
 
     
-    <div style={{textAlign:"center"}}>
+    <div style={{textAlign:"center"}} id="merchandise">
       {/* <h3>Merchandise</h3> */}
       <img src={require("../assets/merchandise.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em"}} className="merch-big"/>
       <img src={require("../assets/merchandise_1_M.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em", display:"none"}} className="merch-m"/>

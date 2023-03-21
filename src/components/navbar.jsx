@@ -75,6 +75,13 @@ export default function Navbar() {
                         <a className="link" href="/Sponsors" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Sponsors</a>
                         <a className="link" href="/OurTeam" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Our Team</a>                      
                         <a className="link" href="/Events" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Events</a>
+                        <a className="link" onClick = {(e)=>{
+                                              e.preventDefault();
+                                              window.scrollTo({
+                                              top: document.querySelector("#merchandise").offsetTop,
+                                              behavior: "smooth",
+                                            });}}
+                          style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Merch</a>
                       </div>
                     
                   )}
