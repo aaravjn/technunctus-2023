@@ -64,7 +64,7 @@ export default function Navbar() {
                   >
                       <Box
                           component='img'
-                          sx={{height: 55, width: 55, transform:"scale(1.25)"}}
+                          sx={{height: 55, width: 55, transform:"scale(1.25)", marginBottom:"10px"}}
                           alt="logo"
                           src={logo}
                       />

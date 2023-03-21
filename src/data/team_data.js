@@ -89,9 +89,9 @@ const team_data = [
     type: "Sponsorship Head",
     contact_no: "+91 7814360737",
     email: "2021ume0219@iitjammu.ac.in",
-    insta_id: "#",
-    linkedin: "#",
-    source_url: "/teamheads/no-image.jpg"
+    insta_id: "https://www.instagram.com/prabhnoor572/",
+    linkedin: "https://www.linkedin.com/in/prabhnoor-singh-a29989208",
+    source_url: "/teamheads/prabhnoor.jpg"
 },
 {
     key: 4,
