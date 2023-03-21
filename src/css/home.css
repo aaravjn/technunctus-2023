@@ -70,7 +70,14 @@
     background-size: cover;
     background-position: 50% 80%;
 }
-
+@media (max-width: 1100px) {
+    .merch-big {
+        display: none;
+    }
+    .merch-m {
+        display: inline-block !important;
+    }
+}
 @media (max-width: 1000px) {
     .theme{
         font-size: 0.9em;

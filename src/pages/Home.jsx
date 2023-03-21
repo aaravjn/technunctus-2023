@@ -235,7 +235,45 @@ const Home = () => {
       
 
 
-      <div 
+    
+    <div style={{textAlign:"center"}}>
+      {/* <h3>Merchandise</h3> */}
+      <img src={require("../assets/merchandise.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em"}} className="merch-big"/>
+      <img src={require("../assets/merchandise_1_M.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em", display:"none"}} className="merch-m"/>
+      <img src={require("../assets/merchandise_2_M.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em", display:"none"}} className="merch-m"/>
+    
+      <div>
+        <a href="https://forms.gle/JwaCQEUADeVURsVx8" style={{textDecoration:"none"}}>
+          <motion.button
+          className="btn gradient-button"
+          variants={buttonGradients}
+          whileHover="hover"
+          style={{
+            width:"200px",
+            height:"75px",
+            margin:"auto",
+            marginTop:"2em",
+            fontSize:"1.5rem",
+            borderRadius:"10px",
+            border:"2px solid",
+            borderColor:"#c21842",
+            background:"-webkit-linear-gradient(216deg, rgba(176,11,210,1) 0%, rgba(194,24,66,1) 35%, rgba(14,30,219,1) 100%)",
+            WebkitBackgroundClip:"text",
+            WebkitTextFillColor:"transparent",
+          }}
+          transition={{duration:0.3}}
+          
+          >
+          Buy Now
+          </motion.button>
+        </a>
+      </div>
+    </div>
+
+
+
+
+    <div 
       className="sponsors-cont"
       style={{
         minWidth:"100%",
@@ -260,6 +298,7 @@ const Home = () => {
           <h3 style={{fontFamily:"MullerBold", fontSize:"2.5em", marginBottom:"1em"}}> DIAMOND SPONSOR </h3>
           <img src={require("../assets/sponsor_logo/arista.png")} style={{width:"20em", height:"15em"}} alt="" />
         </div> */}
+
         <div>
           <a href="/Sponsors" style={{textDecoration:"none"}}>
             <motion.button
