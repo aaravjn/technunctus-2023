@@ -76,7 +76,7 @@ const team_data = [
 }, {
     key: 1,
     name: "Bhavna Verma",
-    type: "Event management team co-head",
+    type: "Event Management Co-Head",
     contact_no: "+91 7836989460",
     email: "2021uce0053@iitjammu.ac.in",
     insta_id: "https://instagram.com/_bhavna.verma_?igshid=OGQ2MjdiOTE=",
@@ -96,7 +96,7 @@ const team_data = [
 {
     key: 4,
     name: "Sanjana Gattraddy",
-    type: "Content Head",
+    type: "Content Team Head",
     contact_no: "+91 9987785245",
     email: "2020ucs0092@iitjammu.ac.in",
     insta_id: "#",
@@ -106,7 +106,7 @@ const team_data = [
 {
     key: 4,
     name: "Tanisha khare",
-    type: "Design Team head",
+    type: "Design Team Head",
     contact_no: "+91 6377676753",
     email: "2021umt0195@iitjammu.ac.in",
     insta_id: "https://instagram.com/_tanisha._.__?igshid=NTA5ZTk1NTc=",
@@ -119,7 +119,7 @@ const team_data = [
     type: "Design Team Head",
     contact_no: "+91 8950490774",
     email: "sahil4nfl@gmail.com",
-    insta_id: "#",
+    insta_id: "https://www.instagram.com/sahil17agrawal/",
     linkedin: "https://www.linkedin.com/in/sahil-agrawal-654701235/",
     source_url: "/teamheads/sahil.jpg"
 },
@@ -155,7 +155,7 @@ const team_data = [
 }, {
     key: 3,
     name: "Anshini Yadav",
-    type: "PR Team - Co-Head",
+    type: "PR Team Co-Head",
     contact_no: "+91 9305355526",
     email: "2021uee0153@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/anshini_yadav/",
@@ -175,7 +175,7 @@ const team_data = [
 {
     key: 2,
     name: "Pratham",
-    type: "Media head",
+    type: "Media Head",
     contact_no: "+91 7206680039",
     email: "2021uee0150@iitjammu.ac.in",
     insta_id: "https://instagram.com/pratham._.modi_?igshid=NTA5ZTk1NTc=",
@@ -214,7 +214,7 @@ const team_data = [
  {
     key: 3,
     name: "MOHIT YADAV",
-    type: "Security Co head",
+    type: "Security Co-Head",
     contact_no: "+91 7073747490",
     email: "2021uce0065@iitjammu.ac.in",
     insta_id: "https://instagram.com/its_mohit_yadav_?igshid=NTA5ZTk1NTc=",
@@ -224,7 +224,7 @@ const team_data = [
  {
     key: 3,
     name: "Anant Kumar Jaiswal",
-    type: "Security Co head",
+    type: "Security Co-Head",
     contact_no: "+91 9821946173",
     email: "2021uee0130@iitjammu.ac.in",
     insta_id: "#",
@@ -233,7 +233,7 @@ const team_data = [
 },{
     key: 4,
     name: "Amit Kumar Yadav",
-    type: "Security team co-head",
+    type: "Security Team Co-Head",
     contact_no: "+91 96537 42509",
     email: "2021uee0129@iitjammu.ac.in",
     insta_id: "#",
