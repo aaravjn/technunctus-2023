@@ -65,13 +65,14 @@ export default function Footer() {
                             <button onClick={() => {
                                 window.scrollTo({
                                     top:0,
-                                    behavior:"smooth"
+                                    behavior:"smooth",
+                                    
                                 })
                             }}
                             style={{
                                 background:"transparent",
                                 border:"none",
-                                padding:"none"
+                                padding : 0
                             }}
                             >
                                 <motion.a className='quick f-link'
