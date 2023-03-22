@@ -34,7 +34,7 @@ const Home = () => {
   const buttonGradients = {
     hover : {
       borderColor:"#0bc8d2",
-      background:"-webkit-linear-gradient(96deg, rgba(14,31,145,1) 0%, rgba(22,212,198,1) 100%)",
+      // background:"-webkit-linear-gradient(96deg, rgba(14,31,145,1) 0%, rgba(22,212,198,1) 100%)",
       WebkitBackgroundClip:"text",
       WebkitTextFillColor:"transparent",
       scale:1.1
@@ -231,11 +231,6 @@ const Home = () => {
     
     
     
-
-
-
-
-
 
 
     {/* Events */}

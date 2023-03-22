@@ -3,6 +3,15 @@ import Footer from "../components/Footer/footer";
 import { motion } from "framer-motion"
 
 const Merch = () => {
+  const buttonGradients = {
+      hover : {
+        borderColor:"#0bc8d2",
+        // background:"-webkit-linear-gradient(96deg, rgba(14,31,145,1) 0%, rgba(22,212,198,1) 100%)",
+        WebkitBackgroundClip:"text",
+        WebkitTextFillColor:"transparent",
+        scale:1.1
+      }
+    }
     return (
         <div style={{overflowX:"hidden",
         paddingTop:"2em"}}>
@@ -17,7 +26,7 @@ const Merch = () => {
        <a href="https://forms.gle/JwaCQEUADeVURsVx8" style={{textDecoration:"none"}}>
          <motion.button
          className="btn gradient-button"
-        //  variants={buttonGradients}
+         variants={buttonGradients}
          whileHover="hover"
          style={{
            width:"200px",

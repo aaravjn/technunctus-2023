@@ -17,9 +17,9 @@ export default function Navbar() {
     const [blur, setBlur] = useState(false);
     
     function update() {
-      if (scrollY?.current <= 300) {
+      if (scrollY?.current <= 200) {
         setBlur(false);
-      } else if (scrollY?.current > 300) {
+      } else if (scrollY?.current > 200) {
         setBlur(true);
       }
     }
@@ -74,12 +74,7 @@ export default function Navbar() {
                         <a className="link" href="/" style={{textDecoration:"none", fontSize:"1.2em", marginLeft:"auto", marginRight:"20px"}}>Home</a>
                         <a className="link" href="/Sponsors" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Sponsors</a>                       
                         <a className="link" href="/Events" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Events</a>
-                        <a className="link" onClick = {(e)=>{
-                                              e.preventDefault();
-                                              window.scrollTo({
-                                              top: document.querySelector("#merchandise").offsetTop,
-                                              behavior: "smooth",
-                                            });}}
+                        <a className="link" href="/Merch"
                           style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Merch</a>
                         <a className="link" href="/OurTeam" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Our Team</a> 
                       </div>
@@ -106,19 +101,19 @@ export default function Navbar() {
               variants={item}
               initial={{height:0, opacity:0}}
               animate={{height:"100vh", opacity:1}}
-              transition={{duration:.5}}
+              transition={{duration:.7}}
               exit="exit"
             >
               <motion.a href="/"
                  initial={{y:80,opacity:0}}
                  animate={{y:0, opacity:1}}
-                 transition={{delay:.8}}
+                 transition={{delay:.7}}
                  exit={{
                   opacity:0,
                   y:90,
                     transition:{
                       ease:"easeInOut",
-                      delay:1
+                      delay:.7
                     }
                  }}
                  className="link nav_link"
@@ -146,15 +141,15 @@ export default function Navbar() {
                   y:90,
                     transition:{
                       ease:"easeInOut",
-                      delay:.4
+                      delay:.5
                     }
                  }}
                  className="link nav_link"
               >Events</motion.a>
-              <motion.a href="/Events"
+              <motion.a href="/Merch"
                  initial={{y:80,opacity:0}}
                  animate={{y:0, opacity:1}}
-                 transition={{delay:.5}}
+                 transition={{delay:.4}}
                  exit={{
                   opacity:0,
                   y:90,
@@ -174,7 +169,7 @@ export default function Navbar() {
                   y:90,
                     transition:{
                       ease:"easeInOut",
-                      delay:.2
+                      delay:.3
                     }
                  }}
                  className="link nav_link"
