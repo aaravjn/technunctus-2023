@@ -11,7 +11,7 @@ const team_data = [
 }, {
     key: 1002,
     name: "Shoran Dabas",
-    type: "Convener",
+    type: "Convenor",
     contact_no: "+91 7838464715",
     email: "2020uce0062@iitjammu.ac.in",
     insta_id: "https://instagram.com/shoran__7?igshid=ZDdkNTZiNTM=",
@@ -20,7 +20,7 @@ const team_data = [
 }, {
     key: 1003,
     name: "Gaurav Jagarbad",
-    type: "Convener",
+    type: "Convenor",
     contact_no: "+91 9928084418",
     email: "2020uce0075@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/invites/contact/?i=1xs5bh9zw49kc&utm_content=e2dspf0",
@@ -29,7 +29,7 @@ const team_data = [
 }, {
     key: 4,
     name: "Deepanshu Mittal",
-    type: "Convener",
+    type: "Convenor",
     contact_no: "+91 8769183354",
     email: "2020ume0208@iitjammu.ac.in",
     insta_id: "https://www.instagram.com/deeeeeeps_/",
