@@ -3,7 +3,7 @@ import "../../css/event_card.css"
 import {React } from 'react'
 import { motion } from "framer-motion"
 
-const CompetitionCard = ({Key, Event_Name, Domain, Mode, Release_Date, Description, Register_link, Poster}) => {
+const CompetitionCard = ({Key, Event_Name, Domain, Mode, Release_Date, Description, Register_link, Poster, More}) => {
     return (
     <>
     <div class="nft">
@@ -42,7 +42,7 @@ const CompetitionCard = ({Key, Event_Name, Domain, Mode, Release_Date, Descripti
                     right:"0px"
                 }}
             >
-                <a href="/" className="card-buttons" style={{width:"100%", textDecoration:"none"}}>
+                <a href={More === '#' ? "https://unstop.com/festival/technunctus-23-indian-institute-of-technology-iit-jammu-119595" : More} className="card-buttons" style={{width:"100%", textDecoration:"none"}}>
                     <button className="btn d-block" style={{width:"100%", color:"#0a6ba8"}}>MORE</button>
                 </a>
                 <a href={Register_link === "#" ? "https://unstop.com/festival/technunctus-23-indian-institute-of-technology-iit-jammu-119595" : Register_link} className="card-buttons" style={{width:"100%", textDecoration:"none"}}>

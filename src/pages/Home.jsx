@@ -114,7 +114,7 @@ const Home = () => {
                                                                         transform: "translate(-52px , -203px)"
                   },
               }}
-              href="/Events"
+              href="https://unstop.com/festival/technunctus-23-indian-institute-of-technology-iit-jammu-119595"
 
                   alt="logo2"
                   src={logo2}

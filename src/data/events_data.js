@@ -7,7 +7,8 @@ export const eventsData = [
     Release_Date:"15 March",
     Description:"Join the ThinkTank revolution and unleash your innovative potential! Our pitch deck competition celebrates the power of creativity and the spirit of entrepreneurship. Get ready to pitch your ideas and make your mark in the world of innovation",
     Register_link:"#",
-    Poster:"/event_posters/thinktank.png"
+    Poster:"/event_posters/thinktank.png",
+    More:"#",
   },
   {
     Key:2,
@@ -17,7 +18,8 @@ export const eventsData = [
     Release_Date:"15 March",
     Description:"Chromatica is a fantastic opportunity for all of the talented creatives to express themselves on a\u00a0digital\u00a0canvas",
     Register_link:"https://unstop.com/events/chromatica-technunctus23-iit-jammu-649073",
-    Poster:"/event_posters/chromatica.png"
+    Poster:"/event_posters/chromatica.png",
+    More:"#",
   },
   {
     Key:3,
@@ -27,7 +29,8 @@ export const eventsData = [
     Release_Date:"20 March",
     Description:"Participants will design and build a bridge using sticks and glue. The goal is to create a strong and stable bridge that can hold the maximum weight without collapsing.",
     Register_link:"#",
-    Poster:"/event_posters/bridge a thon.png"
+    Poster:"/event_posters/bridge a thon.png",
+    More:"#",
   },
   {
     Key:4,
@@ -36,8 +39,9 @@ export const eventsData = [
     Mode:"Offline",
     Release_Date:"21 March",
     Description:"The Rubik's Cube event is a competitive speedcubing challenge where participants need to solve the Rubik's Rumble puzzle as quickly as possible. ",
-    Register_link:"",
-    Poster:"/event_posters/rubiks rumble.png"
+    Register_link:"#",
+    Poster:"/event_posters/rubiks rumble.png",
+    More:"#",
   },
   {
     Key:5,
@@ -47,7 +51,8 @@ export const eventsData = [
     Release_Date:"20 March",
     Description:"The event will be conducted in online mode. This event will consist of some mind boggling logical and numeric questions to invoke the mathematician\u00a0inside\u00a0you.",
     Register_link:"#",
-    Poster:"/event_posters/cogniquest.png"
+    Poster:"/event_posters/cogniquest.png",
+    More:"#",
   },
   {
     Key:6,
@@ -57,7 +62,8 @@ export const eventsData = [
     Release_Date:"22 March",
     Description:"Join us for an adrenaline-pumping robotic car race! Teams of two will navigate through a surprise track with speed breakers, ramps, and jumps for a thrilling experience\u00a0like\u00a0no\u00a0other.",
     Register_link:"https://unstop.com/competitions/turbotwist-technunctus23-iit-jammu-649759",
-    Poster:"/event_posters/turbotwist.png"
+    Poster:"/event_posters/turbotwist.png",
+    More:"#",
   },
   {
     Key:7,
@@ -67,7 +73,8 @@ export const eventsData = [
     Release_Date:null,
     Description:"Get ready for an adrenaline-fueled Gaming tournament featuring the top players battling it out in the latest and most popular games. With high stakes, intense competition, and cutting-edge technology, this tournament promises to deliver non-stop action\u00a0and\u00a0excitement.",
     Register_link:"#",
-    Poster:"/event_posters/prelude to chaos.png"
+    Poster:"/event_posters/prelude to chaos.png",
+    More:"#",
   },
   {
     Key:8,
@@ -77,7 +84,8 @@ export const eventsData = [
     Release_Date:"21 March",
     Description:" \"  A good meme awaits all .\" The best memes from the bunch shall be crowned.",
     Register_link:"https://unstop.com/competitions/memology-technunctus23-iit-jammu-649644",
-    Poster:"/event_posters/memology.png"
+    Poster:"/event_posters/memology.png",
+    More:"#",
   },
   {
     Key:9,
@@ -87,7 +95,8 @@ export const eventsData = [
     Release_Date:"23 March",
     Description:"Experience the thrill of crypto trading without the risk! Come and participate in Mock Crypto Trading Competition of Technunctus",
     Register_link:"#",
-    Poster:"/event_posters/crypto clash.png"
+    Poster:"/event_posters/crypto clash.png",
+    More:"#",
   },
   {
     Key:10,
@@ -97,7 +106,8 @@ export const eventsData = [
     Release_Date:null,
     Description:"Trade like a pro, without the risk. Join the mock stock trading competition and hone your investing skills!\"",
     Register_link:"https://unstop.com/competitions/mock-stock-technunctus23-iit-jammu-649074",
-    Poster:"/event_posters/mock stock.png"
+    Poster:"/event_posters/mock stock.png",
+    More:"#",
   },
   {
     Key:11,
@@ -107,7 +117,8 @@ export const eventsData = [
     Release_Date:"24 March",
     Description:"Tired of boring straightforward cp questions? AlgoBash brings you the ultimate Triathlon of programming challenges! Compete in three rounds of mind-bending tasks and showcase your talent\u00a0among\u00a0the\u00a0best.",
     Register_link:"#",
-    Poster:"/event_posters/algo bash.png"
+    Poster:"/event_posters/algo bash.png",
+    More:"#",
   },
   {
     Key:12,
@@ -117,7 +128,8 @@ export const eventsData = [
     Release_Date:"24 March",
     Description:"Hack the Build is an online hackathon hosted by Technuntus, IIT Jammu, aimed at creating a digital solution for efficient and accurate tracking of personnel movements for an IT company, ultimately improving the company's security measures.",
     Register_link:"#",
-    Poster:"/event_posters/hack the build.png"
+    Poster:"/event_posters/hack the build.png",
+    More:"#",
   },
   {
     Key:13,
@@ -127,7 +139,8 @@ export const eventsData = [
     Release_Date:"24 March",
     Description:"Cadstar 3.0 is a cad modelling competition in which you are given a problem statement and according to that you have to make a model on any Cad Modelling software (Solidworks\/Onshape\/Inventor)",
     Register_link:"#",
-    Poster:"/event_posters/cad star.png"
+    Poster:"/event_posters/cad star.png",
+    More:"#",
   },
   {
     Key:14,
@@ -137,7 +150,8 @@ export const eventsData = [
     Release_Date:"25 March",
     Description:"Empowering tomorrow's leaders today: Join the LeaderCon for insights, inspiration, and innovation.",
     Register_link:"#",
-    Poster:"/event_posters/leadercon.png"
+    Poster:"/event_posters/leadercon.png",
+    More:"#",
   },
   {
     Key:15,
@@ -147,7 +161,8 @@ export const eventsData = [
     Release_Date:"26 March",
     Description:"ApiQuest.......\"Join us for a fun-filled delightful event where you can unleash your artistic side and guess your way\u00a0to\u00a0victory!\"",
     Register_link:"#",
-    Poster:"/event_posters/aptiquest.png"
+    Poster:"/event_posters/aptiquest.png",
+    More:"#",
   },
   {
     Key:16,
@@ -157,10 +172,9 @@ export const eventsData = [
     Release_Date:"25 March",
     Description:"Let's get back to the nostalgia of flipping through old pages and inhaling the scent of the books. Intoxicating right!\nLet's forget about the virtual world and Live in the world of words.\nBring out your books and let's take part in the book donation event or better yet 'Piranha\u00a0of\u00a0Logic'!",
     Register_link:"#",
-    Poster:"#"
+    Poster:"#",
+    More:"#",
   },
-  
-  
   {
     Key:17,
     Event_Name:"Gripzilla",
@@ -169,7 +183,8 @@ export const eventsData = [
     Release_Date:"27 March",
     Description:"Get ready to witness the ultimate showdown of gripping robots in our upcoming competition! Watch as these machines compete to pick up and move various objects, testing their precision and agility. Don't miss out on this exciting event \" Gripzilla\"!",
     Register_link:"https://unstop.com/competitions/gripzilla-technunctus23-iit-jammu-649660",
-    Poster:"/event_posters/gripzilla.png"
+    Poster:"/event_posters/gripzilla.png",
+    More:"#",
   },
   {
     Key:18,
@@ -179,7 +194,8 @@ export const eventsData = [
     Release_Date:"27 March",
     Description:"Gear up for an electrifying robotics competition like no other! The Maze Race will challenge your coding and engineering skills as you navigate your robot through a maze to the finish line. Get ready to race against the clock and fellow competitors in this thrilling event.",
     Register_link:"https://unstop.com/competitions/maze-race-technunctus23-iit-jammu-649673",
-    Poster:"/event_posters/maze race.png"
+    Poster:"/event_posters/maze race.png",
+    More:"#",
   },
   // {
   //   Key:21,
@@ -199,7 +215,8 @@ export const eventsData = [
     Release_Date:"27 March",
     Description:"",
     Register_link:"#",
-    Poster:"#"
+    Poster:"#",
+    More:"#",
   },
   {
     Key:20,
@@ -209,7 +226,8 @@ export const eventsData = [
     Release_Date:"27 March",
     Description:"\"It is the set of the sails, not the direction of the wind that determines which way we will go.\"\nLet's reinforce the importance of counselling and discover the new you! Join us\u00a0at\u00a0Counselling Awareness!",
     Register_link:"#",
-    Poster:"#"
+    Poster:"#",
+    More:"#",
   },
   {
     Key:21,
@@ -219,7 +237,8 @@ export const eventsData = [
     Release_Date:"26 March",
     Description:"Do you know how smoking kills you? Come and join us in 'QUITCIG' -No Smoking Campaign organized by IIT JAMMU.\nKill your bad habits\u00a0not\u00a0yourself!",
     Register_link:"#",
-    Poster:"/event_posters/quitcig.png"
+    Poster:"/event_posters/quitcig.png",
+    More:"#",
   },
   // {
   //   Key:23,
@@ -250,7 +269,8 @@ export const eventsData = [
     Release_Date:"27 March",
     Description:"",
     Register_link:"#",
-    Poster:"#"
+    Poster:"#",
+    More:"#",
 
   },
   {
@@ -261,7 +281,8 @@ export const eventsData = [
     Release_Date:"8th April",
     Description:"Founder - GFG",
     Register_link:"#",
-    Poster:"#"
+    Poster:"#",
+    More:"#",
   },
   {
     Key:24,
@@ -271,7 +292,8 @@ export const eventsData = [
     Release_Date:"7th April",
     Description:"10 Unconventional Career Options",
     Register_link:"#",
-    Poster:"#"
+    Poster:"#",
+    More:"#",
   },
   // {
   //   Key:28,
@@ -291,6 +313,7 @@ export const eventsData = [
     Release_Date:"7th April",
     Description:"",
     Register_link:"#",
-    Poster:"#"
+    Poster:"#",
+    More:"#",
   }
 ]
