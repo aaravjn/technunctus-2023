@@ -51,7 +51,7 @@ const Event= () => {
           overflowWrap:"break-word",
           textAlign:"center"
         }}>
-          {eventsData.slice(0,17).map((item, index) => {
+          {eventsData.slice(0,18).map((item, index) => {
               return (
                 <Card {...item} />
               )
@@ -65,7 +65,7 @@ const Event= () => {
         overflowWrap:"break-word",
         textAlign:"center"
       }}>
-        {eventsData.slice(17,22).map((item, index) => {
+        {eventsData.slice(18,22).map((item, index) => {
             return (
               <Card {...item} />
             )
