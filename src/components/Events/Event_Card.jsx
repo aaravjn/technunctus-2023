@@ -3,21 +3,18 @@ import "../../css/event_card.css"
 import {React } from 'react'
 import { motion } from "framer-motion"
 
-const CompetitionCard = ({Key, Event_Name, Domain, Mode, Release_Date, Description}) => {
+const CompetitionCard = ({Key, Event_Name, Domain, Mode, Release_Date, Description, Register_link, Poster}) => {
     return (
     <>
     <div class="nft">
         <div className='main'>
             <div style={{height:"250px", width:"100%", overflow:"hidden", borderRadius:".5rem"}}>
-            <motion.img className='tokenImage' style={{
-                height:"250px",
-                width:"100%",
-            }}
-            whileHover={{
-                scale: 1.2,
-                transition:{ duration : 1}
-            }}
-                src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+            <motion.img className='tokenImage'
+                whileHover={{
+                    scale: 1.2,
+                    transition:{ duration : 1}
+                }}
+                src={ Poster == "#" ? "https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" : Poster }
             />
             </div>
             <h3>{Event_Name}</h3>
@@ -43,11 +40,12 @@ const CompetitionCard = ({Key, Event_Name, Domain, Mode, Release_Date, Descripti
                     position:"absolute",
                     bottom:"5px",
                     right:"0px"
-                }}>
-                <a href="https://www.google.com" className="card-buttons" style={{width:"100%", textDecoration:"none"}}>
+                }}
+            >
+                <a href="/" className="card-buttons" style={{width:"100%", textDecoration:"none"}}>
                     <button className="btn d-block" style={{width:"100%", color:"#0a6ba8"}}>MORE</button>
                 </a>
-                <a href="/" className="card-buttons" style={{width:"100%", textDecoration:"none"}}>
+                <a href={Register_link === "#" ? "https://unstop.com/festival/technunctus-23-indian-institute-of-technology-iit-jammu-119595" : Register_link} className="card-buttons" style={{width:"100%", textDecoration:"none"}}>
                     <button className="btn d-block" style={{width:"100%", color:"#0a6ba8", marginTop:"5px"}}>REGISTER</button>
                 </a>
             </div>
