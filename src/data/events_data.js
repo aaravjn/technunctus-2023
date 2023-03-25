@@ -19,7 +19,7 @@ export const eventsData = [
     Description:"Chromatica is a fantastic opportunity for all of the talented creatives to express themselves on a\u00a0digital\u00a0canvas",
     Register_link:"https://unstop.com/events/chromatica-technunctus23-iit-jammu-649073",
     Poster:"/event_posters/chromatica.png",
-    More:"#",
+    More:"https://www.canva.com/design/DAFdztV2NSM/nRbSadc1BR8b7PG57r13Qg/view?utm_content=DAFdztV2NSM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
   },
   {
     Key:3,
@@ -63,7 +63,7 @@ export const eventsData = [
     Description:"Join us for an adrenaline-pumping robotic car race! Teams of two will navigate through a surprise track with speed breakers, ramps, and jumps for a thrilling experience\u00a0like\u00a0no\u00a0other.",
     Register_link:"https://unstop.com/competitions/turbotwist-technunctus23-iit-jammu-649759",
     Poster:"/event_posters/turbotwist.png",
-    More:"#",
+    More:"https://www.canva.com/design/DAFc-zY2yz8/rX979wbFQ1B-oZWLP6JV-g/view?utm_content=DAFc-zY2yz8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
     Key:7,
@@ -85,7 +85,7 @@ export const eventsData = [
     Description:" \"  A good meme awaits all .\" The best memes from the bunch shall be crowned.",
     Register_link:"https://unstop.com/competitions/memology-technunctus23-iit-jammu-649644",
     Poster:"/event_posters/memology.png",
-    More:"#",
+    More:"https://www.canva.com/design/DAFc9fykHt0/0IyO3HSVi4W_rbjN4qTG3Q/view",
   },
   {
     Key:9,
@@ -116,9 +116,9 @@ export const eventsData = [
     Mode:"Online",
     Release_Date:"24 March",
     Description:"Tired of boring straightforward cp questions? AlgoBash brings you the ultimate Triathlon of programming challenges! Compete in three rounds of mind-bending tasks and showcase your talent\u00a0among\u00a0the\u00a0best.",
-    Register_link:"#",
+    Register_link:"https://unstop.com/o/RWkG0Vd?lb=TAZh0aS",
     Poster:"/event_posters/algo bash.png",
-    More:"#",
+    More:"https://www.canva.com/design/DAFdwCHoVNE/3tillos7gaT9-3D4tHqdxQ/edit?utm_content=DAFdwCHoVNE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
     Key:12,
@@ -138,9 +138,9 @@ export const eventsData = [
     Mode:"Online",
     Release_Date:"24 March",
     Description:"Cadstar 3.0 is a cad modelling competition in which you are given a problem statement and according to that you have to make a model on any Cad Modelling software (Solidworks\/Onshape\/Inventor)",
-    Register_link:"#",
+    Register_link:"https://unstop.com/o/JcCTZ8x?lb=TAZh0aS",
     Poster:"/event_posters/cad star.png",
-    More:"#",
+    More:"https://www.canva.com/design/DAFdSK8rOKY/MHKRlmSoZZZZQ00zvrOtAQ/edit?utm_content=DAFdSK8rOKY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
     Key:14,
@@ -160,9 +160,9 @@ export const eventsData = [
     Mode:"Offline",
     Release_Date:"26 March",
     Description:"ApiQuest.......\"Join us for a fun-filled delightful event where you can unleash your artistic side and guess your way\u00a0to\u00a0victory!\"",
-    Register_link:"#",
+    Register_link:"https://unstop.com/o/tzwvCSb?lb=TAZh0aS",
     Poster:"/event_posters/aptiquest.png",
-    More:"#",
+    More:"https://www.canva.com/design/DAFd2WZCcxI/Zqg5LKlI3qeWTd7wRNpFIg/edit?utm_content=DAFd2WZCcxI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
     Key:16,
@@ -184,7 +184,7 @@ export const eventsData = [
     Description:"Get ready to witness the ultimate showdown of gripping robots in our upcoming competition! Watch as these machines compete to pick up and move various objects, testing their precision and agility. Don't miss out on this exciting event \" Gripzilla\"!",
     Register_link:"https://unstop.com/competitions/gripzilla-technunctus23-iit-jammu-649660",
     Poster:"/event_posters/gripzilla.png",
-    More:"#",
+    More:"https://www.canva.com/design/DAFdwFAmzcI/lyIlRdqpIMQ0yV8RjvQFTg/edit?utm_content=DAFdwFAmzcI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
   },
   {
     Key:18,
@@ -195,7 +195,7 @@ export const eventsData = [
     Description:"Gear up for an electrifying robotics competition like no other! The Maze Race will challenge your coding and engineering skills as you navigate your robot through a maze to the finish line. Get ready to race against the clock and fellow competitors in this thrilling event.",
     Register_link:"https://unstop.com/competitions/maze-race-technunctus23-iit-jammu-649673",
     Poster:"/event_posters/maze race.png",
-    More:"#",
+    More:"https://www.canva.com/design/DAFd2cglg_8/cAAuy43sgTxIYpYKyTpMdg/edit",
   },
   {
     Key:19,
