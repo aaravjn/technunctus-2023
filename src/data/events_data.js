@@ -197,6 +197,17 @@ export const eventsData = [
     Poster:"/event_posters/maze race.png",
     More:"#",
   },
+  {
+    Key:19,
+    Event_Name:"QuitCig",
+    Domain:"CSR Event",
+    Mode:"Offline",
+    Release_Date:"26 March",
+    Description:"Do you know how smoking kills you? Come and join us in 'QUITCIG' -No Smoking Campaign organized by IIT JAMMU.\nKill your bad habits\u00a0not\u00a0yourself!",
+    Register_link:"#",
+    Poster:"/event_posters/quitcig.png",
+    More:"#",
+  },
   // {
   //   Key:21,
   //   Event_Name:"BeatClash",
@@ -208,7 +219,7 @@ export const eventsData = [
   //   Poster:"#"
   // },
   {
-    Key:19,
+    Key:20,
     Event_Name:"Drone/Quadcopter",
     Domain:"SAE",
     Mode:"Offline",
@@ -219,7 +230,7 @@ export const eventsData = [
     More:"#",
   },
   {
-    Key:20,
+    Key:21,
     Event_Name:"Counselling Awareness",
     Domain:"CSR Event",
     Mode:"Offline",
@@ -227,17 +238,6 @@ export const eventsData = [
     Description:"\"It is the set of the sails, not the direction of the wind that determines which way we will go.\"\nLet's reinforce the importance of counselling and discover the new you! Join us\u00a0at\u00a0Counselling Awareness!",
     Register_link:"#",
     Poster:"#",
-    More:"#",
-  },
-  {
-    Key:21,
-    Event_Name:"QuitCig",
-    Domain:"CSR Event",
-    Mode:"Offline",
-    Release_Date:"26 March",
-    Description:"Do you know how smoking kills you? Come and join us in 'QUITCIG' -No Smoking Campaign organized by IIT JAMMU.\nKill your bad habits\u00a0not\u00a0yourself!",
-    Register_link:"#",
-    Poster:"/event_posters/quitcig.png",
     More:"#",
   },
   // {
