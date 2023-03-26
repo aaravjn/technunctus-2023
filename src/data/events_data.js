@@ -197,6 +197,17 @@ export const eventsData = [
     Poster:"/event_posters/maze race.png",
     More:"https://www.canva.com/design/DAFd2cglg_8/cAAuy43sgTxIYpYKyTpMdg/edit",
   },
+  {
+    Key:19,
+    Event_Name:"QuitCig",
+    Domain:"CSR Event",
+    Mode:"Offline",
+    Release_Date:"26 March",
+    Description:"Do you know how smoking kills you? Come and join us in 'QUITCIG' -No Smoking Campaign organized by IIT JAMMU.\nKill your bad habits\u00a0not\u00a0yourself!",
+    Register_link:"#",
+    Poster:"/event_posters/quitcig.png",
+    More:"#",
+  },
   // {
   //   Key:21,
   //   Event_Name:"BeatClash",
@@ -208,7 +219,7 @@ export const eventsData = [
   //   Poster:"#"
   // },
   {
-    Key:19,
+    Key:20,
     Event_Name:"Drone/Quadcopter",
     Domain:"SAE",
     Mode:"Offline",
@@ -219,7 +230,7 @@ export const eventsData = [
     More:"#",
   },
   {
-    Key:20,
+    Key:21,
     Event_Name:"Counselling Awareness",
     Domain:"CSR Event",
     Mode:"Offline",
