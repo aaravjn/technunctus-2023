@@ -94,7 +94,7 @@ export const eventsData = [
     Mode:"Online",
     Release_Date:"23 March",
     Description:"Experience the thrill of crypto trading without the risk! Come and participate in Mock Crypto Trading Competition of Technunctus",
-    Register_link:"#",
+    Register_link:"https://unstop.com/competitions/crypto-clash-technunctus-23-iit-jammu-650422",
     Poster:"/event_posters/crypto clash.png",
     More:"https://unstop.com/competitions/crypto-clash-technunctus-23-iit-jammu-650422",
   },
