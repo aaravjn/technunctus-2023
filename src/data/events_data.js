@@ -164,17 +164,7 @@ export const eventsData = [
     Poster:"/event_posters/aptiquest.png",
     More:"https://drive.google.com/file/d/1-X9Ha6mHzOtxIgbpNiLOlY-nB7S2pE1V/view?usp=share_link",
   },
-  {
-    Key:16,
-    Event_Name:"The Bookhive",
-    Domain:"CSR Event",
-    Mode:"Offline",
-    Release_Date:"25 March",
-    Description:"Let's get back to the nostalgia of flipping through old pages and inhaling the scent of the books. Intoxicating right!\nLet's forget about the virtual world and Live in the world of words.\nBring out your books and let's take part in the book donation event or better yet 'Piranha\u00a0of\u00a0Logic'!",
-    Register_link:"#",
-    Poster:"#",
-    More:"#",
-  },
+
   {
     Key:17,
     Event_Name:"Gripzilla",
@@ -240,6 +230,17 @@ export const eventsData = [
     Register_link:"https://unstop.com/competitions/kimos-edge-technunctus23-iit-jammu-649744",
     Poster:"/event_posters/kimos edge.png",
     More:"https://drive.google.com/file/d/1j0LZJUmB3wq8vg3XmRi6Y_uMh4UMNe_C/view?usp=share_link",
+  },
+  {
+    Key:16,
+    Event_Name:"The Bookhive",
+    Domain:"CSR Event",
+    Mode:"Offline",
+    Release_Date:"25 March",
+    Description:"Let's get back to the nostalgia of flipping through old pages and inhaling the scent of the books. Intoxicating right!\nLet's forget about the virtual world and Live in the world of words.\nBring out your books and let's take part in the book donation event or better yet 'Piranha\u00a0of\u00a0Logic'!",
+    Register_link:"#",
+    Poster:"#",
+    More:"#",
   },
   // {
   //   Key:21,
@@ -373,7 +374,7 @@ export const eventsData = [
   },
   {
     Key:30,
-    Event_Name:"Anmol Verma",
+    Event_Name:"Anmol Sharma",
     Domain:"Talk",
     Mode:"Offline",
     Release_Date:"8th April",
