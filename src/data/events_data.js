@@ -30,7 +30,7 @@ export const eventsData = [
     Description:"Participants will design and build a bridge using sticks and glue. The goal is to create a strong and stable bridge that can hold the maximum weight without collapsing.",
     Register_link:"http://unstop.com/competitions/bridge-a-thon-technunctus-23-iit-jammu-652884",
     Poster:"/event_posters/bridge a thon.png",
-    More:"https://drive.google.com/file/d/1OxPh3uuyyK67zrUtk2h7BKNkANwb28Kt/view?usp=share_link",
+    More:"https://drive.google.com/file/d/13_O_1deXXPXfZK3_oVO8rdQZjSjaTvgR/view?usp=share_link",
   },
   {
     Key:4,
@@ -52,7 +52,7 @@ export const eventsData = [
     Description:"The event will be conducted in online mode. This event will consist of some mind boggling logical and numeric questions to invoke the mathematician\u00a0inside\u00a0you.",
     Register_link:"https://unstop.com/competitions/cogniquest-technunctus-23-iit-jammu-652842?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
     Poster:"/event_posters/cogniquest.png",
-    More:"https://drive.google.com/file/d/1FSKHLr6G450TcDYJL7NoJg0XH9KMn9VN/view?usp=share_link",
+    More:"https://drive.google.com/file/d/1l01JtojJIrptq1GubN0quEMsqi3ZbnFf/view?usp=share_link",
   },
   {
     Key:6,
@@ -74,7 +74,7 @@ export const eventsData = [
     Description:"Get ready for an adrenaline-fueled Gaming tournament featuring the top players battling it out in the latest and most popular games. With high stakes, intense competition, and cutting-edge technology, this tournament promises to deliver non-stop action\u00a0and\u00a0excitement.",
     Register_link:"https://unstop.com/competitions/prelude-to-chaos-technunctus-23-iit-jammu-652538?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
     Poster:"/event_posters/prelude to chaos.png",
-    More:"https://www.canva.com/design/DAFdv3gpFQs/8xFI7UOBtNNdvWrmL740BA/edit?utm_content=DAFdv3gpFQs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    More:"https://drive.google.com/file/d/1-LBwnOfOlpBK6HE3mbxJullNuI2TrrPq/view?usp=share_link",
   },
   {
     Key:8,
@@ -164,17 +164,7 @@ export const eventsData = [
     Poster:"/event_posters/aptiquest.png",
     More:"https://drive.google.com/file/d/1-X9Ha6mHzOtxIgbpNiLOlY-nB7S2pE1V/view?usp=share_link",
   },
-  {
-    Key:16,
-    Event_Name:"The Bookhive",
-    Domain:"CSR Event",
-    Mode:"Offline",
-    Release_Date:"25 March",
-    Description:"Let's get back to the nostalgia of flipping through old pages and inhaling the scent of the books. Intoxicating right!\nLet's forget about the virtual world and Live in the world of words.\nBring out your books and let's take part in the book donation event or better yet 'Piranha\u00a0of\u00a0Logic'!",
-    Register_link:"#",
-    Poster:"#",
-    More:"#",
-  },
+
   {
     Key:17,
     Event_Name:"Gripzilla",
@@ -240,6 +230,17 @@ export const eventsData = [
     Register_link:"https://unstop.com/competitions/kimos-edge-technunctus23-iit-jammu-649744",
     Poster:"/event_posters/kimos edge.png",
     More:"https://drive.google.com/file/d/1j0LZJUmB3wq8vg3XmRi6Y_uMh4UMNe_C/view?usp=share_link",
+  },
+  {
+    Key:16,
+    Event_Name:"The Bookhive",
+    Domain:"CSR Event",
+    Mode:"Offline",
+    Release_Date:"25 March",
+    Description:"Let's get back to the nostalgia of flipping through old pages and inhaling the scent of the books. Intoxicating right!\nLet's forget about the virtual world and Live in the world of words.\nBring out your books and let's take part in the book donation event or better yet 'Piranha\u00a0of\u00a0Logic'!",
+    Register_link:"#",
+    Poster:"#",
+    More:"#",
   },
   // {
   //   Key:21,
@@ -373,7 +374,7 @@ export const eventsData = [
   },
   {
     Key:30,
-    Event_Name:"Anmol Verma",
+    Event_Name:"Anmol Sharma",
     Domain:"Talk",
     Mode:"Offline",
     Release_Date:"8th April",
