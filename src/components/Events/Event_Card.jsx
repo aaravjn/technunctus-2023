@@ -42,12 +42,17 @@ const CompetitionCard = ({Key, Event_Name, Domain, Mode, Release_Date, Descripti
                     right:"0px"
                 }}
             >
+                <span style={{display:(More === "#") ? "none" : "block"}}>
                 <a href={More === '#' ? "https://unstop.com/festival/technunctus-23-indian-institute-of-technology-iit-jammu-119595" : More} className="card-buttons" style={{width:"100%", textDecoration:"none"}}>
                     <button className="btn d-block" style={{width:"100%", color:"#0a6ba8"}}>MORE</button>
                 </a>
+                </span>
+                
+                <span style={{display:(Register_link === "#") ? "none" : "block"}}>
                 <a href={Register_link === "#" ? "https://unstop.com/festival/technunctus-23-indian-institute-of-technology-iit-jammu-119595" : Register_link} className="card-buttons" style={{width:"100%", textDecoration:"none"}}>
                     <button className="btn d-block" style={{width:"100%", color:"#0a6ba8", marginTop:"5px"}}>REGISTER</button>
                 </a>
+                </span>
             </div>
         </div>
     </div>

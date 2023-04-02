@@ -166,7 +166,7 @@ export const eventsData = [
   },
 
   {
-    Key:17,
+    Key:16,
     Event_Name:"Gripzilla",
     Domain:"Robotics",
     Mode:"Offline",
@@ -177,7 +177,7 @@ export const eventsData = [
     More:"https://drive.google.com/file/d/1PaOT9i3sDQEw_qlqkIFkRoApdmAWEw2G/view?usp=share_link",
   },
   {
-    Key:18,
+    Key:17,
     Event_Name:"Maze Race",
     Domain:"Robotics",
     Mode:"Hybrid",
@@ -188,7 +188,7 @@ export const eventsData = [
     More:"https://drive.google.com/file/d/18mvWTjUv0fQRBzEVyrqXx1MZRA_LJrWk/view?usp=share_link",
   },
   {
-    Key:19,
+    Key:18,
     Event_Name:"Amnesia 2.0",
     Domain:"Fintech",
     Mode:"Online",
@@ -199,7 +199,7 @@ export const eventsData = [
     More:"https://unstop.com/competitions/amnesia-20-technunctus23-iit-jammu-649092",
   },
   {
-    Key:20,
+    Key:19,
     Event_Name:"QuitCig",
     Domain:"CSR Event",
     Mode:"Offline",
@@ -210,7 +210,7 @@ export const eventsData = [
     More:"https://drive.google.com/file/d/1_Wfm232pW_Wejuobwo8dzteWwlHN2Oqu/view?usp=share_link",
   },
   {
-    Key:21,
+    Key:20,
     Event_Name:"Improvevio",
     Domain:"SAE",
     Mode:"Online",
@@ -221,7 +221,7 @@ export const eventsData = [
     More:"https://drive.google.com/file/d/1XsTJ60CdCXiCjY1nyY7Qx5Mrn_JzOe57/view?usp=share_link",
   },
   {
-    Key:22,
+    Key:21,
     Event_Name:"KIMO Edge",
     Domain:"KIMO",
     Mode:"Online",
@@ -232,7 +232,18 @@ export const eventsData = [
     More:"https://drive.google.com/file/d/1j0LZJUmB3wq8vg3XmRi6Y_uMh4UMNe_C/view?usp=share_link",
   },
   {
-    Key:16,
+    Key:22,
+    Event_Name:"Sculptrex",
+    Domain:"Art",
+    Mode:"Online",
+    Release_Date:"22 March",
+    Description:"Design a masterpiece that embodies the spirit of innovation and excellence at IIT Jammu. Create a striking sculpture that captures the essence of the institute's vision for the future.",
+    Register_link:"#",
+    Poster:"/event_posters/sculptrex.jpg",
+    More:"https://drive.google.com/file/d/1A2r6OJEmZnMOXSE9M8Hdj3-4jnL57Syd/view?usp=sharing.",
+  },
+  {
+    Key:23,
     Event_Name:"The Bookhive",
     Domain:"CSR Event",
     Mode:"Offline",
@@ -253,7 +264,7 @@ export const eventsData = [
   //   Poster:"#"
   // },
   {
-    Key:23,
+    Key:24,
     Event_Name:"Counselling Awareness",
     Domain:"CSR Event",
     Mode:"Offline",
@@ -264,7 +275,7 @@ export const eventsData = [
     More:"#",
   },
   {
-    Key:24,
+    Key:25,
     Event_Name:"Drone/Quadcopter",
     Domain:"SAE",
     Mode:"Offline",
@@ -275,7 +286,7 @@ export const eventsData = [
     More:"#",
   },
   {
-    Key:25,
+    Key:26,
     Event_Name:"Cyber Security",
     Domain:"Coding",
     Mode:"Offline",
@@ -318,7 +329,7 @@ export const eventsData = [
 
   // },
   {
-    Key:26,
+    Key:27,
     Event_Name:"Star Gazing",
     Domain:"Astronomy",
     Mode:"Offline",
@@ -330,7 +341,7 @@ export const eventsData = [
 
   },
   {
-    Key:27,
+    Key:28,
     Event_Name:"Sandeep Jain: Founder - GFG",
     Domain:"Talk",
     Mode:"Offline",
@@ -341,7 +352,7 @@ export const eventsData = [
     More:"#",
   },
   {
-    Key:28,
+    Key:29,
     Event_Name:"Shivangi Narula: Founder - Skillidify",
     Domain:"Talk",
     Mode:"Offline",
@@ -362,7 +373,7 @@ export const eventsData = [
   //   Poster:"#"
   // },
   {
-    Key:29,
+    Key:30,
     Event_Name:"Saheli Chatterjee: Founder - Freelance 101 Academy",
     Domain:"Talk",
     Mode:"Offline",
@@ -373,7 +384,7 @@ export const eventsData = [
     More:"#",
   },
   {
-    Key:30,
+    Key:31,
     Event_Name:"Anmol Sharma: CEO - finlight",
     Domain:"Talk",
     Mode:"Offline",
@@ -384,7 +395,7 @@ export const eventsData = [
     More:"#",
   },
   {
-    Key:31,
+    Key:32,
     Event_Name:"Arth Chawdhary: Founder - InsideFPV",
     Domain:"Talk",
     Mode:"Offline",
