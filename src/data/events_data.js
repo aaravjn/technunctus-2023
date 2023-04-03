@@ -69,7 +69,7 @@ export const eventsData = [
     Key:7,
     Event_Name:"Prelude to Chaos",
     Domain:"E-Sports",
-    Mode:"Offline",
+    Mode:"Online",
     Release_Date:null,
     Description:"Get ready for an adrenaline-fueled Gaming tournament featuring the top players battling it out in the latest and most popular games. With high stakes, intense competition, and cutting-edge technology, this tournament promises to deliver non-stop action\u00a0and\u00a0excitement.",
     Register_link:"https://unstop.com/competitions/prelude-to-chaos-technunctus-23-iit-jammu-652538?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",

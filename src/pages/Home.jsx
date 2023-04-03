@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // import Slider from "react-slick";
 import Navbar from "../components/navbar";
+import Arrow from "../components/arrow";
 import Footer from "../components/Footer/footer";
 import "../css/home.css"
 import YoutubeVideo from "../components/youtubeVideo"
@@ -44,6 +45,7 @@ const Home = () => {
     <div style={{ overflowX: "hidden" }}>
       {/* Navbar */}
       <Navbar />
+      <Arrow />
 
 
 
