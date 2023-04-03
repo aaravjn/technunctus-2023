@@ -286,9 +286,9 @@ const Home = () => {
  {/* <h3>Merchandise</h3> */}
     <div style={{textAlign:"center"}} id="merchandise">
      
-      <img src={require("../assets/merchandise.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em"}} className="merch-big"/>
-      <img src={require("../assets/merchandise_1_M.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em", display:"none"}} className="merch-m"/>
-      <img src={require("../assets/merchandise_2_M.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em", display:"none"}} className="merch-m"/>
+      <img src={require("../assets/merchandise.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em"}} className="image-big"/>
+      <img src={require("../assets/merchandise_1_M.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em", display:"none"}} className="image-m"/>
+      <img src={require("../assets/merchandise_2_M.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em", display:"none"}} className="image-m"/>
     
       <div>
         <a href="https://forms.gle/JwaCQEUADeVURsVx8" style={{textDecoration:"none"}}>
