@@ -48,7 +48,7 @@ export default function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/t/night">
+                            <Link to="/ProNights">
                                 <motion.a className='quick f-link'
                                     whileHover={while_hover}
                                 >TechNights</motion.a>

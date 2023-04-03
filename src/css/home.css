@@ -71,10 +71,10 @@
     background-position: 50% 80%;
 }
 @media (max-width: 1100px) {
-    .merch-big {
+    .image-big {
         display: none;
     }
-    .merch-m {
+    .image-m {
         display: inline-block !important;
     }
 }
