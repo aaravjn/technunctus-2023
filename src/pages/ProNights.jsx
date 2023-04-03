@@ -27,7 +27,7 @@ const ProNights = () => {
         <img src={require("../assets/pro-big.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em"}} className="image-big"/>
         <img src={require("../assets/pro-m.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em", display:"none"}} className="image-m"/>
 
-        <a href="https://forms.gle/JwaCQEUADeVURsVx8" style={{textDecoration:"none"}}>
+        <a href="https://forms.gle/FJCMxWZJ7LRnkPyG6" style={{textDecoration:"none"}}>
           <motion.button
           className="btn gradient-button"
           variants={buttonGradients}
