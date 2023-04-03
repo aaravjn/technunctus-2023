@@ -5,6 +5,7 @@ import Team from "./pages/Team"
 import Events from "./pages/Events"
 import Sponsors from "./pages/Sponsors"
 import Merch from "./pages/Merch"
+import ProNights from "./pages/ProNights";
 //Components
 
 
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/OurTeam" element={<Team />} />
           <Route path="/Sponsors" element={<Sponsors />} />
           <Route path="/Merch" element={<Merch />} />
+          <Route path="/ProNights" element={<ProNights />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -69,7 +69,7 @@ export default function Navbar() {
                           src={logo}
                       />
                   </motion.div></a>
-                  {(windowSize.current[0] > 700) &&(
+                  {(windowSize.current[0] > 800) &&(
                       <div style={{marginRight:"auto", marginLeft:"auto"}}>
                         <a className="link" href="/" style={{textDecoration:"none", fontSize:"1.2em", marginLeft:"auto", marginRight:"20px"}}>Home</a>
                         <a className="link" href="/Sponsors" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Sponsors</a>                       
@@ -77,10 +77,10 @@ export default function Navbar() {
                         <a className="link" href="/Merch"
                           style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Merch</a>
                         <a className="link" href="/OurTeam" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Our Team</a> 
+                        <a className="link" href="/ProNights" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Pro Nights</a> 
                       </div>
-                    
                   )}
-                  {(windowSize.current[0] <= 700) &&(
+                  {(windowSize.current[0] <= 800) &&(
                     <span style={{
                       marginRight:"1em",
                       background:" -webkit-linear-gradient(0deg, rgba(109,205,25,1) 0%, rgba(238,231,42,1) 50%, rgba(252,176,69,1) 100%)",
@@ -146,7 +146,7 @@ export default function Navbar() {
                  }}
                  className="link nav_link"
               >Events</motion.a>
-              <motion.a href="/Merch"
+              {/* <motion.a href="/Merch"
                  initial={{y:80,opacity:0}}
                  animate={{y:0, opacity:1}}
                  transition={{delay:.4}}
@@ -159,21 +159,36 @@ export default function Navbar() {
                     }
                  }}
                  className="link nav_link"
-              >Merch</motion.a>
+              >Merch</motion.a> */}
               <motion.a href="/OurTeam"
                  initial={{y:80,opacity:0}}
                  animate={{y:0, opacity:1}}
-                 transition={{delay:.3}}
+                 transition={{delay:.4}}
                  exit={{
                   opacity:0,
                   y:90,
                     transition:{
                       ease:"easeInOut",
-                      delay:.3
+                      delay:.4
                     }
                  }}
                  className="link nav_link"
               >Our Team</motion.a>
+
+              <motion.a href="/ProNights"
+                initial={{y:80,opacity:0}}
+                animate={{y:0, opacity:1}}
+                transition={{delay:.3}}
+                exit={{
+                opacity:0,
+                y:90,
+                  transition:{
+                    ease:"easeInOut",
+                    delay:.3
+                  }
+                }}
+                className="link nav_link"
+              >ProNights</motion.a>
               
             </motion.div>
           )
