@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import Navbar from "../components/navbar";
 import Footer from "../components/Footer/footer";
-
+import "../css/pro.css"
 
 const ProNights = () => {
     const buttonGradients = {
@@ -22,7 +22,7 @@ const ProNights = () => {
         <div style={{
             textAlign:"center"
         }}>
-        <h1 style={{width:"100%", paddingTop:"1em", color:"#ffde59", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em"}} className="sponsors-cont">ProNights</h1>
+        <h1 style={{width:"100%", paddingTop:"1em", color:"#ffde59", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em"}} className="pro-heading">ProNights</h1>
 
         <img src={require("../assets/pro-big.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em"}} className="image-big"/>
         <img src={require("../assets/pro-m.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em", display:"none"}} className="image-m"/>
