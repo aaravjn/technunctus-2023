@@ -39,7 +39,7 @@ export const eventsData = [
     Mode:"Offline",
     Release_Date:"21 March",
     Description:"The Rubik's Cube event is a competitive speedcubing challenge where participants need to solve the Rubik's Rumble puzzle as quickly as possible. ",
-    Register_link:"https://unstop.com/p/bridge-a-thon-technunctus-23-iit-jammu-652884?utm_campaign=site-emails&utm_medium=d2c-automated&utm_source=opportunity-approved",
+    Register_link:"https://unstop.com/competitions/rubiks-rumble-technunctus-23-iit-jammu-652526",
     Poster:"/event_posters/rubiks rumble.png",
     More:"https://drive.google.com/file/d/1OxPh3uuyyK67zrUtk2h7BKNkANwb28Kt/view?usp=sharing",
   },
