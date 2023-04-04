@@ -14,7 +14,7 @@ const CompetitionCard = ({Key, Event_Name, Domain, Mode, Release_Date, Descripti
                     scale: 1.2,
                     transition:{ duration : 1}
                 }}
-                src={ Poster == "#" ? "https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" : Poster }
+                src={ Poster == "#" ? "https://images.unsplash.com/photo-1597733336794-12d05021d510?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHRlY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" : Poster }
             />
             </div>
             <h3>{Event_Name}</h3>

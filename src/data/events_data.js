@@ -238,7 +238,7 @@ export const eventsData = [
     Mode:"Online",
     Release_Date:"22 March",
     Description:"Design a masterpiece that embodies the spirit of innovation and excellence at IIT Jammu. Create a striking sculpture that captures the essence of the institute's vision for the future.",
-    Register_link:"#",
+    Register_link:"https://unstop.com/p/sculptrex-technunctus-23-iit-jammu-660613",
     Poster:"/event_posters/sculptrex.jpg",
     More:"https://drive.google.com/file/d/1A2r6OJEmZnMOXSE9M8Hdj3-4jnL57Syd/view?usp=sharing.",
   },
