@@ -137,60 +137,6 @@ const Home = () => {
 
 
 
-
-
-
-
-
-{/* Pro Night */}
-
-<div style={{
-            textAlign:"center"
-        }}>
-        <h1 style={{width:"100%", paddingTop:"1em", color:"#ffde59", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em"}} className="pro-heading">ProNights</h1>
-
-        <img src={require("../assets/pro-big.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em"}} className="image-big"/>
-        <img src={require("../assets/pro-m.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em", display:"none"}} className="image-m"/>
-
-        <a href="https://forms.gle/FJCMxWZJ7LRnkPyG6" style={{textDecoration:"none"}}>
-          <motion.button
-          className="btn gradient-button"
-          variants={buttonGradients}
-          whileHover="hover"
-          style={{
-            width:"200px",
-            height:"75px",
-            margin:"auto",
-            marginTop:"1em",
-            marginBottom:"3em",
-            fontSize:"1.5rem",
-            borderRadius:"10px",
-            border:"2px solid",
-            borderColor:"#c21842",
-            background:"-webkit-linear-gradient(216deg, rgba(176,11,210,1) 0%, rgba(194,24,66,1) 35%, rgba(14,30,219,1) 100%)",
-            WebkitBackgroundClip:"text",
-            WebkitTextFillColor:"transparent",
-          }}
-          transition={{duration:0.3}}
-          
-          >
-          Buy Tickets
-          </motion.button>
-        </a>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 {/* About Us  */}
     <div className="about-us"
         style={{
@@ -320,7 +266,44 @@ const Home = () => {
     </div>
       
 
+      
 
+{/* Pro Night */}
+
+<div style={{
+            textAlign:"center"
+        }}>
+        <h1 style={{width:"100%", paddingTop:"1em", color:"#ffde59", fontFamily:"Stopmotion", fontSize:"4em", marginBottom:"1em"}} className="pro-heading">ProNights</h1>
+
+        <img src={require("../assets/pro-big.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em"}} className="image-big"/>
+        <img src={require("../assets/pro-m.png")} alt="" style={{width:"100%", height:"auto", marginTop:"4em", marginBottom:"3em", display:"none"}} className="image-m"/>
+
+        <a href="https://forms.gle/FJCMxWZJ7LRnkPyG6" style={{textDecoration:"none"}}>
+          <motion.button
+          className="btn gradient-button"
+          variants={buttonGradients}
+          whileHover="hover"
+          style={{
+            width:"200px",
+            height:"75px",
+            margin:"auto",
+            marginTop:"1em",
+            marginBottom:"3em",
+            fontSize:"1.5rem",
+            borderRadius:"10px",
+            border:"2px solid",
+            borderColor:"#c21842",
+            background:"-webkit-linear-gradient(216deg, rgba(176,11,210,1) 0%, rgba(194,24,66,1) 35%, rgba(14,30,219,1) 100%)",
+            WebkitBackgroundClip:"text",
+            WebkitTextFillColor:"transparent",
+          }}
+          transition={{duration:0.3}}
+          
+          >
+          Buy Tickets
+          </motion.button>
+        </a>
+      </div>
 
 
 

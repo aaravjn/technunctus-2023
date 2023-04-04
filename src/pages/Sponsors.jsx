@@ -32,12 +32,30 @@ const Sponsors = () => {
         <div style={{marginTop:"3em", marginBottom:"3em"}}>
           <h3 style={{fontFamily:"MullerBold", fontSize:"2.5em", marginBottom:"1em"}}> ASSOCIATE SPONSORS </h3>
           <div style={{textAlign:"center"}}>
-            <img src={require("../assets/sponsor_logo/cst.jpg")} alt="" style={{height:"5em",width:"20em", margin:"2em"}}/>
+            <img src={require("../assets/sponsor_logo/cst.jpg")} alt="" style={{width:"20em", margin:"2em"}}/>
             <img src={require("../assets/sponsor_logo/jkbank.jpg")} alt="" style={{margin:"2em"}}/>
-            <img src={require("../assets/sponsor_logo/technomed.png")} alt="" style={{height:"10em",width:"10em", margin:"2em"}}/>
-            <img src={require("../assets/sponsor_logo/indianoil.jpg")} alt="" style={{height:"10em",width:"12em", margin:"2em"}}/>
+            <img src={require("../assets/sponsor_logo/netweb.png")} alt="" style={{margin:"1em", width:"20em"}}/>
+            <img src={require("../assets/sponsor_logo/technomed.png")} alt="" style={{width:"10em", margin:"2em"}}/>
+            <img src={require("../assets/sponsor_logo/indianoil.jpg")} alt="" style={{width:"12em", margin:"2em"}}/>
           </div>
         </div>
+
+
+        <div style={{marginTop:"3em", marginBottom:"3em"}}>
+          <h3 style={{fontFamily:"MullerBold", fontSize:"2.5em", marginBottom:"1em"}}> HOSPATILITY SPONSORS </h3>
+          <div style={{textAlign:"center"}}>
+            <img src={require("../assets/sponsor_logo/hari.jpeg")} alt="" style={{width:"20em", margin:"2em"}}/>
+          </div>
+        </div>
+
+
+        <div style={{marginTop:"3em", marginBottom:"3em"}}>
+          <h3 style={{fontFamily:"MullerBold", fontSize:"2.5em", marginBottom:"1em"}}> MOMENTO SPONSORS </h3>
+          <div style={{textAlign:"center"}}>
+            <img src={require("../assets/sponsor_logo/cosiq.jpg")} alt="" style={{width:"20em", margin:"2em"}}/>
+          </div>
+        </div>
+
         </div>
 
         <Footer />
