@@ -72,12 +72,12 @@ export default function Navbar() {
                   {(windowSize.current[0] > 800) &&(
                       <div style={{marginRight:"auto", marginLeft:"auto"}}>
                         <a className="link" href="/" style={{textDecoration:"none", fontSize:"1.2em", marginLeft:"auto", marginRight:"20px"}}>Home</a>
-                        <a className="link" href="/Sponsors" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Sponsors</a>                       
+                        <a className="link" href="/ProNights" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Pro Nights</a>                       
                         <a className="link" href="/Events" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Events</a>
                         <a className="link" href="/Merch"
                           style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Merch</a>
                         <a className="link" href="/OurTeam" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Our Team</a> 
-                        <a className="link" href="/ProNights" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Pro Nights</a> 
+                        <a className="link" href="/Sponsors" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Sponsors </a> 
                       </div>
                   )}
                   {(windowSize.current[0] <= 800) &&(
@@ -118,7 +118,7 @@ export default function Navbar() {
                  }}
                  className="link nav_link"
               >Home</motion.a>
-              <motion.a href="/Sponsors"
+              <motion.a href="/ProNights"
                  initial={{y:80,opacity:0}}
                  animate={{y:0, opacity:1}}
                  transition={{delay:.6}}
@@ -131,7 +131,7 @@ export default function Navbar() {
                     }
                  }}
                  className="link nav_link"
-              >Sponsors</motion.a>
+              >Pro Nights</motion.a>
               <motion.a href="/Events"
                  initial={{y:80,opacity:0}}
                  animate={{y:0, opacity:1}}
@@ -175,7 +175,7 @@ export default function Navbar() {
                  className="link nav_link"
               >Our Team</motion.a>
 
-              <motion.a href="/ProNights"
+              <motion.a href="/Sponsors"
                 initial={{y:80,opacity:0}}
                 animate={{y:0, opacity:1}}
                 transition={{delay:.3}}
@@ -188,7 +188,7 @@ export default function Navbar() {
                   }
                 }}
                 className="link nav_link"
-              >ProNights</motion.a>
+              >Sponsors</motion.a>
               
             </motion.div>
           )
