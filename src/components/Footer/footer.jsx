@@ -106,6 +106,13 @@ export default function Footer() {
                                 >Prakhar Kapisway</motion.a>
                             </Link>
                         </li>
+                        <li>
+                            <Link to="https://github.com/AbhaySingh502" >
+                                <motion.a className='decor f-link'
+                                    whileHover={while_hover}
+                                >Abhay Singh</motion.a>
+                            </Link>
+                        </li>
                     </ul>
                     <div className="col-md-4" style={{
                         paddingLeft:"10%",
