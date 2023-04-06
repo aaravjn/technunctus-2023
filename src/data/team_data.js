@@ -9,7 +9,7 @@ const team_data = [
     linkedin: "https://www.linkedin.com/in/devin-chugh-718383202",
     source_url: "/teamheads/devin.jpg"
 }, {
-    key: 1002,
+    key: 2,
     name: "Shoran Dabas",
     type: "Convenor",
     contact_no: "+91 7838464715",
@@ -18,7 +18,7 @@ const team_data = [
     linkedin: "#",
     source_url: "/teamheads/shoran.jpg"
 }, {
-    key: 1003,
+    key: 3,
     name: "Gaurav Jagarbad",
     type: "Convenor",
     contact_no: "+91 9928084418",
@@ -26,7 +26,8 @@ const team_data = [
     insta_id: "https://www.instagram.com/invites/contact/?i=1xs5bh9zw49kc&utm_content=e2dspf0",
     linkedin: "https://www.linkedin.com/in/gaurav-jagarbad-29b20b228",
     source_url: "/teamheads/gaurav.jpg"
-}, {
+}, 
+{
     key: 4,
     name: "Deepanshu Mittal",
     type: "Convenor",
@@ -35,8 +36,29 @@ const team_data = [
     insta_id: "https://www.instagram.com/deeeeeeps_/",
     linkedin: "https://www.linkedin.com/in/deepanshu-mittal2002/",
     source_url: "/teamheads/deepanshu.jpg"
-},{
-    key: 41,
+},
+    {
+        key: 5,
+        name: "Krishnendu Maity",
+        type: "Convener ",
+        contact_no: "+91 76022 09745",
+        email: "2020uch0010@iitjammu.ac.in",
+        insta_id: "https://www.instagram.com/invites/contact/?i=12vtwbuzawlev&utm_content=3xvyrsc",
+        linkedin: "https://www.linkedin.com/in/krishnendu-maity-08729820a",
+        source_url: "/teamheads/Krishnendu.jpg"
+    },
+    {
+        key: 6,
+        name: "Premveer Singh",
+        type: "Convenor",
+        contact_no: "+91 98111 22419",
+        email: "2020uch0012@iitjammu.ac.in",
+        insta_id: "https://instagram.com/follow.premveer",
+        linkedin: "https://www.linkedin.com/in/premveersingh",
+        source_url: "/teamheads/PREMVEER.jpg"
+    },
+{
+    key: 7,
     name: "Aarav Jain",
     type: "Web Development Head",
     contact_no: "+91 7487853240",
@@ -46,7 +68,7 @@ const team_data = [
     source_url: "/teamheads/aarav.jpg"
 },
 {
-    key:5,
+    key:8,
     name: "Prakhar Kapisway",
     type: "Web Development Head",
     contact_no: "+91 9508307404",
@@ -56,7 +78,7 @@ const team_data = [
     source_url: "/teamheads/prakhar.jpg"
 },
 {
-    key: 3001,
+    key: 9,
     name: "Sunny Kumar",
     type: "Event Management Head",
     contact_no: "+91 8708098785'",
@@ -65,7 +87,7 @@ const team_data = [
     linkedin: "https://www.linkedin.com/in/sunny-kumar-272982240",
     source_url: "/teamheads/sunny.jpg"
 }, {
-    key: 2,
+    key: 10,
     name: "Devesh Mani",
     type: "Event Management Head",
     contact_no: "+91 07024824825",
@@ -74,7 +96,7 @@ const team_data = [
     linkedin: "https://www.linkedin.com/in/devesh-mani-upadhyay",
     source_url: "/teamheads/devesh.jpg"
 }, {
-    key: 1,
+    key: 11,
     name: "Bhavna Verma",
     type: "Event Management Co-Head",
     contact_no: "+91 7836989460",
@@ -84,7 +106,7 @@ const team_data = [
     source_url: "/teamheads/bhavna.jpg"
 },
 {
-    key: 1,
+    key: 12,
     name: "Prabhnoor Singh",
     type: "Sponsorship Head",
     contact_no: "+91 7814360737",
@@ -94,7 +116,7 @@ const team_data = [
     source_url: "/teamheads/prabhnoor.jpg"
 },
 {
-    key: 4,
+    key: 13,
     name: "Sanjana Gattraddy",
     type: "Content Team Head",
     contact_no: "+91 9987785245",
@@ -104,7 +126,7 @@ const team_data = [
     source_url: "/teamheads/sanjana.jpg"
 },
 {
-    key: 4,
+    key: 14,
     name: "Tanisha khare",
     type: "Design Team Head",
     contact_no: "+91 6377676753",
@@ -114,7 +136,7 @@ const team_data = [
     source_url: "/teamheads/tanisha.jpg"
 },
 {
-    key: 2,
+    key: 15,
     name: "Sahil Agrawal",
     type: "Design Team Head",
     contact_no: "+91 8950490774",
@@ -124,7 +146,7 @@ const team_data = [
     source_url: "/teamheads/sahil.jpg"
 },
 {
-    key: 3,
+    key: 16,
     name: "Yashwant Choudhary ",
     type: "Infrastructure Head",
     contact_no: "+91 7073639277",
@@ -134,7 +156,7 @@ const team_data = [
     source_url: "/teamheads/yashwant.jpg"
 }, 
 {
-    key: 2,
+    key: 17,
     name: "Riya Jain",
     type: "Infrastructure Team Head",
     contact_no: "#",
@@ -144,7 +166,7 @@ const team_data = [
     source_url: "/teamheads/riyajain.jpg"
 }, 
 {
-    key: 3,
+    key: 18,
     name: "Satyansh Sharma",
     type: "PR Team Head",
     contact_no: "+91 7991594025",
@@ -153,7 +175,7 @@ const team_data = [
     linkedin: "#",
     source_url: "/teamheads/satyansh.jpg"
 }, {
-    key: 3,
+    key: 19,
     name: "Anshini Yadav",
     type: "PR Team Co-Head",
     contact_no: "+91 9305355526",
@@ -163,7 +185,7 @@ const team_data = [
     source_url: "/teamheads/anshini.jpg"
 },
 {
-    key: 4,
+    key: 20,
     name: "Sai Shaswat Pradhan",
     type: "Social Media & Content Team Head",
     contact_no: "+91 9103086388",
@@ -173,7 +195,7 @@ const team_data = [
     source_url: "/teamheads/sai.jpg"
 },
 {
-    key: 2,
+    key: 21,
     name: "Pratham",
     type: "Media Head",
     contact_no: "+91 7206680039",
@@ -182,7 +204,7 @@ const team_data = [
     linkedin: "https://www.linkedin.com/in/pratham-modi-670138250",
     source_url: "/teamheads/pratham.jpg"
 }, {
-    key: 2,
+    key: 22,
     name: "Yamini Karadia",
     type: "Hospitality Head",
     contact_no: "+91 6375343500",
@@ -192,7 +214,7 @@ const team_data = [
     source_url: "/teamheads/yamini.jpg"
 }, 
 {
-    key: 3,
+    key: 23,
     name: "Janatdeep Singh",
     type: "Hospitality Head",
     contact_no: "+91 8289006382",
@@ -202,7 +224,7 @@ const team_data = [
     source_url: "/teamheads/jatandeep.jpg"
 }, 
 {
-    key: 3,
+    key: 24,
     name: "Prabhakar",
     type: "Security Team Head",
     contact_no: "+91 8077899543",
@@ -212,7 +234,7 @@ const team_data = [
     source_url: "/teamheads/prabhakar.jpg"
 },
  {
-    key: 3,
+    key: 25,
     name: "MOHIT YADAV",
     type: "Security Co-Head",
     contact_no: "+91 7073747490",
@@ -222,7 +244,7 @@ const team_data = [
     source_url: "/teamheads/mohit.jpg"
 },
  {
-    key: 3,
+    key: 26,
     name: "Anant Kumar Jaiswal",
     type: "Security Co-Head",
     contact_no: "+91 9821946173",
@@ -231,7 +253,7 @@ const team_data = [
     linkedin: "#",
     source_url: "/teamheads/anant.jpg"
 },{
-    key: 4,
+    key: 27,
     name: "Amit Kumar Yadav",
     type: "Security Team Co-Head",
     contact_no: "+91 96537 42509",
@@ -241,6 +263,26 @@ const team_data = [
     source_url: "/teamheads/amit.jpg"
 },
 
+{
+    key: 28,
+    name: "Shruti Meena ",
+    type: "Event management team co-head",
+    contact_no: "+91 96537 42509",
+    email: "2021ume0231@iitjammu.ac.in",
+    insta_id: "#",
+    linkedin: "#",
+    source_url: "/teamheads/Shruti.jpg"
+},
+{
+    key: 29,
+    name: "VIkas meena",
+    type: "Hospitality head ",
+    contact_no: "+91 60067 39413",
+    email: "2020uee0159@iitjammu.ac.in",
+    insta_id: "https://instagram.com/vksm_947?igshid=ZDdkNTZiNTM=",
+    linkedin: "https://www.linkedin.com/in/vikas-meena-94154b24a",
+    source_url: "/teamheads/VIKAS.jpg"
+},
 ]
 
 export default team_data
