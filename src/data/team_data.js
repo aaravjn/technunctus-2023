@@ -233,9 +233,19 @@ const team_data = [
     linkedin: "#",
     source_url: "/teamheads/prabhakar.jpg"
 },
- {
+{
     key: 25,
-    name: "MOHIT YADAV",
+    name: "Gaurav Kumar Narnoliya",
+    type: "Security Team Head",
+    contact_no: "+91 9784005726",
+    email: "2020uch0034@iitjammu.ac.in",
+    insta_id: "https://instagram.com/its_go_ku_7?igshid=OTJhZDVkZWE",
+    linkedin: "https://www.linkedin.com/in/gaurav-kumar-198bb7233",
+    source_url: "/teamheads/Gauravkumar.jpg"
+},
+ {
+    key: 26,
+    name: "Mohit Yadav",
     type: "Security Co-Head",
     contact_no: "+91 7073747490",
     email: "2021uce0065@iitjammu.ac.in",
@@ -244,7 +254,7 @@ const team_data = [
     source_url: "/teamheads/mohit.jpg"
 },
  {
-    key: 26,
+    key: 27,
     name: "Anant Kumar Jaiswal",
     type: "Security Co-Head",
     contact_no: "+91 9821946173",
@@ -253,7 +263,7 @@ const team_data = [
     linkedin: "#",
     source_url: "/teamheads/anant.jpg"
 },{
-    key: 27,
+    key: 28,
     name: "Amit Kumar Yadav",
     type: "Security Team Co-Head",
     contact_no: "+91 96537 42509",
@@ -264,7 +274,7 @@ const team_data = [
 },
 
 {
-    key: 28,
+    key: 29,
     name: "Shruti Meena ",
     type: "Event management team co-head",
     contact_no: "+91 96537 42509",
@@ -274,7 +284,7 @@ const team_data = [
     source_url: "/teamheads/Shruti.jpg"
 },
 {
-    key: 29,
+    key:30,
     name: "VIkas meena",
     type: "Hospitality head ",
     contact_no: "+91 60067 39413",
