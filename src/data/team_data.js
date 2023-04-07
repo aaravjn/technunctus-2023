@@ -38,16 +38,6 @@ const team_data = [
     source_url: "/teamheads/deepanshu.jpg"
 },
     {
-        key: 5,
-        name: "Krishnendu Maity",
-        type: "Convener ",
-        contact_no: "+91 76022 09745",
-        email: "2020uch0010@iitjammu.ac.in",
-        insta_id: "https://www.instagram.com/invites/contact/?i=12vtwbuzawlev&utm_content=3xvyrsc",
-        linkedin: "https://www.linkedin.com/in/krishnendu-maity-08729820a",
-        source_url: "/teamheads/Krishnendu.jpg"
-    },
-    {
         key: 6,
         name: "Premveer Singh",
         type: "Convenor",
@@ -272,20 +262,9 @@ const team_data = [
     linkedin: "#",
     source_url: "/teamheads/amit.jpg"
 },
-
-{
-    key: 29,
-    name: "Shruti Meena ",
-    type: "Event management team co-head",
-    contact_no: "+91 96537 42509",
-    email: "2021ume0231@iitjammu.ac.in",
-    insta_id: "#",
-    linkedin: "#",
-    source_url: "/teamheads/Shruti.jpg"
-},
 {
     key:30,
-    name: "VIkas meena",
+    name: "Vikas meena",
     type: "Hospitality head ",
     contact_no: "+91 60067 39413",
     email: "2020uee0159@iitjammu.ac.in",
