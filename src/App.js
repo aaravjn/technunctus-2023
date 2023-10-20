@@ -6,6 +6,7 @@ import Events from "./pages/Events"
 import Sponsors from "./pages/Sponsors"
 import Merch from "./pages/Merch"
 import ProNights from "./pages/ProNights";
+import Navbar from "./components/navbar";
 //Components
 
 
@@ -13,6 +14,7 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Events" element={<Events />} />

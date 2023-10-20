@@ -5,7 +5,7 @@ import React, {useState} from 'react';
 import {motion, AnimatePresence, useViewportScroll} from "framer-motion";
 import { useRef , useEffect} from 'react';
 import { Twirl } from 'hamburger-react'
-
+import { Link } from "react-router-dom"
 
 export default function Navbar() {
 
@@ -53,7 +53,7 @@ export default function Navbar() {
               transition={{duration:1}}
               style={{paddingLeft:"1.5em", width:"100vw !important"}}
             >
-                  <a   href="/"><motion.div
+                  <Link to="/"><motion.div
                     animate={{y:9}}
                     transition={{
                       ease: "easeInOut",
@@ -68,16 +68,15 @@ export default function Navbar() {
                           alt="logo"
                           src={logo}
                       />
-                  </motion.div></a>
+                  </motion.div></Link>
                   {(windowSize.current[0] > 800) &&(
                       <div style={{marginRight:"auto", marginLeft:"auto"}}>
-                        <a className="link" href="/" style={{textDecoration:"none", fontSize:"1.2em", marginLeft:"auto", marginRight:"20px"}}>Home</a>
-                        <a className="link" href="/ProNights" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Pro Nights</a>                       
-                        <a className="link" href="/Events" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Events</a>
-                        <a className="link" href="/Merch"
-                          style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Merch</a>
-                        <a className="link" href="/OurTeam" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Our Team</a> 
-                        <a className="link" href="/Sponsors" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}>Sponsors </a> 
+                        <span className="link" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}><Link to="/">Home</Link></span>
+                        <span className="link" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}><Link to="/ProNights">Pro Nights</Link></span>                   
+                        <span className="link" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}><Link to="/Events">Events</Link></span>
+                        <span className="link" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}><Link to="/Merch">Merch</Link></span>
+                        <span className="link" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}><Link to="/OurTeam">Our Team</Link></span>
+                        <span className="link" style={{textDecoration:"none", fontSize:"1.2em", marginRight:"30px"}}><Link to="/Sponsors">Sponsors </Link></span> 
                       </div>
                   )}
                   {(windowSize.current[0] <= 800) &&(
