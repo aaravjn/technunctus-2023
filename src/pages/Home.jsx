@@ -17,7 +17,7 @@ import DataCard from "../components/DataCard"
 import logo from "../assets/white_logo.png"
 import logo2 from "../assets/shadow_technunctus_logo.png"
 import { Box } from '@mui/material'
- 
+import { Link } from "react-router-dom"
 
 const Home = () => {
   const setting = {
@@ -238,7 +238,7 @@ const Home = () => {
         <EventCard {...eventsData[11]}/>
         <EventCard {...eventsData[20]}/>
         <div>
-        <a href="/Events" style={{textDecoration:"none"}}>
+        <Link to="/Events" style={{textDecoration:"none"}}>
           <motion.button
           className="btn gradient-button"
           variants={buttonGradients}
@@ -261,7 +261,7 @@ const Home = () => {
           >
           Load More...
           </motion.button>
-        </a>
+        </Link>
         </div>
     </div>
       
